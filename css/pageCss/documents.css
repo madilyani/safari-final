@@ -1456,7 +1456,12 @@ input[type="checkbox"]:checked + .documents__check-label {
     display: none;
   }
   /* .afisha end  */
-
+  .mobileMenu.hide {
+    display: none;
+  }
+  .hide {
+    display: none;
+  }
   /* adding file end for mobile  */
 }
 @keyframes slide {
