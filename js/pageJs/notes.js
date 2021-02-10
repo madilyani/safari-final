@@ -68,6 +68,9 @@ window.onclick = function (event) {
   } else {
     document.querySelectorAll(".notes__more-content").forEach((e) => {
       e.classList.remove("showList");
+      document.getElementById("notesModalBtn").classList.remove("hide");
+      document.getElementById("mobileMenu").classList.remove("hide");
+
     });
   }
 };
@@ -89,6 +92,9 @@ document.querySelectorAll(".closeDropDown").forEach((e) => {
   e.addEventListener("click", () => {
     document.querySelectorAll(".notes__more-content").forEach((e) => {
       e.classList.remove("showList");
+      document.getElementById("notesModalBtn").classList.add("hide");
+      document.getElementById("mobileMenu").classList.add("hide");
+
     });
   });
 });
@@ -108,6 +114,8 @@ async function showList(e) {
       .querySelector(".notes__more-content")
       .classList.toggle("showList");
   }
+  document.getElementById("notesModalBtn").classList.toggle("hide");
+  document.getElementById("mobileMenu").classList.toggle("hide");
 }
 // mobile navigation start
 // ==========================================================

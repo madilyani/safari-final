@@ -822,9 +822,7 @@ input[type="checkbox"]:checked + .documents__check-label .documents__avatar {
 .notesModal.showNum {
   display: block;
 }
-.hide {
-  display: none;
-}
+
 .mobileNav {
   display: none;
 }
@@ -880,6 +878,7 @@ input[type="checkbox"]:checked + .documents__check-label .documents__avatar {
     border-radius: 50px;
     width: 60px;
     height: 60px;
+    animation: slideTop .2s linear;
   }
   .notes {
     position: fixed;
@@ -1595,6 +1594,12 @@ input[type="checkbox"]:checked + .documents__check-label .documents__avatar {
     color: #4f4f4f;
     opacity: 1;
     padding: 0;
+  }
+  .mobileMenu.hide {
+    display: none;
+  }
+  .hide {
+    display: none;
   }
   
   /* editor mobile end */
