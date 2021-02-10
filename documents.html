@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/lightpick.css">
+    <link rel="stylesheet" href="css/pageCss/documents.css">
+    <link rel="stylesheet" href="css/pageCss/main.css">
+    <title>Documents</title>
+</head>
+
+<body>
+    <!-- sidebar start
+    ========================================= -->
+    <section class="sidebar">
+        <div class="sidebar__inner">
+            <div class="sidebar__inner-header">
+                <div class="logo__outer">
+                    <img src="images/LOGO.svg" alt="" />
+                </div>
+            </div>
+            <div class="sidebar__inner-body">
+                <div class="sidebar__inner-nav">
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-LinkAp"></i>
+                        <span>
+                            Aperçu
+                        </span>
+
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-LinkEn"></i>
+                        <span>Préférences</span>
+
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkPl"></i>
+                        <span>Planning</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-photo"></i>
+                        <span>Photos</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkDo"></i>
+                        <span>Documents</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkNo"></i>
+                        <span>Notes</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkIn"></i>
+                        <span>Inspiration</span>
+                    </a>
+                </div>
+                <div class="sidebar__inner-footer">
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-arrowLeft"></i>
+                        <span>Mes séjours</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sidebar end
+    ========================================= -->
+    <!-- mobile menu start
+    ========================================= -->
+    <section class="mobileMenu" id="mobileMenu">
+        <div class="mobileMenu__inner">
+            <div class="mobileMenu__inner-nav">
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-LinkAp"></i>
+                    <span>
+                        Aperçu
+                    </span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-linkPl"></i>
+                    <span>Planning</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-photo"></i>
+                    <span>Photos</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-linkIn"></i>
+                    <span>Inspi</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-menu"></i>
+                    <span>Plus</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- mobile menu end
+    ========================================= -->
+    <!-- chat__outer start -->
+    <div class="chat__outer" id="chatMobile">
+        <div class="chatMobileClose" id="chatMobileClose">
+            <i class="icon-close"></i>
+        </div>
+        <!-- chat start
+    ========================================== -->
+        <section class="chat showChat" id="exploMaker">
+            <div class="chat__inner">
+                <div class="chat__header">
+                    <div class="chatMobileArrow" [0]>
+                        <i class="icon-arrowLeft"></i>
+                    </div>
+                    <div class="title">
+                        Messages
+                    </div>
+                    <div class="chat__header-row">
+                        <button class="chat__btn activeChat">
+                            <i class="icon-logoicon"></i>
+                        </button>
+                        <button class="chat__btn" onclick="voyaGeurs()">
+                            <i class="icon-account"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat__box">
+                    <div class="chat__box-header">
+                        <div class="info">
+                            <div class="name">
+                                Julien Loiseau
+                            </div>
+                            <div class="prof">
+                                Explomaker
+                            </div>
+                        </div>
+                        <div class="avatar__outer">
+                            <img src="images/avatar/ava1.png" alt="" />
+                            <span class="tooltiptext">DamiVadssf asdf asd</span>
+
+                        </div>
+                    </div>
+                    <div class="chat__box-body">
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Pour y parvenir, j’aurais besoin de mieux te connaitre 😉 !
+                                        Peux-tu rejoindre la section <a href="#">Préférences</a> afin de renseigner tes
+                                        envies pour ce
+                                        séjour ?
+                                        Merci à toi !
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-LinkEn"></i>
+                                        <span>Préférences</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Merci Damien. J’ai bien cerné le type de séjour que tu souhaites.
+                                        Tu trouveras donc 2 propositions d’explo dans la section <a
+                                            href="#">Planning</a> .
+                                         Dis moi ce que
+                                        tu en penses!
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-linkPl"></i>
+                                        <span>Planning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat__box-footer">
+                    <button class="chat__plus">
+                        <i class="icon-plus"></i>
+                    </button>
+                    <div class="input__outer">
+                        <input type="text" placeholder="Aa">
+                    </div>
+                    <button class="chat__send">
+                        <i class="icon-send"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- chat end
+    ========================================== -->
+        <!-- chat start
+    ========================================== -->
+        <section class="chat" id="voyaGeurs">
+            <div class="chat__inner">
+                <div class="chat__header">
+                    <div class="chatMobileArrow" [1]>
+                        <i class="icon-arrowLeft"></i>
+                    </div>
+                    <div class="title">
+                        Messages
+                    </div>
+                    <div class="chat__header-row">
+                        <button class="chat__btn" onclick="exploMaker()">
+                            <i class="icon-logoicon"></i>
+                        </button>
+                        <button class="chat__btn activeChat">
+                            <i class="icon-account"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat__box">
+                    <div class="chat__box-header">
+                        <div class="info">
+                            <div class="name">
+                                Damien, Julie, Fabien,
+                            </div>
+                            <div class="prof">
+                                Voyageurs
+                            </div>
+                        </div>
+                        <div class="avatar__group">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava2.png" alt="" />
+                                <span class="tooltiptext">Damien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava3.png" alt="" />
+                                <span class="tooltiptext">Julie</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava4.png" alt="" />
+                                <span class="tooltiptext">Fabien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava5.png" alt="" />
+                                <span class="tooltiptext">Julien</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat__box-body">
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Pour y parvenir, j’aurais besoin de mieux te connaitre 😉 !
+                                        Peux-tu rejoindre la section <a href="#">Préférences</a> afin de renseigner tes
+                                        envies pour ce
+                                        séjour ?
+                                        Merci à toi !
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-LinkEn"></i>
+                                        <span>Préférences</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Merci Damien. J’ai bien cerné le type de séjour que tu souhaites.
+                                        Tu trouveras donc 2 propositions d’explo dans la section <a
+                                            href="#">Planning</a> .
+                                         Dis moi ce que
+                                        tu en penses!
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-linkPl"></i>
+                                        <span>Planning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat__box-footer">
+                    <button class="chat__plus">
+                        <i class="icon-plus"></i>
+                    </button>
+                    <div class="input__outer">
+                        <input type="text" placeholder="Aa">
+                    </div>
+                    <button class="chat__send">
+                        <i class="icon-send"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- chat end
+    ========================================== -->
+    </div>
+    <!-- chat__outer end -->
+    <!-- inner Section start
+    ========================================= -->
+    <section class="main">
+        <div class="auto__container">
+            <div class="main__inner">
+                <!-- document page start 
+                =================================== -->
+                <section class="documents">
+                    <div class="documents__inner">
+                        <div class="documents__inner-top">
+                            <div class="title">
+                                Documents
+                                <a class="backMobile">
+                                    <i class="icon-back"></i>
+                                </a>
+                            </div>
+                            <div class="text">
+                                Vous pouvez ajouter ici tous les documents qui vous seront utiles lors de votre voyage :
+                                 billets d’avions, passports, réservations d’hôtels, d’activités...
+                            </div>
+                            <div class="mobileNav">
+                                <div class="mobileNav__column">
+                                    <button class="mobileNav__link activeHead" id="activeHead-1"
+                                        onclick="activeHead1()">
+                                        Personnels
+                                    </button>
+                                </div>
+                                <div class="mobileNav__column">
+                                    <button class="mobileNav__link" id="activeHead-2" onclick="activeHead2()">
+                                        Partagés
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="documents__inner-box activeHead" id="Personnels">
+                            <div class="numBtn" id="numBtn1">
+                                Nom
+                                <i class="icon-arrow-top"></i>
+                            </div>
+                            <div class="documents__title">
+                                <i class="icon-lock"></i>
+                                Documents personnels
+                            </div>
+                            <div class="documents__sm__box-row">
+                                <div class="documents__sm__box">
+                                    <div class="plane__outer tabBtn" data-tab="#ticket-1">
+                                        <i class="icon-plane"></i>
+                                    </div>
+                                    <div class="documents__inner-text">
+                                        Billet d’avion
+                                        aller : CDG - NBO
+                                    </div>
+                                    <div class="documents__dropdown">
+                                        <button class="documents__threeDots">
+                                            <i class="icon-more"></i>
+                                        </button>
+                                        <div class="dropDown__content">
+                                            <div class="dropDown__content-inner">
+                                                <div class="dropDown__content-header">
+                                                    <div class="dropDown__title">
+                                                        <i class="icon-plane "></i>
+                                                        Billet d’avion aller : CDG - NBO
+                                                    </div>
+                                                    <button class="closeDropDown">
+                                                        <i class="icon-close"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="dropDown__content-body">
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-download"></i>
+                                                        <span>Télécharger</span>
+                                                    </a>
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-pencil"></i>
+                                                        <span>Modifier</span>
+                                                    </a>
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-trash"></i>
+                                                        <span>Supprimer</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="documents__sm__box">
+                                    <div class="plane__outer tabBtn" data-tab="#ticket-1">
+                                        <i class="icon-plane"></i>
+                                    </div>
+                                    <div class="documents__inner-text">
+                                        Billet d’avion
+                                        aller : CDG - NBO
+                                    </div>
+                                    <div class="documents__dropdown">
+                                        <button class="documents__threeDots">
+                                            <i class="icon-more"></i>
+                                        </button>
+                                        <div class="dropDown__content">
+                                            <div class="dropDown__content-inner">
+                                                <div class="dropDown__content-header">
+                                                    <div class="dropDown__title">
+                                                        <i class="icon-plane "></i>
+                                                        Billet d’avion aller : CDG - NBO
+                                                    </div>
+                                                    <button class="closeDropDown">
+                                                        <i class="icon-close"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="dropDown__content-body">
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-download"></i>
+                                                        <span>Télécharger</span>
+                                                    </a>
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-pencil"></i>
+                                                        <span>Modifier</span>
+                                                    </a>
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-trash"></i>
+                                                        <span>Supprimer</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="documents__sm__box">
+                                    <div class="plane__outer tabBtn" data-tab="#ticket-1">
+                                        <i class="icon-plane"></i>
+                                    </div>
+                                    <div class="documents__inner-text">
+                                        Billet d’avion
+                                        aller : CDG - NBO
+                                    </div>
+                                    <div class="documents__dropdown">
+                                        <button class="documents__threeDots">
+                                            <i class="icon-more"></i>
+                                        </button>
+                                        <div class="dropDown__content">
+                                            <div class="dropDown__content-inner">
+                                                <div class="dropDown__content-header">
+                                                    <div class="dropDown__title">
+                                                        <i class="icon-plane "></i>
+                                                        Billet d’avion aller : CDG - NBO
+                                                    </div>
+                                                    <button class="closeDropDown">
+                                                        <i class="icon-close"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="dropDown__content-body">
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-download"></i>
+                                                        <span>Télécharger</span>
+                                                    </a>
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-pencil"></i>
+                                                        <span>Modifier</span>
+                                                    </a>
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-trash"></i>
+                                                        <span>Supprimer</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="documents__inner-box " id="Partages">
+                            <div class="numBtn" id="numBtn2">
+                                Nom
+                                <i class="icon-arrow-top"></i>
+                            </div>
+                            <div class="documents__title">
+                                <i class="icon-account"></i>
+                                Documents partagés
+                            </div>
+                            <div class="documents__sm__box-row">
+                                <div class="documents__sm__box">
+                                    <div class="documents__sm__box-icon tabBtn" data-tab="#afisha-1">
+                                        <i class="icon-bed"></i>
+                                    </div>
+                                    <div class="documents__inner-text">
+                                        Réservation Hôtel Au Lion d’Or
+                                    </div>
+                                    <div class="documents__dropdown">
+                                        <button class="documents__threeDots">
+                                            <i class="icon-more"></i>
+                                        </button>
+                                        <div class="dropDown__content">
+                                            <div class="dropDown__content-inner">
+                                                <div class="dropDown__content-header">
+                                                    <div class="dropDown__title">
+                                                        <i class="icon-plane "></i>
+                                                        Billet d’avion aller : CDG - NBO
+                                                    </div>
+                                                    <button class="closeDropDown">
+                                                        <i class="icon-close"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="dropDown__content-body">
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-download"></i>
+                                                        <span>Télécharger</span>
+                                                    </a>
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-pencil"></i>
+                                                        <span>Modifier</span>
+                                                    </a>
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-trash"></i>
+                                                        <span>Supprimer</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="avatar__group">
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava2.png" alt="" />
+                                            <span class="tooltiptext">Damien</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava3.png" alt="" />
+                                            <span class="tooltiptext">Julie</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava4.png" alt="" />
+                                            <span class="tooltiptext">Fabien</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava5.png" alt="" />
+                                            <span class="tooltiptext">Julien</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="documents__sm__box">
+                                    <div class="documents__sm__box-icon tabBtn" data-tab="#afisha-2">
+                                        <i class="icon-reserve"></i>
+                                    </div>
+                                    <div class="documents__inner-text">
+                                        Réservation  Safari Masaï Mara
+                                    </div>
+                                    <div class="documents__dropdown">
+                                        <button class="documents__threeDots">
+                                            <i class="icon-more"></i>
+                                        </button>
+                                        <div class="dropDown__content">
+                                            <div class="dropDown__content-inner">
+                                                <div class="dropDown__content-header">
+                                                    <div class="dropDown__title">
+                                                        <i class="icon-plane "></i>
+                                                        Billet d’avion aller : CDG - NBO
+                                                    </div>
+                                                    <button class="closeDropDown">
+                                                        <i class="icon-close"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="dropDown__content-body">
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-download"></i>
+                                                        <span>Télécharger</span>
+                                                    </a>
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-pencil"></i>
+                                                        <span>Modifier</span>
+                                                    </a>
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-trash"></i>
+                                                        <span>Supprimer</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="avatar__group">
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava2.png" alt="" />
+                                            <span class="tooltiptext">Damien</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava3.png" alt="" />
+                                            <span class="tooltiptext">Julie</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava4.png" alt="" />
+                                            <span class="tooltiptext">Fabien</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="documents__sm__box">
+                                    <div class="documents__sm__box-icon tabBtn" data-tab="#afisha-3">
+                                        <div class="icon-doc"></div>
+                                    </div>
+                                    <div class="documents__inner-text">
+                                        Partir au Kenya :
+                                        Choses à savoir
+                                    </div>
+                                    <div class="documents__dropdown">
+                                        <button class="documents__threeDots">
+                                            <i class="icon-more"></i>
+                                        </button>
+                                        <div class="dropDown__content">
+                                            <div class="dropDown__content-inner">
+                                                <div class="dropDown__content-header">
+                                                    <div class="dropDown__title">
+                                                        <i class="icon-plane "></i>
+                                                        Billet d’avion aller : CDG - NBO
+                                                    </div>
+                                                    <button class="closeDropDown">
+                                                        <i class="icon-close"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="dropDown__content-body">
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-download"></i>
+                                                        <span>Télécharger</span>
+                                                    </a>
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-pencil"></i>
+                                                        <span>Modifier</span>
+                                                    </a>
+                                                    <a class="dropDown__content-link" href="#">
+                                                        <i class="icon-trash"></i>
+                                                        <span>Supprimer</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="avatar__group">
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava2.png" alt="" />
+                                            <span class="tooltiptext">Damien</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava3.png" alt="" />
+                                            <span class="tooltiptext">Julie</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                <!-- document page end 
+                =================================== -->
+
+            </div>
+
+        </div>
+    </section>
+    <!-- inner Section end
+    ========================================= -->
+    <!-- modal start 
+    ========================================== -->
+    <div class="file-upload-outer" id="addPhoto">
+        <div class="file-upload">
+            <div class="icon__outer">
+                <i class="icon-close " id="addPhotoClose"></i>
+            </div>
+            <div class="title">
+                Ajouter un document
+            </div>
+            <div class="image-upload-wrap">
+                <input id="file-upload-input" class="file-upload-input" multiple type='file' onchange="readURL(this);"
+                    accept=".doc,.pdf,.txt,.xlsx,.docx" />
+                <div class="drag-text">
+                    <div class="photo__icon" type="button" onclick="$('.file-upload-input').trigger( 'click' )">
+                        <i class="icon-photo"></i>
+                    </div>
+                    <div class="text">
+                        <span>Importe</span> ou glisse ton document ici
+                    </div>
+                    <div class="subtext">
+                        Formats supportés : pdf, txt, xls, word
+                    </div>
+                </div>
+            </div>
+
+            <div class="file-upload-content">
+                <div class="addMobile__header">
+                    <a href="#" class="addMobile__headerBtn" onclick="removeUpload()">
+                        Anuler
+                    </a>
+                    <a href="#" class="addMobile__headerBtn">
+                        Ajouter
+                    </a>
+                </div>
+                <div class="image-title-wrap">
+                    <div class="mobileTitleEdit">
+                        <input type="text" placeholder="Titre du document">
+                    </div>
+                    <div class="titleUploadedMobile">
+                        Document sélectionné :
+                    </div>
+                    <div class="remove-image">
+                        <div class="left" id="uploadedFileContent">
+                            <div class="message">
+                                Photo téléchargée !
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="removePhoto">
+                                <i class="icon-close" onclick="removeUpload()"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description__pop">
+                        <div class="description-title">
+                            Titre
+                        </div>
+                        <div class="input__outer">
+                            <input type="text" placeholder="Titre du document" />
+                        </div>
+                    </div>
+                    <div class="documents__icon-row">
+                        <div class="documents__icon-row-text">
+                            Icône :
+                        </div>
+                        <div class="documents__radio-row">
+                            <input checked type="radio" name="gender" id="plane" />
+                            <label class="documents__radio-label" for="plane">
+                                <div class="tooltiptext__sm">
+                                    Activitée
+                                </div>
+                                <span class="icon-plane"></span>
+                            </label>
+                            <input type="radio" name="gender" id="bed" />
+                            <label class="documents__radio-label" for="bed">
+                                <span class="icon-bed"></span>
+                                <div class="tooltiptext__sm">
+                                    Activitée
+                                </div>
+                            </label>
+                            <input type="radio" name="gender" id="box">
+                            <label class="documents__radio-label" for="box">
+                                <span class="icon-reserve"></span>
+                                <div class="tooltiptext__sm">
+                                    Activitée
+                                </div>
+                            </label>
+                            <input type="radio" name="gender" id="partir">
+                            <label class="documents__radio-label" for="partir">
+                                <span class="icon-doc"></span>
+                                <div class="tooltiptext__sm">
+                                    Activitée
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="documents__ava-box">
+                        <div class="documents__ava-box-text">
+                            Participants concernés
+                        </div>
+                        <div class="documents__radio-row">
+                            <input checked type="checkbox" name="1" id="1">
+                            <label class="documents__check-label" for="1">
+                                <div class="documents__avatar">
+                                    <span class="tooltiptext">Fabien Frossard</span>
+                                    <img src="images/avatar/ava1.png" alt="" />
+                                </div>
+                            </label>
+                            <input type="checkbox" name="2" id="2">
+                            <label class="documents__check-label" for="2">
+                                <div class="documents__avatar">
+                                    <span class="tooltiptext">Fabien Frossard</span>
+                                    <img src="images/avatar/ava2.png" alt="" />
+                                </div>
+                            </label>
+                            <input type="checkbox" name="3" id="3">
+                            <label class="documents__check-label" for="3">
+                                <div class="documents__avatar">
+                                    <span class="tooltiptext">Fabien Frossard</span>
+                                    <img src="images/avatar/ava3.png" alt="" />
+                                </div>
+                            </label>
+                            <input type="checkbox" name="4" id="4">
+                            <label class="documents__check-label" for="4">
+                                <div class="documents__avatar">
+                                    <span class="tooltiptext">Fabien Frossard</span>
+                                    <img src="images/avatar/ava4.png" alt="" />
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="documentsMobileBlock">
+                        <div class="semiTitle">
+                            Partager le document avec :
+                        </div>
+                        <div class="form__inner-tick-row">
+                            <label class="mobileCheck">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="check__text">
+                                Damien Clochard
+                            </div>
+                        </div>
+                        <div class="form__inner-tick-row">
+                            <label class="mobileCheck">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="check__text">
+                                Julie Dupont
+                            </div>
+                        </div>
+                        <div class="form__inner-tick-row">
+                            <label class="mobileCheck">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="check__text">
+                                Fabien Frossard
+                            </div>
+                        </div>
+                        <div class="form__inner-tick-row">
+                            <label class="mobileCheck">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="check__text">
+                                Mélanie Lemaître
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row__modal-btn">
+                <button href="#" class="photo__valider-btn">
+                    Valider
+                </button>
+                <button class="photo__valider-btn-green">
+                    Valider
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <div class="afisha tab" id="afisha-1">
+        <div class="afisha__image">
+            <div class="afisha__header">
+                <div class="closeMobile">
+                    <i class="icon-back tabClose" data-modal="afisha-1"></i>
+                </div>
+                <div class="title">
+                    Billet d’avion aller : CDG ...
+                </div>
+                <div class="documents__dropdown">
+                    <button class="documents__threeDots">
+                        <i class="icon-more"></i>
+                    </button>
+                    <div class="dropDown__content">
+                        <div class="dropDown__content-inner">
+                            <div class="dropDown__content-header">
+                                <div class="dropDown__title">
+                                    <i class="icon-plane "></i>
+                                    Billet d’avion aller : CDG - NBO
+                                </div>
+                                <button class="closeDropDown">
+                                    <i class="icon-close"></i>
+                                </button>
+                            </div>
+                            <div class="dropDown__content-body">
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-download"></i>
+                                    <span>Télécharger</span>
+                                </a>
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-pencil"></i>
+                                    <span>Modifier</span>
+                                </a>
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-trash"></i>
+                                    <span>Supprimer</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="afisha__body">
+                <div class="closeAfisha">
+                    <i class="icon-close tabClose" data-modal="afisha-1"></i>
+                </div>
+                <img src="images/afisha.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+    <div class="afisha tab" id="afisha-2">
+        <div class="afisha__image">
+            <div class="afisha__header">
+                <div class="closeMobile">
+                    <i class="icon-back tabClose" data-modal="afisha-2"></i>
+                </div>
+                <div class="title">
+                    Billet d’avion aller : CDG ...
+                </div>
+                <div class="documents__dropdown">
+                    <button class="documents__threeDots">
+                        <i class="icon-more"></i>
+                    </button>
+                    <div class="dropDown__content">
+                        <div class="dropDown__content-inner">
+                            <div class="dropDown__content-header">
+                                <div class="dropDown__title">
+                                    <i class="icon-plane "></i>
+                                    Billet d’avion aller : CDG - NBO
+                                </div>
+                                <button class="closeDropDown">
+                                    <i class="icon-close"></i>
+                                </button>
+                            </div>
+                            <div class="dropDown__content-body">
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-download"></i>
+                                    <span>Télécharger</span>
+                                </a>
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-pencil"></i>
+                                    <span>Modifier</span>
+                                </a>
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-trash"></i>
+                                    <span>Supprimer</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="afisha__body">
+                <div class="closeAfisha">
+                    <i class="icon-close tabClose" data-modal="afisha-1"></i>
+                </div>
+                <img src="images/afisha.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+    <div class="afisha tab" id="afisha-3">
+        <div class="afisha__image">
+            <div class="afisha__header">
+                <div class="closeMobile">
+                    <i class="icon-back tabClose" data-modal="afisha-3"></i>
+                </div>
+                <div class="title">
+                    Billet d’avion aller : CDG ...
+                </div>
+                <div class="documents__dropdown">
+                    <button class="documents__threeDots">
+                        <i class="icon-more"></i>
+                    </button>
+                    <div class="dropDown__content">
+                        <div class="dropDown__content-inner">
+                            <div class="dropDown__content-header">
+                                <div class="dropDown__title">
+                                    <i class="icon-plane "></i>
+                                    Billet d’avion aller : CDG - NBO
+                                </div>
+                                <button class="closeDropDown">
+                                    <i class="icon-close"></i>
+                                </button>
+                            </div>
+                            <div class="dropDown__content-body">
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-download"></i>
+                                    <span>Télécharger</span>
+                                </a>
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-pencil"></i>
+                                    <span>Modifier</span>
+                                </a>
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-trash"></i>
+                                    <span>Supprimer</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="afisha__body">
+                <div class="closeAfisha">
+                    <i class="icon-close tabClose" data-modal="afisha-1"></i>
+                </div>
+                <img src="images/afisha.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+    <div class="afisha tab" id="ticket-1">
+        <div class="afisha__image">
+            <div class="afisha__header">
+                <div class="closeMobile">
+                    <i class="icon-back tabClose" data-modal="ticket-1"></i>
+                </div>
+                <div class="title">
+                    Billet d’avion aller : CDG ...
+                </div>
+                <div class="documents__dropdown">
+                    <button class="documents__threeDots">
+                        <i class="icon-more"></i>
+                    </button>
+                    <div class="dropDown__content">
+                        <div class="dropDown__content-inner">
+                            <div class="dropDown__content-header">
+                                <div class="dropDown__title">
+                                    <i class="icon-bed "></i>
+                                    Billet d’avion aller : CDG - NBO
+                                </div>
+                                <button class="closeDropDown">
+                                    <i class="icon-close"></i>
+                                </button>
+                            </div>
+                            <div class="dropDown__content-body">
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-download"></i>
+                                    <span>Télécharger</span>
+                                </a>
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-pencil"></i>
+                                    <span>Modifier</span>
+                                </a>
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-trash"></i>
+                                    <span>Supprimer</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="afisha__body">
+                <div class="closeAfisha">
+                    <i class="icon-close tabClose" data-modal="ticket-1"></i>
+                </div>
+                <img src="images/ticket.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+    <div class="afisha tab" id="ticket-2">
+        <div class="afisha__image">
+            <div class="afisha__header">
+                <div class="closeMobile">
+                    <i class="icon-back tabClose" data-modal="ticket-2"></i>
+                </div>
+                <div class="title">
+                    Billet d’avion aller : CDG ...
+                </div>
+                <div class="documents__dropdown">
+                    <button class="documents__threeDots">
+                        <i class="icon-more"></i>
+                    </button>
+                    <div class="dropDown__content">
+                        <div class="dropDown__content-inner">
+                            <div class="dropDown__content-header">
+                                <div class="dropDown__title">
+                                    <i class="icon-bed "></i>
+                                    Billet d’avion aller : CDG - NBO
+                                </div>
+                                <button class="closeDropDown">
+                                    <i class="icon-close"></i>
+                                </button>
+                            </div>
+                            <div class="dropDown__content-body">
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-download"></i>
+                                    <span>Télécharger</span>
+                                </a>
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-pencil"></i>
+                                    <span>Modifier</span>
+                                </a>
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-trash"></i>
+                                    <span>Supprimer</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="afisha__body">
+                <div class="closeAfisha">
+                    <i class="icon-close tabClose" data-modal="ticket-2"></i>
+                </div>
+                <img src="images/ticket.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+    <div class="afisha tab" id="ticket-3">
+        <div class="afisha__image">
+            <div class="afisha__header">
+                <div class="closeMobile">
+                    <i class="icon-back tabClose" data-modal="ticket-3"></i>
+                </div>
+                <div class="title">
+                    Billet d’avion aller : CDG ...
+                </div>
+                <div class="documents__dropdown">
+                    <button class="documents__threeDots">
+                        <i class="icon-more"></i>
+                    </button>
+                    <div class="dropDown__content">
+                        <div class="dropDown__content-inner">
+                            <div class="dropDown__content-header">
+                                <div class="dropDown__title">
+                                    <i class="icon-bed "></i>
+                                    Billet d’avion aller : CDG - NBO
+                                </div>
+                                <button class="closeDropDown">
+                                    <i class="icon-close"></i>
+                                </button>
+                            </div>
+                            <div class="dropDown__content-body">
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-download"></i>
+                                    <span>Télécharger</span>
+                                </a>
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-pencil"></i>
+                                    <span>Modifier</span>
+                                </a>
+                                <a class="dropDown__content-link" href="#">
+                                    <i class="icon-trash"></i>
+                                    <span>Supprimer</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="afisha__body">
+                <div class="closeAfisha">
+                    <i class="icon-close tabClose" data-modal="ticket-3"></i>
+                </div>
+                <img src="images/ticket.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+    <div class="num" id="num1">
+        <div class="num__inner">
+            <div class="num__inner-header">
+                <div class="num__title">
+                    Trier par
+                </div>
+                <button class="numClose" id="numClose1">
+                    <i class="icon-close"></i>
+                </button>
+            </div>
+            <div class="num__inner-body">
+                <a class="num__inner-link" href="#">
+                    <i class="icon-download"></i>
+                    <span>Nom</span>
+                </a>
+                <a class="num__inner-link" href="#">
+                    <i class="icon-pencil"></i>
+                    <span>Date d’ajout</span>
+                </a>
+                <a class="num__inner-link" href="#">
+                    <i class="icon-trash"></i>
+                    <span>Dernière ouverture par moi</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="num" id="num2">
+        <div class="num__inner">
+            <div class="num__inner-header">
+                <div class="num__title">
+                    <i class="icon-plane "></i>
+                    Billet d’avion aller : CDG - NBO
+                </div>
+                <button class="numClose" id="numClose2">
+                    <i class="icon-close"></i>
+                </button>
+            </div>
+            <div class="num__inner-body">
+                <a class="num__inner-link" href="#">
+                    <i class="icon-download"></i>
+                    <span>Nom</span>
+                </a>
+                <a class="num__inner-link" href="#">
+                    <i class="icon-pencil"></i>
+                    <span>Date d’ajout</span>
+                </a>
+                <a class="num__inner-link" href="#">
+                    <i class="icon-trash"></i>
+                    <span>Dernière ouverture par moi</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="addPhotoBtn" id="addPhotoBtn">
+        <i class="icon-plus"></i>
+    </div>
+    <!-- modal start 
+    ========================================== -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/pageJs/documents.js"></script>
+</body>
+
+</html>

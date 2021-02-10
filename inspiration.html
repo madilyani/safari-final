@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/pageCss/inspiration.css">
+    <link rel="stylesheet" href="css/pageCss/main.css">
+    <title>Aperçu</title>
+</head>
+
+<body>
+    <!-- sidebar start
+    ========================================= -->
+    <section class="sidebar">
+        <div class="sidebar__inner">
+            <div class="sidebar__inner-header">
+                <div class="logo__outer">
+                    <img src="images/LOGO.svg" alt="" />
+                </div>
+            </div>
+            <div class="sidebar__inner-body">
+                <div class="sidebar__inner-nav">
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-LinkAp"></i>
+                        <span>
+                            Aperçu
+                        </span>
+
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-LinkEn"></i>
+                        <span>Préférences</span>
+
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkPl"></i>
+                        <span>Planning</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-photo"></i>
+                        <span>Photos</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkDo"></i>
+                        <span>Documents</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkNo"></i>
+                        <span>Notes</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkIn"></i>
+                        <span>Inspiration</span>
+                    </a>
+                </div>
+                <div class="sidebar__inner-footer">
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-arrowLeft"></i>
+                        <span>Mes séjours</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sidebar end
+    ========================================= -->
+    <!-- mobile menu start
+    ========================================= -->
+    <section class="mobileMenu">
+        <div class="mobileMenu__inner">
+            <div class="mobileMenu__inner-nav">
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-LinkAp"></i>
+                    <span>
+                        Aperçu
+                    </span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-linkPl"></i>
+                    <span>Planning</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-photo"></i>
+                    <span>Photos</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-linkIn"></i>
+                    <span>Inspi</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-menu"></i>
+                    <span>Plus</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- mobile menu end
+    ========================================= -->
+    <!-- chat__outer start -->
+    <div class="chat__outer" id="chatMobile">
+        <div class="chatMobileClose" id="chatMobileClose">
+            <i class="icon-close"></i>
+        </div>
+        <!-- chat start
+    ========================================== -->
+        <section class="chat showChat" id="exploMaker">
+            <div class="chat__inner">
+                <div class="chat__header">
+                    <div class="chatMobileArrow" [0]>
+                        <i class="icon-arrowLeft"></i>
+                    </div>
+                    <div class="title">
+                        Messages
+                    </div>
+                    <div class="chat__header-row">
+                        <button class="chat__btn activeChat">
+                            <i class="icon-logoicon"></i>
+                        </button>
+                        <button class="chat__btn" onclick="voyaGeurs()">
+                            <i class="icon-account"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat__box">
+                    <div class="chat__box-header">
+                        <div class="info">
+                            <div class="name">
+                                Julien Loiseau
+                            </div>
+                            <div class="prof">
+                                Explomaker
+                            </div>
+                        </div>
+                        <div class="avatar__outer">
+                            <img src="images/avatar/ava1.png" alt="" />
+                            <span class="tooltiptext">DamiVadssf asdf asd</span>
+
+                        </div>
+                    </div>
+                    <div class="chat__box-body">
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Pour y parvenir, j’aurais besoin de mieux te connaitre 😉 !
+                                        Peux-tu rejoindre la section <a href="#">Préférences</a> afin de renseigner tes
+                                        envies pour ce
+                                        séjour ?
+                                        Merci à toi !
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-LinkEn"></i>
+                                        <span>Préférences</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Merci Damien. J’ai bien cerné le type de séjour que tu souhaites.
+                                        Tu trouveras donc 2 propositions d’explo dans la section <a
+                                            href="#">Planning</a> .
+                                         Dis moi ce que
+                                        tu en penses!
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-linkPl"></i>
+                                        <span>Planning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat__box-footer">
+                        <button class="chat__plus">
+                            <i class="icon-plus"></i>
+                        </button>
+                        <div class="input__outer">
+                            <input type="text" placeholder="Aa">
+                        </div>
+                        <button class="chat__send">
+                            <i class="icon-send"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- chat end
+    ========================================== -->
+        <!-- chat start
+    ========================================== -->
+        <section class="chat" id="voyaGeurs">
+            <div class="chat__inner">
+                <div class="chat__header">
+                    <div class="chatMobileArrow" [1]>
+                        <i class="icon-arrowLeft"></i>
+                    </div>
+                    <div class="title">
+                        Messages
+                    </div>
+                    <div class="chat__header-row">
+                        <button class="chat__btn" onclick="exploMaker()">
+                            <i class="icon-logoicon"></i>
+                        </button>
+                        <button class="chat__btn activeChat">
+                            <i class="icon-account"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat__box">
+                    <div class="chat__box-header">
+                        <div class="info">
+                            <div class="name">
+                                Damien, Julie, Fabien,
+                            </div>
+                            <div class="prof">
+                                Voyageurs
+                            </div>
+                        </div>
+                        <div class="avatar__group">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava2.png" alt="" />
+                                <span class="tooltiptext">Damien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava3.png" alt="" />
+                                <span class="tooltiptext">Julie</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava4.png" alt="" />
+                                <span class="tooltiptext">Fabien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava5.png" alt="" />
+                                <span class="tooltiptext">Julien</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat__box-body">
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Pour y parvenir, j’aurais besoin de mieux te connaitre 😉 !
+                                        Peux-tu rejoindre la section <a href="#">Préférences</a> afin de renseigner tes
+                                        envies pour ce
+                                        séjour ?
+                                        Merci à toi !
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-LinkEn"></i>
+                                        <span>Préférences</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Merci Damien. J’ai bien cerné le type de séjour que tu souhaites.
+                                        Tu trouveras donc 2 propositions d’explo dans la section <a
+                                            href="#">Planning</a> .
+                                         Dis moi ce que
+                                        tu en penses!
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-linkPl"></i>
+                                        <span>Planning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat__box-footer">
+                        <button class="chat__plus">
+                            <i class="icon-plus"></i>
+                        </button>
+                        <div class="input__outer">
+                            <input type="text" placeholder="Aa">
+                        </div>
+                        <button class="chat__send">
+                            <i class="icon-send"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- chat end
+    ========================================== -->
+    </div>
+    <!-- chat__outer end -->
+    <!-- inner Section start
+    ========================================= -->
+    <section class="main">
+        <div class="auto__container">
+            <div class="main__inner">
+                <!-- inspiration page start 
+            ========================================== -->
+                <div class="inspiration">
+                    <div class="inspiration__inner">
+                        <div class="inspiration__inner-top">
+                            <div class="title">
+                                Inspiration
+                            </div>
+                            <div class="text">
+                                Retrouvez ici une sélection d’articles, de spots et d’explorations en rapport avec le
+                                Kenya.
+                            </div>
+                            <div class="top__title-mobile">
+                                Inspiration
+                                <br> sur le Kenya
+                            </div>
+                        </div>
+                        <!-- this is for mobile  -->
+                        <div class="category">
+                            <div class="category__header">
+                                <div class="title__mobile">
+                                    Catégories 📚
+                                </div>
+                            </div>
+                            <div class="categorySlider">
+                                <div class="categorySlider__item">
+                                    <div class="category__title">
+                                        Récits de
+                                        voyage
+                                    </div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="categorySlider__item">
+                                    <div class="category__title">
+                                        Guides
+                                    </div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="categorySlider__item">
+                                    <div class="category__title">
+                                        Actualités
+                                    </div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="categorySlider__item">
+                                    <div class="category__title">
+                                        Inspiration
+                                    </div>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="categorySlider__item">
+                                    <div class="category__title">
+                                        Récits de
+                                        voyage
+                                    </div>
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- this is for mobile  -->
+                        <div class="inspiration__inner-box">
+                            <div class="inspiration__inner__box-header">
+                                <div class="title">
+                                    Articles sur le Kenya
+                                </div>
+                                <div class="title__mobile">
+                                    Articles 🖋️️️
+                                </div>
+                                <button class="inspiration__more">
+                                    Voir tout
+                                </button>
+                            </div>
+                            <div class="inspiration__inner-row">
+                                <div class="inspiration__innerSm-box">
+                                    <div class="inspiration__innerSm-image">
+                                        <img src="images/inspiration/boximage/1.png" alt="">
+                                        <a href="#" class="inspiration__link-green" style="display: block;">
+                                            Actualité
+                                        </a>
+                                        <a href="#" class="inspiration__link-red" style="display: none;">
+                                            Récit de voyage
+                                        </a>
+                                    </div>
+                                    <div class="inspiration__innerSm-text">
+                                        Déconfinement : ce qu'il faut savoir si vous voulez sortir ce week-end
+                                    </div>
+                                    <div class="inspiration__innerSm-footer">
+                                        <div class="date">
+                                            19 Juin 2020 • 4 min
+                                        </div>
+                                        <div class="likes">
+                                            <div class="group">
+                                                <i class="icon-solidHeart"></i> <span>12</span>
+                                            </div>
+                                            <div class="group">
+                                                <i class="icon-messageSm"></i> <span>4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inspiration__innerSm-box">
+                                    <div class="inspiration__innerSm-image">
+                                        <img src="images/inspiration/boximage/2.png" alt="">
+                                        <a href="#" class="inspiration__link-green" style="display: none;">
+                                            Actualité
+                                        </a>
+                                        <a href="#" class="inspiration__link-red" style="display: block;">
+                                            Récit de voyage
+                                        </a>
+                                    </div>
+                                    <div class="inspiration__innerSm-text">
+                                        Déconfinement : peut-on voyager hors d'Europe 🌎 ?
+                                    </div>
+                                    <div class="inspiration__innerSm-footer">
+                                        <div class="date">
+                                            19 Juin 2020 • 4 min
+                                        </div>
+                                        <div class="likes">
+                                            <div class="group">
+                                                <i class="icon-solidHeart"></i> <span>12</span>
+                                            </div>
+                                            <div class="group">
+                                                <i class="icon-messageSm"></i> <span>4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inspiration__innerSm-box">
+                                    <div class="inspiration__innerSm-image">
+                                        <img src="images/inspiration/boximage/3.png" alt="">
+                                        <a href="#" class="inspiration__link-green" style="display: block;">
+                                            Actualité
+                                        </a>
+                                        <a href="#" class="inspiration__link-red" style="display: none;">
+                                            Récit de voyage
+                                        </a>
+                                    </div>
+                                    <div class="inspiration__innerSm-text">
+                                        Coronavirus 😷 : Quels sont vos droits pour annuler un voyage à l’étranger ?
+                                    </div>
+                                    <div class="inspiration__innerSm-footer">
+                                        <div class="date">
+                                            19 Juin 2020 • 4 min
+                                        </div>
+                                        <div class="likes">
+                                            <div class="group">
+                                                <i class="icon-solidHeart"></i> <span>12</span>
+                                            </div>
+                                            <div class="group">
+                                                <i class="icon-messageSm"></i> <span>4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- this is for mobile  -->
+                        <div class="advise">
+                            <div class="title">
+                                Pour rester inspiré
+                            </div>
+                            <p class="para">
+                                Reçois tous les jours les meilleurs articles du blog pour rester inspiré et découvrir de
+                                nouvelles destinations à couper le souffle !
+                            </p>
+                            <a href="#" class="advise__btn">
+                                Active les notifications
+                            </a>
+                        </div>
+                        <!-- this is for mobile  -->
+                        <div class="inspiration__inner-box">
+                            <div class="inspiration__inner__box-header">
+                                <div class="title">
+                                    Spots au Kenya
+                                </div>
+                                <div class="title__mobile">
+                                    Hot spots 📌
+                                </div>
+                                <button class="inspiration__more">
+                                    Voir tout
+                                </button>
+                            </div>
+                            <div class="inspiration__inner-row">
+                                <div class="inspiration__innerSm-box">
+                                    <div class="inspiration__innerSm-image">
+                                        <img src="images/inspiration/boximage/4.png" alt="">
+                                        <a href="#" class="inspiration__link-green" style="display: none;">
+                                            Afrique
+                                        </a>
+                                        <a href="#" class="inspiration__link-red" style="display: block;">
+                                            Afrique
+                                        </a>
+                                    </div>
+                                    <div class="inspiration__innerSm-text">
+                                        Nairobi : l’incontournable capitale dynamique et accueillante
+                                    </div>
+                                    <div class="inspiration__innerSm-footer">
+                                        <div class="date">
+                                            19 Juin 2020 • 4 min
+                                        </div>
+                                        <div class="likes">
+                                            <div class="group">
+                                                <i class="icon-solidHeart"></i> <span>12</span>
+                                            </div>
+                                            <div class="group">
+                                                <i class="icon-messageSm"></i> <span>4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inspiration__innerSm-box">
+                                    <div class="inspiration__innerSm-image">
+                                        <img src="images/inspiration/boximage/5.png" alt="">
+                                        <a href="#" class="inspiration__link-green" style="display: none;">
+                                            Afrique
+                                        </a>
+                                        <a href="#" class="inspiration__link-red" style="display: block;">
+                                            Afrique
+                                        </a>
+                                    </div>
+                                    <div class="inspiration__innerSm-text">
+                                        Masaï Mara : un safari dans l’un des plus beaux parcs du monde
+                                    </div>
+                                    <div class="inspiration__innerSm-footer">
+                                        <div class="date">
+                                            19 Juin 2020 • 4 min
+                                        </div>
+                                        <div class="likes">
+                                            <div class="group">
+                                                <i class="icon-solidHeart"></i> <span>12</span>
+                                            </div>
+                                            <div class="group">
+                                                <i class="icon-messageSm"></i> <span>4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inspiration__innerSm-box">
+                                    <div class="inspiration__innerSm-image">
+                                        <img src="images/inspiration/boximage/6.png" alt="">
+                                        <a href="#" class="inspiration__link-green" style="display: block;">
+                                            Afrique
+                                        </a>
+                                        <a href="#" class="inspiration__link-red" style="display: none;">
+                                            Afrique
+                                        </a>
+                                    </div>
+                                    <div class="inspiration__innerSm-text">
+                                        Le Mont Kenya : un univers fantastique pour le trek qui s'offre à vous
+                                    </div>
+                                    <div class="inspiration__innerSm-footer">
+                                        <div class="date">
+                                            19 Juin 2020 • 4 min
+                                        </div>
+                                        <div class="likes">
+                                            <div class="group">
+                                                <i class="icon-solidHeart"></i> <span>12</span>
+                                            </div>
+                                            <div class="group">
+                                                <i class="icon-messageSm"></i> <span>4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inspiration__inner-box removeMobile">
+                            <div class="inspiration__inner__box-header">
+                                <div class="title">
+                                    Explorations au Kenya
+                                </div>
+                                <button class="inspiration__more">
+                                    Voir tout
+                                </button>
+                            </div>
+                            <div class="inspiration__inner-row">
+                                <div class="inspiration__innerSm-box">
+                                    <div class="inspiration__innerSm-image">
+                                        <img src="images/inspiration/boximage/1.png" alt="">
+                                        <a href="#" class="inspiration__link-green" style="display: block;">
+                                            Exploration
+                                        </a>
+                                        <a href="#" class="inspiration__link-red" style="display: none;">
+                                            Exploration
+                                        </a>
+                                    </div>
+                                    <div class="inspiration__innerSm-text">
+                                        Déconfinement : ce qu'il faut savoir si vous voulez sortir ce week-end
+                                    </div>
+                                    <div class="inspiration__innerSm-footer">
+                                        <div class="date">
+                                            19 Juin 2020 • 4 min
+                                        </div>
+                                        <div class="likes">
+                                            <div class="group">
+                                                <i class="icon-solidHeart"></i> <span>12</span>
+                                            </div>
+                                            <div class="group">
+                                                <i class="icon-messageSm"></i> <span>4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inspiration__innerSm-box">
+                                    <div class="inspiration__innerSm-image">
+                                        <img src="images/inspiration/boximage/2.png" alt="">
+                                        <a href="#" class="inspiration__link-green" style="display: none;">
+                                            Exploration
+                                        </a>
+                                        <a href="#" class="inspiration__link-red" style="display: block;">
+                                            Exploration
+                                        </a>
+                                    </div>
+                                    <div class="inspiration__innerSm-text">
+                                        Déconfinement : peut-on voyager hors d'Europe 🌎 ?
+                                    </div>
+                                    <div class="inspiration__innerSm-footer">
+                                        <div class="date">
+                                            19 Juin 2020 • 4 min
+                                        </div>
+                                        <div class="likes">
+                                            <div class="group">
+                                                <i class="icon-solidHeart"></i> <span>12</span>
+                                            </div>
+                                            <div class="group">
+                                                <i class="icon-messageSm"></i> <span>4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inspiration__innerSm-box">
+                                    <div class="inspiration__innerSm-image">
+                                        <img src="images/inspiration/boximage/3.png" alt="">
+                                        <a href="#" class="inspiration__link-green" style="display: block;">
+                                            Exploration
+                                        </a>
+                                        <a href="#" class="inspiration__link-red" style="display: none;">
+                                            Exploration
+                                        </a>
+                                    </div>
+                                    <div class="inspiration__innerSm-text">
+                                        Coronavirus 😷 : Quels sont vos droits pour annuler un voyage à l’étranger ?
+                                    </div>
+                                    <div class="inspiration__innerSm-footer">
+                                        <div class="date">
+                                            19 Juin 2020 • 4 min
+                                        </div>
+                                        <div class="likes">
+                                            <div class="group">
+                                                <i class="icon-solidHeart"></i> <span>12</span>
+                                            </div>
+                                            <div class="group">
+                                                <i class="icon-messageSm"></i> <span>4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- this is for mobile  -->
+                        <div class="recent">
+                            <div class="recent__header">
+                                <div class="title__mobile">
+                                    Articles récents 🔥
+                                </div>
+                                <button class="inspiration__more">
+                                    Voir tout
+                                </button>
+                            </div>
+                            <div class="recent__body">
+                                <div class="recent__row">
+                                    <div class="image__outer">
+                                        <img src="images/inspiration/boximage/1.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <div class="recent__title">
+                                            Les activités les plus improbables à faire en voyage 🙃
+                                        </div>
+                                        <div class="date">
+                                            17 Juin 2020 | 6 min
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="recent__row">
+                                    <div class="image__outer">
+                                        <img src="images/inspiration/boximage/1.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <div class="recent__title">
+                                            Les activités les plus improbables à faire en voyage 🙃
+                                        </div>
+                                        <div class="date">
+                                            17 Juin 2020 | 6 min
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="recent__row">
+                                    <div class="image__outer">
+                                        <img src="images/inspiration/boximage/1.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <div class="recent__title">
+                                            Les activités les plus improbables à faire en voyage 🙃
+                                        </div>
+                                        <div class="date">
+                                            17 Juin 2020 | 6 min
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="recent__row">
+                                    <div class="image__outer">
+                                        <img src="images/inspiration/boximage/1.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <div class="recent__title">
+                                            Les activités les plus improbables à faire en voyage 🙃
+                                        </div>
+                                        <div class="date">
+                                            17 Juin 2020 | 6 min
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- this is for mobile  -->
+                    </div>
+                </div>
+                <!-- inspiration page start 
+            ========================================== -->
+            </div>
+        </div>
+    </section>
+    <!-- inner Section end
+    ========================================= -->
+    <script src="js/jquery.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/pageJs/inspiration.js"></script>
+</body>
+
+</html>

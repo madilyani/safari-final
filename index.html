@@ -1,0 +1,1777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/lightpick.css">
+    <link rel="stylesheet" href="css/pageCss/index.css">
+    <link rel="stylesheet" href="css/pageCss/main.css">
+    <title>Aperçu</title>
+</head>
+
+<body>
+    <!-- sidebar start
+    ========================================= -->
+    <section class="sidebar">
+        <div class="sidebar__inner">
+            <div class="sidebar__inner-header">
+                <div class="logo__outer">
+                    <img src="images/LOGO.svg" alt="" />
+                </div>
+            </div>
+            <div class="sidebar__inner-body">
+                <div class="sidebar__inner-nav">
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-LinkAp"></i>
+                        <span>
+                            Aperçu
+                        </span>
+
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-LinkEn"></i>
+                        <span>Préférences</span>
+
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkPl"></i>
+                        <span>Planning</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-photo"></i>
+                        <span>Photos</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkDo"></i>
+                        <span>Documents</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkNo"></i>
+                        <span>Notes</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkIn"></i>
+                        <span>Inspiration</span>
+                    </a>
+                </div>
+                <div class="sidebar__inner-footer">
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-arrowLeft"></i>
+                        <span>Mes séjours</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sidebar end
+    ========================================= -->
+    <!-- mobile menu start
+    ========================================= -->
+    <section class="mobileMenu">
+        <div class="mobileMenu__inner">
+            <div class="mobileMenu__inner-nav">
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-LinkAp"></i>
+                    <span>
+                        Aperçu
+                    </span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-linkPl"></i>
+                    <span>Planning</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-photo"></i>
+                    <span>Photos</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-linkIn"></i>
+                    <span>Inspi</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-menu"></i>
+                    <span>Plus</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- mobile menu end
+    ========================================= -->
+    <!-- chat__outer start -->
+    <div class="chat__outer" id="chatMobile">
+        <div class="chatMobileClose" id="chatMobileClose">
+            <i class="icon-close"></i>
+        </div>
+        <!-- chat start
+    ========================================== -->
+        <section class="chat showChat" id="exploMaker">
+            <div class="chat__inner">
+                <div class="chat__header">
+                    <div class="chatMobileArrow" [0]>
+                        <i class="icon-arrowLeft"></i>
+                    </div>
+                    <div class="title">
+                        Messages
+                    </div>
+                    <div class="chat__header-row">
+                        <button class="chat__btn activeChat">
+                            <i class="icon-logoicon"></i>
+                        </button>
+                        <button class="chat__btn" onclick="voyaGeurs()">
+                            <i class="icon-account"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat__box">
+                    <div class="chat__box-header">
+                        <div class="info">
+                            <div class="name">
+                                Julien Loiseau
+                            </div>
+                            <div class="prof">
+                                Explomaker
+                            </div>
+                        </div>
+                        <div class="avatar__outer">
+                            <img src="images/avatar/ava1.png" alt="" />
+                            <span class="tooltiptext">DamiVadssf asdf asd</span>
+
+                        </div>
+                    </div>
+                    <div class="chat__box-body">
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Pour y parvenir, j’aurais besoin de mieux te connaitre 😉 !
+                                        Peux-tu rejoindre la section <a href="#">Préférences</a> afin de renseigner tes
+                                        envies pour ce
+                                        séjour ?
+                                        Merci à toi !
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-LinkEn"></i>
+                                        <span>Préférences</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Merci Damien. J’ai bien cerné le type de séjour que tu souhaites.
+                                        Tu trouveras donc 2 propositions d’explo dans la section <a
+                                            href="#">Planning</a> .
+                                         Dis moi ce que
+                                        tu en penses!
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-linkPl"></i>
+                                        <span>Planning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat__box-footer">
+                    <button class="chat__plus">
+                        <i class="icon-plus"></i>
+                    </button>
+                    <div class="input__outer">
+                        <input type="text" placeholder="Aa">
+                    </div>
+                    <button class="chat__send">
+                        <i class="icon-send"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- chat end
+    ========================================== -->
+        <!-- chat start
+    ========================================== -->
+        <section class="chat" id="voyaGeurs">
+            <div class="chat__inner">
+                <div class="chat__header">
+                    <div class="chatMobileArrow" [1]>
+                        <i class="icon-arrowLeft"></i>
+                    </div>
+                    <div class="title">
+                        Messages
+                    </div>
+                    <div class="chat__header-row">
+                        <button class="chat__btn" onclick="exploMaker()">
+                            <i class="icon-logoicon"></i>
+                        </button>
+                        <button class="chat__btn activeChat">
+                            <i class="icon-account"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat__box">
+                    <div class="chat__box-header">
+                        <div class="info">
+                            <div class="name">
+                                Damien, Julie, Fabien,
+                            </div>
+                            <div class="prof">
+                                Voyageurs
+                            </div>
+                        </div>
+                        <div class="avatar__group">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava2.png" alt="" />
+                                <span class="tooltiptext">Damien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava3.png" alt="" />
+                                <span class="tooltiptext">Julie</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava4.png" alt="" />
+                                <span class="tooltiptext">Fabien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava5.png" alt="" />
+                                <span class="tooltiptext">Julien</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat__box-body">
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Pour y parvenir, j’aurais besoin de mieux te connaitre 😉 !
+                                        Peux-tu rejoindre la section <a href="#">Préférences</a> afin de renseigner tes
+                                        envies pour ce
+                                        séjour ?
+                                        Merci à toi !
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-LinkEn"></i>
+                                        <span>Préférences</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Merci Damien. J’ai bien cerné le type de séjour que tu souhaites.
+                                        Tu trouveras donc 2 propositions d’explo dans la section <a
+                                            href="#">Planning</a> .
+                                         Dis moi ce que
+                                        tu en penses!
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-linkPl"></i>
+                                        <span>Planning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat__box-footer">
+                    <button class="chat__plus">
+                        <i class="icon-plus"></i>
+                    </button>
+                    <div class="input__outer">
+                        <input type="text" placeholder="Aa">
+                    </div>
+                    <button class="chat__send">
+                        <i class="icon-send"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- chat end
+    ========================================== -->
+    </div>
+    <!-- chat__outer end -->
+    <!-- inner Section start
+    ========================================= -->
+    <section class="main">
+        <div class="auto__container">
+            <div class="main__inner">
+                <!-- slider start -->
+                <div class="main__slider-outer" id="mainSlider" onclick="removeHeight()">
+                    <button class="notification__btn" id="notificationBtn">
+                        <div class="notificationHover" onclick="showNotification()"></div>
+                        <i class="icon-bellsvg"></i>
+                        <div class="number">
+                            4
+                        </div>
+                        <div class="notification" id="notification">
+                            <div class="notification__header">
+                                Notifications
+                                <div class="mobileChat" onclick="hideNotification()">
+                                    <i class="icon-arrowLeft"></i>
+                                </div>
+                            </div>
+                            <div class="notification__body">
+                                <a href="#" class="notification__row recent">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava1.png" alt="" />
+                                        <i class="green icon-compass"></i>
+                                    </div>
+                                    <div class="notification__message">
+                                        <div class="message">
+                                            Julien (Explomaker) a proposé 3 options d’Exploration pour lundi 24 août.
+                                        </div>
+                                        <div class="time">
+                                            il y a 2h
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="notification__row recent">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava2.png" alt="" />
+                                        <i class="dark icon-message"></i>
+                                    </div>
+                                    <div class="notification__message">
+                                        <div class="message">
+                                            Julien (Explomaker) t’a laissé un message personnel.
+                                        </div>
+                                        <div class="time">
+                                            il y a 2h
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="notification__row recent">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava3.png" alt="" />
+                                        <i class="white icon-photo"></i>
+                                    </div>
+                                    <div class="notification__message">
+                                        <div class="message">
+                                            Julien (Explomaker) a proposé 3 options d’Exploration pour lundi 24 août.
+                                        </div>
+                                        <div class="time">
+                                            il y a 2h
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="notification__row recent">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava4.png" alt="" />
+                                        <i class="green icon-home"></i>
+                                    </div>
+                                    <div class="notification__message">
+                                        <div class="message">
+                                            Julien (Explomaker) a proposé 3 options d’Exploration pour lundi 24 août.
+                                        </div>
+                                        <div class="time">
+                                            il y a 2h
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="notification__row">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava5.png" alt="" />
+                                        <i class="green icon-Restaurant"></i>
+                                    </div>
+                                    <div class="notification__message">
+                                        <div class="message">
+                                            Julien (Explomaker) a proposé 3 options d’Exploration pour lundi 24 août.
+                                        </div>
+                                        <div class="time">
+                                            il y a 2h
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="notification__row">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava1.png" alt="" />
+                                        <i class="lRed icon-Edit"></i>
+                                    </div>
+                                    <div class="notification__message">
+                                        <div class="message">
+                                            Julien (Explomaker) a proposé 3 options d’Exploration pour lundi 24 août.
+                                        </div>
+                                        <div class="time">
+                                            il y a 2h
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="notification__row">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava1.png" alt="" />
+                                        <i class="red icon-trash"></i>
+                                    </div>
+                                    <div class="notification__message">
+                                        <div class="message">
+                                            Julien (Explomaker) a proposé 3 options d’Exploration pour lundi 24 août.
+                                        </div>
+                                        <div class="time">
+                                            il y a 2h
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="notification__row">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava5.png" alt="" />
+                                        <i class="green icon-Restaurant"></i>
+                                    </div>
+                                    <div class="notification__message">
+                                        <div class="message">
+                                            Julien (Explomaker) a proposé 3 options d’Exploration pour lundi 24 août.
+                                        </div>
+                                        <div class="time">
+                                            il y a 2h
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="notification__row">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava1.png" alt="" />
+                                        <i class="lRed icon-Edit"></i>
+                                    </div>
+                                    <div class="notification__message">
+                                        <div class="message">
+                                            Julien (Explomaker) a proposé 3 options d’Exploration pour lundi 24 août.
+                                        </div>
+                                        <div class="time">
+                                            il y a 2h
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="notification__row">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava1.png" alt="" />
+                                        <i class="red icon-trash"></i>
+                                    </div>
+                                    <div class="notification__message">
+                                        <div class="message">
+                                            Julien (Explomaker) a proposé 3 options d’Exploration pour lundi 24 août.
+                                        </div>
+                                        <div class="time">
+                                            il y a 2h
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </button>
+                    <div class="avatar__group" id="avatarGroup">
+                        <div class="avatar__outer">
+                            <img src="images/avatar/ava2.png" alt="" />
+                            <span class="tooltiptext">Damien</span>
+                        </div>
+                        <div class="avatar__outer">
+                            <img src="images/avatar/ava3.png" alt="" />
+                            <span class="tooltiptext">Julie</span>
+                        </div>
+                        <div class="avatar__outer">
+                            <img src="images/avatar/ava4.png" alt="" />
+                            <span class="tooltiptext">Fabien</span>
+                        </div>
+                        <div class="avatar__outer">
+                            <img src="images/avatar/ava5.png" alt="" />
+                            <span class="tooltiptext">Julien</span>
+                        </div>
+                    </div>
+                    <div class="main__slider-arrow">
+                        <button class="prev">
+                            <i class="icon-arrowLeft"></i>
+                        </button>
+                        <button class="next">
+                            <i class="icon-arrowLeft"></i>
+                        </button>
+                    </div>
+                    <div class="main__slider">
+                        <div class="image__outer">
+                            <img class="pcImage" src="images/Kenya PC.png" alt="" />
+                            <img class="mobileImage" src="images/Kenya 1.png" alt="" />
+                            <div class="image__text">
+                                Reserve nationale du Masaï Mara - Kenya
+                            </div>
+                        </div>
+                        <div class="image__outer">
+                            <img class="pcImage" src="images/Kenya PC.png" alt="" />
+                            <img class="mobileImage" src="images/Kenya 2.png" alt="" />
+                            <div class="image__text">
+                                Découvrez le Kenya : Réserve naturelle du Masaï Mara
+                            </div>
+                        </div>
+                        <div class="image__outer">
+                            <img class="pcImage" src="images/Kenya PC.png" alt="" />
+                            <img class="mobileImage" src="images/Kenya 1.png" alt="" />
+
+                            <div class="image__text">
+                                Découvrez le Kenya : Réserve naturelle du Masaï Mara
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- slider end -->
+                <!-- content start -->
+                <div class="main__block" id="mainBlock">
+                    <!-- main header block  -->
+                    <div class="mobileHeader">
+                        <div class="removeHeight" onclick="removeSwipe()"></div>
+                        <div class="mobileHeader__inner">
+                            <div class="mobileHeader__inner-header">
+                                <div class="title">
+                                    Go Safari 🦁
+                                </div>
+                                <button class="modal__btn" data-tab="#generalModal">
+                                    <i class="icon-Edit"></i>
+                                </button>
+                            </div>
+                            <div class="mobileHeader__inner-body">
+                                <div class="mobileHeader-row">
+                                    <i class="icon-linkPl"></i>
+                                    22 août - 29 août
+                                </div>
+                                <div class="mobileHeader-row">
+                                    <i class="icon-loaction"></i>
+                                    Nairobi, République du Kenya
+                                </div>
+                                <div class="mobileHeader-row">
+                                    <i class="icon-account"></i>
+                                    4 contributeurs
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="mobile__body">
+                        <div class="main__box">
+                            <button class="modal__btn" data-tab="#generalModal">
+                                <i class="icon-Edit"></i>
+                            </button>
+                            <div class="main__box-header">
+                                <div class="title">
+                                    Go Safari 🦁
+                                </div>
+                                <div class="avatar__group">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava2.png" alt="" />
+                                        <span class="tooltiptext">Damien</span>
+                                    </div>
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava3.png" alt="" />
+                                        <span class="tooltiptext">Julie</span>
+                                    </div>
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava4.png" alt="" />
+                                        <span class="tooltiptext">Fabien</span>
+                                    </div>
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava5.png" alt="" />
+                                        <span class="tooltiptext">Julien</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__box-body">
+                                <div class="row">
+                                    <div class="inner__column">
+                                        <div class="title">
+                                            <i class="icon-loaction"></i>
+                                            Destination
+                                        </div>
+                                        <div class="subtitle">
+                                            République du Kenya
+                                        </div>
+                                    </div>
+                                    <div class="inner__column">
+                                        <div class="title">
+                                            <i class="icon-linkPl"></i>
+                                            Arrivée
+                                        </div>
+                                        <div class="subtitle">
+                                            ven. 22 août
+                                        </div>
+                                    </div>
+                                    <div class="inner__column">
+                                        <div class="title">
+                                            <i class="icon-linkPl"></i>
+                                            Départ
+                                        </div>
+                                        <div class="subtitle">
+                                            sam. 29 août
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="explobook">
+                            <div class="row">
+                                <div class="content">
+                                    <div class="title">
+                                        Creation Terminee
+                                    </div>
+                                    <div class="text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+                                        consectetur
+                                        aut veniam odit eos rem tenetur, aliquid voluptatibus neque, officiis nostrum,
+                                        corrupti quaerat illo est quam? Itaque eum ipsum quos!
+                                    </div>
+                                    <div class="btn__row">
+                                        <a href="#" class="explobook__btn">
+                                            Commander E'xplobook
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="image__outer">
+                                    <img src="images/ExploBook.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress__row">
+                                <div class="progress__column">
+                                    <div class="showOnMobile">
+                                        <i class="icon-solidStar"></i>
+                                        Forfait complet
+                                    </div>
+                                    <div class="progress__area">
+                                        <div class="title">
+                                            Progression
+                                        </div>
+                                        <div class="progress-circle p100">
+                                            <span>75%</span>
+                                            <div class="left-half-clipper">
+                                                <div class="first50-bar"></div>
+                                                <div class="value-bar"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress__links">
+                                    <div class="title">
+                                        <i class="icon-solidStar"></i>
+                                        Forfait complet
+                                    </div>
+                                    <div class="progress_nav">
+                                        <div class="progress__nav-links">
+                                            <i class="icon-tick"></i>
+                                            <span>Transport A/R</span>
+                                        </div>
+                                        <div class="progress__nav-links">
+                                            <i class="icon-tick"></i>
+                                            <span>Hébergement</span>
+                                        </div>
+                                        <div class="progress__nav-links">
+                                            <i class="icon-tick"></i>
+                                            <span>Transports sur place</span>
+                                        </div>
+                                        <div class="progress__nav-links">
+                                            <i class="icon-tick"></i>
+                                            <span>Itinéraires</span>
+                                        </div>
+                                        <div class="progress__nav-links">
+                                            <i class="icon-tick"></i>
+                                            <span>Transports sur place</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <button class="modal__btn" data-tab="#description">
+                                <i class="icon-Edit"></i>
+                            </button>
+                            <div class="title">
+                                <i class="icon-message"></i>
+                                Description
+                            </div>
+                            <div class="text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco.
+                                Sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </div>
+                        </div>
+                        <div class="description__row">
+                            <div class="inner__column">
+                                <div class="description">
+                                    <button class="modal__btn" data-tab="#modalInfo">
+                                        <i class="icon-Edit"></i>
+                                    </button>
+                                    <div class="title">
+                                        <i class="icon-attention"></i>
+                                        Informations
+                                    </div>
+                                    <div class="description__box">
+                                        <div class="info">
+                                            Contexte
+                                        </div>
+                                        <div class="name">
+                                            Séjour entre amis
+                                        </div>
+                                    </div>
+                                    <div class="description__box">
+                                        <div class="info">
+                                            Budget
+                                        </div>
+                                        <div class="name">
+                                            Moyen
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="inner__column">
+                                <div class="description">
+                                    <button class="modal__btn" data-tab="#voyageur">
+                                        <i class="icon-Edit"></i>
+                                    </button>
+                                    <div class="title">
+                                        <i class="icon-account"></i>
+                                        Les voyageurs
+                                    </div>
+                                    <div class="description__box">
+                                        <div class="info">
+                                            Contexte
+                                        </div>
+                                        <div class="name">
+                                            Damien
+                                        </div>
+                                        <div class="name">
+                                            Julie
+                                        </div>
+                                        <div class="name">
+                                            Fabien
+                                        </div>
+                                        <div class="name">
+                                            Mélanie
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content end -->
+            </div>
+        </div>
+    </section>
+    <!-- inner Section end
+    ========================================= -->
+    <!-- all modals start
+    ========================================= -->
+    <div class="modal" id="generalModal">
+        <div class="modal__inner">
+            <div class="modal__inner-header">
+                <div class="title">
+                    Modification
+                </div>
+                <div class="modalClose">
+                    <i class="icon-close" data-modal="generalModal"></i>
+                </div>
+            </div>
+            <div class="modal__inner-body removeMargin">
+                <div class="row">
+                    <div class="inner__column">
+                        <div class="title">
+                            Titre du séjour
+                        </div>
+                        <div class="subtitle">
+                            Go Safari 🦁
+                        </div>
+                    </div>
+                    <div class="inner__column">
+                        <div class="modal__btn mobile" data-tab="#editTitle">
+                            <i class="pcI icon-Edit"></i>
+                            <i class="mobileI icon-back"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="inner__column">
+                        <div class="title">
+                            Destination
+                        </div>
+                        <div class="subtitle">
+                            République du Kenya
+                        </div>
+                    </div>
+                    <div class="inner__column">
+                        <div class="modal__btn mobile" data-tab="#destination">
+                            <i class="pcI icon-Edit"></i>
+                            <i class="mobileI icon-back"></i>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="inner__row">
+                        <div class="depart">
+                            <div class="title">
+                                Arrivée
+                            </div>
+                            <div class="subtitle">
+                                ven. 22 août
+                            </div>
+                        </div>
+                        <div class="depart">
+                            <div class="title">
+                                Départ
+                            </div>
+                            <div class="subtitle">
+                                sam. 29 août
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner__column">
+                        <div class="modal__btn mobile" data-tab="#period">
+                            <i class="pcI icon-Edit"></i>
+                            <i class="mobileI icon-back"></i>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="inner__column">
+                        <div class="title">
+                            Titre du séjour
+                        </div>
+                        <div class="subtitle removeMobile">
+                            Go Safari 🦁
+                        </div>
+                        <div class="avatar__group showMobile">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava2.png" alt="" />
+                                <span class="tooltiptext">Damien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava3.png" alt="" />
+                                <span class="tooltiptext">Julie</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava4.png" alt="" />
+                                <span class="tooltiptext">Fabien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava5.png" alt="" />
+                                <span class="tooltiptext">Julien</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner__row">
+                        <div class="avatar__group">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava2.png" alt="" />
+                                <span class="tooltiptext">Damien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava3.png" alt="" />
+                                <span class="tooltiptext">Julie</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava4.png" alt="" />
+                                <span class="tooltiptext">Fabien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava5.png" alt="" />
+                                <span class="tooltiptext">Julien</span>
+                            </div>
+                        </div>
+                        <div class="modal__btn mobile" data-tab="#contribute">
+                            <i class="pcI icon-Edit"></i>
+                            <i class="mobileI icon-back"></i>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- only mobile -->
+                <div class="row">
+                    <div class="inner__column">
+                        <div class="title">
+                            Devise par défaut
+                        </div>
+                        <div class="subtitle">
+                            Euro (€)
+                        </div>
+                    </div>
+                    <div class="inner__column">
+                        <div class="modal__btn mobile" data-tab="#currency">
+                            <i class="pcI icon-Edit"></i>
+                            <i class="mobileI icon-back"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- editTitle start -->
+    <div class="modal" id="editTitle">
+        <div class="modal__inner">
+            <div class="modal__inner-header">
+                <div class="modal__btn" data-tab="#generalModal">
+                    <i class="icon-back"></i>
+                </div>
+                <div class="title">
+                    Modification
+                </div>
+                <div class="modalClose">
+                    <i class="icon-close" data-modal="editTitle"></i>
+                </div>
+            </div>
+            <div class="modal__inner-body">
+                <div class="editTitle">
+                    <div class="title">
+                        Titre du séjour
+                    </div>
+                    <div class="input__outer">
+                        <input type="text" maxlength="15" value="Go Safari 🦁" />
+                    </div>
+                    <div class="info">
+                        <i class="icon-attention"></i>
+                        Maximum 15 caractères
+                    </div>
+                </div>
+            </div>
+            <div class="modal__inner-footer">
+                <button class="valider__btn">
+                    Valider
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- editTitle end -->
+    <!-- destination start -->
+    <div class="modal " id="destination">
+        <form autocomplete="off" class="modal__inner modal700">
+            <div class="modal__inner-header">
+                <div class="modal__btn" data-tab="#generalModal">
+                    <i class="icon-back"></i>
+                </div>
+                <div class="title">
+                    Modification
+                </div>
+                <div class="modalClose">
+                    <i class="icon-close" data-modal="destination"></i>
+                </div>
+            </div>
+            <div class="modal__inner-body">
+                <div class="destination" autocomplete="off" action="">
+                    <div class="autocomplete">
+                        <i class="icon-search"></i>
+                        <input id="searchInput" type="text" name="searchInput" placeholder="Country" />
+                    </div>
+                    <div class="info showInfo" id="removeOn">
+                        <i class="icon-attention"></i>
+                        Pour la destination, tu peux rechercher un continent, un pays, une région, une ville, un lieu
+                        ...
+                    </div>
+                    <div class="country__info" id="countryInfo">
+                        <div class="title">
+                            <div class="flag__outer">
+                                <img src="images/flag.png" alt="" />
+                            </div>
+                            <div class="title__text">
+                                République du Kenya (KEN)
+                            </div>
+                        </div>
+                        <div class="mobileImage">
+                            <img src="images/Kenya 9.png" alt="" />
+                        </div>
+                        <div class="subtitle">
+                            En quelques mots
+                        </div>
+                        <div class="text">
+                            Envie d’une escapade dans la savane, de relaxation sur une plage de sable blanc, ou des
+                            deux ? Le Kenya saura t’offrir les vacances dont tu rêves. Après un passage à Nairobi,
+                            capitale dynamique tant sur le plan culturel qu’économique, et qui vaut la peine de
+                            s’arrêter, va pister les animaux emblématiques de l’Afrique et pars à la rencontre du
+                            peuple maasaï.
+                            , va pister les animaux emblématiques de l’Afrique et pars à la rencontre du
+                            peuple maasaï., va pister les animaux emblématiques de l’Afrique et pars à la rencontre du
+                            peuple maasaï.
+                            , va pister les animaux emblématiques de l’Afrique et pars à la rencontre du
+                            peuple maasaï.
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal__inner-footer">
+                <button type="submit" class="validerInactive" id="validerBtn">
+                    Valider
+                </button>
+            </div>
+        </form>
+    </div>
+    <!-- destination end -->
+    <!-- modoal period start -->
+    <div class="modal" id="period">
+        <form action="" autocomplete="off" class="modal__inner modal700">
+            <div class="modal__inner-header">
+                <div class="modal__btn" id="removeOn" data-tab="#generalModal">
+                    <i class="icon-back"></i>
+                </div>
+                <div class="modal__btn" onClick="history.go(0);">
+                    <i class="icon-back"></i>
+                </div>
+                <div class="title">
+                    Modification
+                </div>
+                <div class="modalClose">
+                    <i class="icon-close" data-modal="period"></i>
+                </div>
+            </div>
+            <div class="modal__inner-body">
+                <div class="period">
+                    <div class="title">
+                        Dates du séjour
+                    </div>
+                    <div class="trips__date-input">
+                        <input type="text" id="datepicker" placeholder="Départ  -  Retour" />
+                    </div>
+                    <div class="trips__date-input-mobile">
+                        <input onfocusout="OnInputFocusOut()" onfocus="OnInputFocus(this)" type="text"
+                            id="datepickerMobile" placeholder="Départ  -  Retour" />
+                    </div>
+                    <div class="perfect" id="perfectPeriod">
+                        <div class="periodTitle">
+                            <i class="icon-linkPl"></i>
+                            <span>Excellente période ✨</span>
+                        </div>
+                        <div class="subtitle">
+                            L’été au Kenya
+                        </div>
+                        <p>
+                            la majeure partie du pays et de toutes les activités qu'il a à offrir. La Côte et le
+                            Nord-Est se visitent idéalement à cette période. C'est également le moment de faire
+                            de la plongée, se baigner et tout simplement faire du farniente. Enfin, vous aurez
+                            tout le loisir d'observer la majeure partie du pays et de toutes les activités qu'il a à
+                            offrir. La Côte et le
+                            Nord-Est se visitent idéalement à cette période. C'est également le moment de faire
+                            de la plongée, se baigner et tout simplement faire du farniente. Enfin, vous aurez
+                            tout le loisir d'obs le Big 5 lors d’un safari inoubliable.
+                        </p>
+                    </div>
+                    <div class="good" id="goodPeriod">
+                        <div class="periodTitle">
+                            <i class="icon-linkPl"></i>
+                            <span>Correcte période ✨</span>
+                        </div>
+                        <div class="subtitle">
+                            L’été au Kenya
+                        </div>
+                        <p>
+                            C'est la période où vous pourrez profiter de la majeure partie du pays et de toutes
+                            les activités qu'il a à offrir. La Côte et le Nord-Est se visitent idéalement à
+                            cette période. C'est également le moment de faire de la plongée, se baigner et tout
+                            simplement faire du farniente. Enfin, vous aurez tout le loisir d'observer le Big 5
+                            lors d’un safari inoubliable.
+                        </p>
+                    </div>
+                    <div class="bad" id="badPeriod">
+                        <div class="red__info">
+                            i
+                        </div>
+                        <p>
+                            Attention ! Le nombre de jours ne correspond pas au montant payé. Pour changer la
+                            durée de ton séjour, fais-en la demande à ton conseiller ExploMaker
+                        </p>
+                    </div>
+                    <div class="trips__date-box showInfo" id="calendarOuter">
+                        <div class="title">
+                            Meilleures périodes pour le Kenya
+                        </div>
+                        <div class="calendar__outer ">
+                            <div class="calendar__line">
+                                <!-- 01-01 to 02-15 -->
+                                <div class="ahuitelno">
+
+                                </div>
+                                <!-- 02-15 to 05-20 -->
+                                <div class="huyoviy">
+
+                                </div>
+                                <!-- 05-20 to 09-10 -->
+                                <div class="ahuitelno__two">
+
+                                </div>
+                                <!-- 09-10 to 12-31 -->
+                                <div class="poydot">
+
+                                </div>
+                            </div>
+                            <div class="calendar__month">
+                                <div class="month">jan</div>
+                                <div class="month">fev</div>
+                                <div class="month">mar</div>
+                                <div class="month">avr</div>
+                                <div class="month">mai</div>
+                                <div class="month">juin</div>
+                                <div class="month">juil</div>
+                                <div class="month">août</div>
+                                <div class="month">sept</div>
+                                <div class="month">oct</div>
+                                <div class="month">nov</div>
+                                <div class="month">dec</div>
+                            </div>
+                            <div class="row">
+                                <div class="row__box">
+                                    <div class="ahuitelno__circle">
+
+                                    </div>
+                                    <div class="text">
+                                        Parfaite
+                                    </div>
+                                </div>
+                                <div class="row__box">
+                                    <div class="poydot__circle">
+
+                                    </div>
+                                    <div class="text">
+                                        Correcte
+                                    </div>
+                                </div>
+                                <div class="row__box">
+                                    <div class="huyoviy__circle"></div>
+                                    <div class="text">
+                                        Déconseillée
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__inner-footer" id="periodFooter">
+                <button type="submit" class="periodBtn" id="periodBtn">
+                    Valider
+                </button>
+            </div>
+        </form>
+    </div>
+    <!-- modoal period end -->
+    <!-- modal contribute start -->
+    <div class="modal" id="contribute">
+        <div class="modal__inner modal700">
+            <div class="modal__inner-header">
+                <div class="modal__btn" data-tab="#generalModal">
+                    <i class="icon-back"></i>
+                </div>
+                <div class="title">
+                    Modification
+                </div>
+                <div class="modalClose">
+                    <i class="icon-close" data-modal="contribute"></i>
+                </div>
+            </div>
+            <div class="modal__inner-body">
+                <div class="content__body">
+                    <div class="title">
+                        Contributeurs
+                    </div>
+                    <div class="text">
+                        Invite tes partenaires de voyage pour pouvoir échanger, et voter pour les propositions faites
+                        par votre conseiller Explomaker !
+                    </div>
+                    <div class="contribut__inner">
+                        <div class="cotribute__row">
+                            <div class="inner__column">
+                                <div class="inner__row">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava2.png" alt="" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">
+                                            Damien Clochard
+                                        </div>
+                                        <div class="prof">
+                                            Propriétaire
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cotribute__row">
+                            <div class="inner__column">
+                                <div class="inner__row">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava1.png" alt="" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">
+                                            Damien Clochard
+                                        </div>
+                                        <div class="prof">
+                                            Propriétaire
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal__btn" data-tab="#accountExample">
+                                <i class="icon-back"></i>
+                            </div>
+                            <div class="inner__column">
+                                <div class="btn__row">
+                                    <div class="custom-select">
+                                        <select>
+                                            <option value="0">Edition</option>
+                                            <option value="1">3Edition</option>
+                                            <option value="2">52Edition</option>
+                                            <option value="3">523Edition</option>
+                                        </select>
+                                    </div>
+                                    <button class="retirer__btn">
+                                        Retirer
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="cotribute__row">
+                            <div class="inner__column">
+                                <div class="inner__row">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava3.png" alt="" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">
+                                            Damien Clochard
+                                        </div>
+                                        <div class="prof">
+                                            Propriétaire
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal__btn" data-tab="#accountExample">
+                                <i class="icon-back"></i>
+                            </div>
+                            <div class="inner__column">
+                                <div class="btn__row">
+                                    <div class="custom-select">
+                                        <select>
+                                            <option value="0">Edition</option>
+                                            <option value="1">3Edition</option>
+                                            <option value="2">52Edition</option>
+                                            <option value="3">523Edition</option>
+                                        </select>
+                                    </div>
+                                    <button class="retirer__btn">
+                                        Retirer
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="cotribute__row">
+                            <div class="inner__column">
+                                <div class="inner__row">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava4.png" alt="" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">
+                                            Damien Clochard
+                                        </div>
+                                        <div class="prof">
+                                            Propriétaire
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal__btn" data-tab="#accountExample">
+                                <i class="icon-back"></i>
+                            </div>
+                            <div class="inner__column">
+                                <div class="btn__row">
+                                    <div class="custom-select">
+                                        <select>
+                                            <option value="0">Edition</option>
+                                            <option value="1">3Edition</option>
+                                            <option value="2">52Edition</option>
+                                            <option value="3">523Edition</option>
+                                        </select>
+                                    </div>
+                                    <button class="retirer__btn">
+                                        Retirer
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="invite__row">
+                        <div class="modal__btn" data-tab="#invite">
+                            <i class="icon-plus"></i>
+                        </div>
+                        <div class="text">
+                            Inviter un nouveau contributeur
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal__inner-footer">
+                <button type="submit" class="valider__btn">
+                    Valider
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- modal contribute end -->
+    <!-- modal accountExample start -->
+    <div class="modal" id="accountExample">
+        <div class="modal__inner modal700">
+            <div class="modal__inner-header">
+                <div class="modal__btn" data-tab="#contribute">
+                    <i class="icon-back"></i>
+                </div>
+                <div class="title">
+                    Modification
+                </div>
+                <div class="modalClose">
+                    <i class="icon-close" data-modal="accountExample"></i>
+                </div>
+            </div>
+            <div class="modal__inner-body">
+                <div class="content__body">
+                    <div class="contr__info">
+                        <div class="contr__avatar">
+                            <img src="images/contrava.png" alt="" />
+                        </div>
+                        <div class="name">
+                            Julie Dupont
+                        </div>
+                        <div class="prof">
+                            Ajouté par vous
+                        </div>
+                    </div>
+                    <div class="contr__choice">
+                        <div class="title">
+                            Droits sur le séjour
+                        </div>
+                        <div class="radio__row">
+                            <input checked type="radio" name="Contexte" id="Lecture" />
+                            <label class="radio__label" for="Lecture">Lecture</label>
+                            <input type="radio" name="Contexte" id="Edition" />
+                            <label class="radio__label" for="Edition">Edition</label>
+                        </div>
+                    </div>
+                    <button class="contr__delete-btn">
+                        Retirer du séjour
+                    </button>
+                </div>
+            </div>
+            <div class="modal__inner-footer">
+                <button type="submit" class="valider__btn">
+                    Valider
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- modal accountExample end -->
+    <!-- modal invite start -->
+    <div class="modal" id="invite">
+        <div class="modal__inner modal700">
+            <div class="modal__inner-header">
+                <div class="modal__btn" data-tab="#contribute">
+                    <i class="icon-back"></i>
+                </div>
+                <div class="title">
+                    Modification
+                </div>
+                <div class="modalClose">
+                    <i class="icon-close" data-modal="invite"></i>
+                </div>
+            </div>
+            <div class="modal__inner-body">
+                <div class="content__body">
+                    <div class="greenTitle marginBotom">
+                        Inviter de nouveaux contributeurs
+                    </div>
+                    <div class="url__input">
+                        <div class="link__tooltip">
+                            Copié!
+                        </div>
+                        <input id="copyId" type="text" value="https://explomaker.com/go_safari/Egj7hk..."
+                            onclick="copyLink()" />
+                    </div>
+                    <div class="url__row">
+                        <div class="url__text">
+                            Droits utilisateurs :
+                        </div>
+                        <div class="custom-select">
+                            <select>
+                                <option value="0">Edition</option>
+                                <option value="1">3Edition</option>
+                                <option value="2">52Edition</option>
+                                <option value="3">523Edition</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="url__info">
+                        <i class="icon-attention"></i>
+                        Tous les utilisateurs disposant de ce lien peuvent voir et modifier le séjour (connexion
+                        requise)
+                    </div>
+                </div>
+            </div>
+            <div class="modal__inner-footer">
+                <button type="submit" class="valider__btn">
+                    Valider
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- modal invite end -->
+    <!-- modal infromation start -->
+    <div class="modal" id="modalInfo">
+        <div class="modal__inner">
+            <div class="modal__inner-header">
+                <div class="title">
+                    Modification
+                </div>
+                <div class="modalClose">
+                    <i class="icon-close" data-modal="modalInfo"></i>
+                </div>
+            </div>
+            <div class="modal__inner-body">
+                <form class="content">
+                    <div class="content__body">
+                        <div class="title">
+                            Contexte
+                        </div>
+                        <div class="radio__row">
+                            <div class="radio-btn-row">
+                                <input checked type="radio" name="Contexte" id="Entre amis" />
+                                <label class="radio__label" for="Entre amis">Entre amis</label>
+                                <input type="radio" name="Contexte" id="En amoureux" />
+                                <label class="radio__label" for="En amoureux">En amoureux</label>
+                                <input type="radio" name="Contexte" id="enFamille" />
+                                <label class="radio__label" for="enFamille">En famille</label>
+                                <input type="radio" name="Contexte" id="Seul" />
+                                <label class="radio__label" for="Seul">Seul</label>
+                            </div>
+                        </div>
+                        <div class="title">
+                            Budget
+                        </div>
+                        <div class="radio__row">
+                            <div class="radio-btn-row">
+                                <input checked type="radio" name="Budget" id="Faible" />
+                                <label class="radio__label" for="Faible">Faible</label>
+                                <input type="radio" name="Budget" id="Moyen" />
+                                <label class="radio__label" for="Moyen">Moyen</label>
+                                <input type="radio" name="Budget" id="Élevé" />
+                                <label class="radio__label" for="Élevé">Élevé</label>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+            <div class="modal__inner-footer">
+                <button type="submit" class="valider__btn">
+                    Valider
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <!-- modal infromation end -->
+    <!-- modal description start -->
+    <div class="modal" id="description">
+        <div class="modal__inner">
+            <div class="modal__inner-header">
+                <div class="title">
+                    Modification
+                </div>
+                <div class="modalClose">
+                    <i class="icon-close" data-modal="description"></i>
+                </div>
+            </div>
+            <div class="modal__inner-body">
+                <div class="content__body">
+                    <div class="title">
+                        Description du séjour
+                    </div>
+                    <textarea name="description" id="" cols="30" rows="7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                    </textarea>
+                </div>
+            </div>
+            <div class="modal__inner-footer">
+                <button type="submit" class="valider__btn">
+                    Valider
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- modal description end -->
+    <!-- modal voyageur start -->
+    <div class="modal" id="voyageur">
+        <div class="modal__inner">
+            <div class="modal__inner-header">
+                <div class="title">
+                    Modification
+                </div>
+                <div class="modalClose">
+                    <i class="icon-close" data-modal="voyageur"></i>
+                </div>
+            </div>
+            <div class="modal__inner-body">
+                <div class="content__body">
+                    <div class="title removeMobile">
+                        Nombre de voyageurs
+                    </div>
+                    <div class="title addMobile">
+                        Les voyageurs
+                    </div>
+                    <div class="incriment__box">
+                        <div class="incriment__box-minus" onclick="minus(this)">
+                            <i class="icon-minus"></i>
+                        </div>
+                        <input type="number" value="4" />
+                        <div class="incriment__box-plus" onclick="plus(this)">
+                            <i class="icon-plus"></i>
+                        </div>
+                    </div>
+                    <div class="title removeMobile">
+                        Voyageurs
+                    </div>
+                    <div class="subtitle addMobile">
+                        Les voyageurs
+                    </div>
+                    <div class="voyageurs__box">
+                        <div class="voyageurs__box-inner">
+                            <div class="voyageurs__row">
+                                <div class="input__outer">
+                                    <input type="text" value="Damien" />
+                                </div>
+                                <div class="custom-select">
+                                    <select>
+                                        <option value="0">25 - 35 ans</option>
+                                        <option value="1">34 - 35 ans</option>
+                                        <option value="2">52 - 35 ans</option>
+                                        <option value="3">52 - 35 ans</option>
+
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="voyageurs__row">
+                                <div class="input__outer">
+                                    <input type="text" value="juil" />
+                                </div>
+                                <div class="custom-select">
+                                    <select>
+                                        <option value="0">25 - 35 ans</option>
+                                        <option value="1">34 - 35 ans</option>
+                                        <option value="2">52 - 35 ans</option>
+                                        <option value="3">52 - 35 ans</option>
+
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="voyageurs__row">
+                                <div class="input__outer">
+                                    <input type="text" value="Fabien" />
+                                </div>
+                                <div class="custom-select">
+                                    <select>
+                                        <option value="0">25 - 35 ans</option>
+                                        <option value="1">34 - 35 ans</option>
+                                        <option value="2">52 - 35 ans</option>
+                                        <option value="3">52 - 35 ans</option>
+
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="voyageurs__row">
+                                <div class="input__outer">
+                                    <input type="text" value="Julie" />
+                                </div>
+                                <div class="custom-select">
+                                    <select>
+                                        <option value="0">25 - 35 ans</option>
+                                        <option value="1">34 - 35 ans</option>
+                                        <option value="2">52 - 35 ans</option>
+                                        <option value="3">52 - 35 ans</option>
+
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__inner-footer">
+                <button type="submit" class="valider__btn">
+                    Valider
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- modal voyageur end -->
+    <!-- modal currency start -->
+    <div class="modal" id="currency">
+        <div class="modal__inner">
+            <div class="modal__inner-header">
+                <div class="modal__btn" data-tab="#generalModal">
+                    <i class="icon-back"></i>
+                </div>
+                <div class="title">
+                    Modification
+                </div>
+                <div class="modalClose">
+                    <i class="icon-close" data-modal="generalModal"></i>
+                </div>
+            </div>
+            <div class="modal__inner-body">
+                <div class="content__body">
+                    <div class="title">
+                        Devise par défaut
+                    </div>
+                    <div class="currency__box">
+                        <div class="custom-select">
+                            <select>
+                                <option value="0">Euro (€)</option>
+                                <option value="0">Euro (€)</option>
+                                <option value="1">USD ($)</option>
+                                <option value="2">Manat (TMT)</option>
+                                <option value="3">YEN (Y)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__inner-footer">
+                <button type="submit" class="valider__btn">
+                    Valider
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- modal currency end -->
+    <div class="chatMobileBtn" id="chatMobileBtn">
+        <i class="icon-message"></i>
+    </div>
+    <!-- all modals end
+    ========================================= -->
+    <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <script src="js/lightpick.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/autocomplete.js"></script>
+    <script src="js/customSelect.js"></script>
+    <script src="js/pageJs/modal.js"></script>
+    <script src="js/pageJs/chat.js"></script>
+    <script src="js/pageJs/main.js"></script>
+</body>
+
+</html>

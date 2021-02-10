@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="css/pageCss/notes.css">
+    <link rel="stylesheet" href="css/pageCss/main.css">
+    <title>Notes</title>
+</head>
+
+<body>
+    <!-- sidebar start
+    ========================================= -->
+    <section class="sidebar">
+        <div class="sidebar__inner">
+            <div class="sidebar__inner-header">
+                <div class="logo__outer">
+                    <img src="images/LOGO.svg" alt="" />
+                </div>
+            </div>
+            <div class="sidebar__inner-body">
+                <div class="sidebar__inner-nav">
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-LinkAp"></i>
+                        <span>
+                            Aperçu
+                        </span>
+
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-LinkEn"></i>
+                        <span>Préférences</span>
+
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkPl"></i>
+                        <span>Planning</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-photo"></i>
+                        <span>Photos</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkDo"></i>
+                        <span>Documents</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkNo"></i>
+                        <span>Notes</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkIn"></i>
+                        <span>Inspiration</span>
+                    </a>
+                </div>
+                <div class="sidebar__inner-footer">
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-arrowLeft"></i>
+                        <span>Mes séjours</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sidebar end
+    ========================================= -->
+    <!-- mobile menu start
+    ========================================= -->
+    <section class="mobileMenu" id="mobileMenu">
+        <div class="mobileMenu__inner">
+            <div class="mobileMenu__inner-nav">
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-LinkAp"></i>
+                    <span>
+                        Aperçu
+                    </span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-linkPl"></i>
+                    <span>Planning</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-photo"></i>
+                    <span>Photos</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-linkIn"></i>
+                    <span>Inspi</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-menu"></i>
+                    <span>Plus</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- mobile menu end
+    ========================================= -->
+    <!-- chat__outer start -->
+    <div class="chat__outer" id="chatMobile">
+        <div class="chatMobileClose" id="chatMobileClose">
+            <i class="icon-close"></i>
+        </div>
+        <!-- chat start
+    ========================================== -->
+        <section class="chat showChat" id="exploMaker">
+            <div class="chat__inner">
+                <div class="chat__header">
+                    <div class="chatMobileArrow" [0]>
+                        <i class="icon-arrowLeft"></i>
+                    </div>
+                    <div class="title">
+                        Messages
+                    </div>
+                    <div class="chat__header-row">
+                        <button class="chat__btn activeChat">
+                            <i class="icon-logoicon"></i>
+                        </button>
+                        <button class="chat__btn" onclick="voyaGeurs()">
+                            <i class="icon-account"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat__box">
+                    <div class="chat__box-header">
+                        <div class="info">
+                            <div class="name">
+                                Julien Loiseau
+                            </div>
+                            <div class="prof">
+                                Explomaker
+                            </div>
+                        </div>
+                        <div class="avatar__outer">
+                            <img src="images/avatar/ava1.png" alt="" />
+                            <span class="tooltiptext">DamiVadssf asdf asd</span>
+
+                        </div>
+                    </div>
+                    <div class="chat__box-body">
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Pour y parvenir, j’aurais besoin de mieux te connaitre 😉 !
+                                        Peux-tu rejoindre la section <a href="#">Préférences</a> afin de renseigner tes
+                                        envies pour ce
+                                        séjour ?
+                                        Merci à toi !
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-LinkEn"></i>
+                                        <span>Préférences</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Merci Damien. J’ai bien cerné le type de séjour que tu souhaites.
+                                        Tu trouveras donc 2 propositions d’explo dans la section <a
+                                            href="#">Planning</a> .
+                                         Dis moi ce que
+                                        tu en penses!
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-linkPl"></i>
+                                        <span>Planning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat__box-footer">
+                    <button class="chat__plus">
+                        <i class="icon-plus"></i>
+                    </button>
+                    <div class="input__outer">
+                        <input type="text" placeholder="Aa">
+                    </div>
+                    <button class="chat__send">
+                        <i class="icon-send"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- chat end
+    ========================================== -->
+        <!-- chat start
+    ========================================== -->
+        <section class="chat" id="voyaGeurs">
+            <div class="chat__inner">
+                <div class="chat__header">
+                    <div class="chatMobileArrow" [1]>
+                        <i class="icon-arrowLeft"></i>
+                    </div>
+                    <div class="title">
+                        Messages
+                    </div>
+                    <div class="chat__header-row">
+                        <button class="chat__btn" onclick="exploMaker()">
+                            <i class="icon-logoicon"></i>
+                        </button>
+                        <button class="chat__btn activeChat">
+                            <i class="icon-account"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat__box">
+                    <div class="chat__box-header">
+                        <div class="info">
+                            <div class="name">
+                                Damien, Julie, Fabien,
+                            </div>
+                            <div class="prof">
+                                Voyageurs
+                            </div>
+                        </div>
+                        <div class="avatar__group">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava2.png" alt="" />
+                                <span class="tooltiptext">Damien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava3.png" alt="" />
+                                <span class="tooltiptext">Julie</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava4.png" alt="" />
+                                <span class="tooltiptext">Fabien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava5.png" alt="" />
+                                <span class="tooltiptext">Julien</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat__box-body">
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Pour y parvenir, j’aurais besoin de mieux te connaitre 😉 !
+                                        Peux-tu rejoindre la section <a href="#">Préférences</a> afin de renseigner tes
+                                        envies pour ce
+                                        séjour ?
+                                        Merci à toi !
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-LinkEn"></i>
+                                        <span>Préférences</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Merci Damien. J’ai bien cerné le type de séjour que tu souhaites.
+                                        Tu trouveras donc 2 propositions d’explo dans la section <a
+                                            href="#">Planning</a> .
+                                         Dis moi ce que
+                                        tu en penses!
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-linkPl"></i>
+                                        <span>Planning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat__box-footer">
+                    <button class="chat__plus">
+                        <i class="icon-plus"></i>
+                    </button>
+                    <div class="input__outer">
+                        <input type="text" placeholder="Aa">
+                    </div>
+                    <button class="chat__send">
+                        <i class="icon-send"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- chat end
+    ========================================== -->
+    </div>
+    <!-- chat__outer end -->
+    <!-- inner Section start
+    ========================================= -->
+    <section class="main">
+        <div class="auto__container">
+            <div class="main__inner">
+                <!-- notes page start 
+                =================================== -->
+                <section class="notes">
+                    <div class="notes__inner">
+                        <div class="notes__inner-top">
+                            <div class="title">
+                                Notes
+                            </div>
+                            <div class="text">
+                                Créez des notes qui vous seront utiles pendant votre séjour, ou durant la préparation de
+                                ce dernier. Vous pouvez créer des notes personnelles, ou des notes partagées.
+                            </div>
+                            <div class="mobileNav">
+                                <div class="mobileNav__column">
+                                    <button class="mobileNav__link activeHead" id="activeHead-1"
+                                        onclick="activeHead1()">
+                                        Personnels
+                                    </button>
+                                </div>
+                                <div class="mobileNav__column">
+                                    <button class="mobileNav__link" id="activeHead-2" onclick="activeHead2()">
+                                        Partagés
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notes__inner-box activeHead" id="Personnels">
+                            <div class="numBtn" id="numBtn1">
+                                Dernière modification
+                                <i class="icon-arrow-top"></i>
+                            </div>
+                            <div class="notes__icon-row">
+                                <div class="icon__outer">
+                                    <i class="icon-lock"></i>
+                                </div>
+                                <div class="notes__icon-title">
+                                    <span>Notes</span> personnelles
+                                </div>
+                            </div>
+                            <div class="notes__inner-grid">
+                                <div class="notes__inner-grid-box">
+                                    <div class="notes__more">
+                                        <button class="notes__more-btn">
+                                            <i class="icon-more"></i>
+                                        </button>
+                                        <div class="notes__more-content">
+                                            <div class="notes__more-inner">
+                                                <div class="notes__more-header">
+                                                    <div class="dropDown__title">
+                                                        <i class="icon-doc "></i>
+                                                        Que mettre dans sa valise ...
+                                                    </div>
+                                                    <button class="closeDropDown">
+                                                        <i class="icon-close"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="notes__more-body">
+                                                    <a class="notes__more-link" href="#">
+                                                        <i class="icon-pencil"></i>
+                                                        <span>Modifier</span>
+                                                    </a>
+                                                    <a class="notes__more-link" href="#">
+                                                        <i class="icon-trash"></i>
+                                                        <span>Supprimer</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="avatar__group">
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava2.png" alt="" />
+                                            <span class="tooltiptext">Damien</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava3.png" alt="" />
+                                            <span class="tooltiptext">Julie</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava4.png" alt="" />
+                                            <span class="tooltiptext">Fabien</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava5.png" alt="" />
+                                            <span class="tooltiptext">Julien</span>
+                                        </div>
+                                    </div>
+                                    <div class="notes__inner-box-container">
+                                        <div class="check__row">
+                                            <label class="slider__check">
+                                                <input checked class="myCheckbox" type="checkbox" name="check"
+                                                    value="1">
+                                                <span class="slider__mark"></span>
+                                            </label>
+                                            <div class="text">
+                                                Vêtements légers
+                                            </div>
+                                        </div>
+                                        <div class="check__row">
+                                            <label class="slider__check">
+                                                <input checked class="myCheckbox" type="checkbox" name="check"
+                                                    value="1">
+                                                <span class="slider__mark"></span>
+                                            </label>
+                                            <div class="text">
+                                                Trousse de toilette
+                                            </div>
+                                        </div>
+                                        <div class="check__row">
+                                            <label class="slider__check">
+                                                <input checked class="myCheckbox" type="checkbox" name="check"
+                                                    value="1">
+                                                <span class="slider__mark"></span>
+                                            </label>
+                                            <div class="text">
+                                                Appareil photo reflex
+                                            </div>
+                                        </div>
+                                        <div class="check__row">
+                                            <label class="slider__check">
+                                                <input class="myCheckbox" type="checkbox" name="check" value="1">
+                                                <span class="slider__mark"></span>
+                                            </label>
+                                            <div class="text">
+                                                Chaussures de randonnée
+                                            </div>
+                                        </div>
+                                        <div class="check__row">
+                                            <label class="slider__check">
+                                                <input class="myCheckbox" type="checkbox" name="check" value="1">
+                                                <span class="slider__mark"></span>
+                                            </label>
+                                            <div class="text">
+                                                Répulsif à moustiques
+                                            </div>
+                                        </div>
+                                        <div class="check__row">
+                                            <label class="slider__check">
+                                                <input class="myCheckbox" type="checkbox" name="check" value="1">
+                                                <span class="slider__mark"></span>
+                                            </label>
+                                            <div class="text">
+                                                Chapeau
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="notesEditior.html" class="grid__box-hover">
+                                        <div class="title">
+                                            À emmener dans la valise
+                                        </div>
+                                        <div class="subtitle">
+                                            Modifiée par moi il y a 2 jours
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="notes__inner-grid-box">
+                                    <div class="notes__more">
+                                        <button class="notes__more-btn">
+                                            <i class="icon-more"></i>
+                                        </button>
+                                        <div class="notes__more-content">
+                                            <div class="notes__more-inner">
+                                                <div class="notes__more-header">
+                                                    <div class="dropDown__title">
+                                                        <i class="icon-doc "></i>
+                                                        Que mettre dans sa valise ...
+                                                    </div>
+                                                    <button class="closeDropDown">
+                                                        <i class="icon-close"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="notes__more-body">
+                                                    <a class="notes__more-link" href="#">
+                                                        <i class="icon-pencil"></i>
+                                                        <span>Modifier</span>
+                                                    </a>
+                                                    <a class="notes__more-link" href="#">
+                                                        <i class="icon-trash"></i>
+                                                        <span>Supprimer</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="avatar__group">
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava2.png" alt="" />
+                                            <span class="tooltiptext">Damien</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava3.png" alt="" />
+                                            <span class="tooltiptext">Julie</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava4.png" alt="" />
+                                            <span class="tooltiptext">Fabien</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava5.png" alt="" />
+                                            <span class="tooltiptext">Julien</span>
+                                        </div>
+                                    </div>
+                                    <div class="notes__inner-box-container">
+                                        <p>
+                                            Né aux environs du Xe siècle, le swahili est un mélange de langue bantoue et
+                                            d'arabe. Aujourd'hui il est parlé au Kenya, en Tanzanie, au Burundi, en
+                                            Ouganda,
+                                            au Rwanda mais aussi au Malawi, en Zambie, au Mozambique et dans l'immense
+                                            République Démocratique du Congo, au point que le swahili est la langue
+                                            bantoue
+                                            la plus parlée.
+                                            Même s'il parait difficilement envisageable de tenir une conversation
+                                            entière,
+                                            les Kenyans apprécient que vous essayiez de dire quelques mots dans leur
+                                            langue
+                                            officielle. Il ne vous tiendront pas rigueur si vous faites des erreurs et
+                                            au
+                                            contraire sauront saluer vos efforts. Quand à la fin de votre séjour, vous
+                                            connaitrez de plus en plus de mot, cela éveillera même leur curiosité.
+                                            Faites
+                                            donc l'effort, les contacts n'en seront que plus chaleureux.
+                                        </p>
+                                    </div>
+
+                                    <a href="notesEditior.html" class="grid__box-hover">
+                                        <div class="title">
+                                            Vocabulaire basique swahili ...
+                                        </div>
+                                        <div class="subtitle">
+                                            Modifiée par moi il y a une semaine
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notes__inner-box" id="Partages">
+                            <div class="numBtn" id="numBtn2">
+                                Dernière modification
+                                <i class="icon-arrow-top"></i>
+                            </div>
+                            <div class="notes__icon-row">
+                                <div class="icon__outer">
+                                    <i class="icon-account"></i>
+                                </div>
+                                <div class="notes__icon-title">
+                                    <span>Notes</span> partagées
+                                </div>
+                            </div>
+                            <div class="notes__inner-grid">
+                                <div class="notes__inner-grid-box">
+                                    <div class="notes__more">
+                                        <button class="notes__more-btn">
+                                            <i class="icon-more"></i>
+                                        </button>
+                                        <div class="notes__more-content">
+                                            <div class="notes__more-inner">
+                                                <div class="notes__more-header">
+                                                    <div class="dropDown__title">
+                                                        <i class="icon-doc "></i>
+                                                        Que mettre dans sa valise ...
+                                                    </div>
+                                                    <button class="closeDropDown">
+                                                        <i class="icon-close"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="notes__more-body">
+                                                    <a class="notes__more-link" href="#">
+                                                        <i class="icon-pencil"></i>
+                                                        <span>Modifier</span>
+                                                    </a>
+                                                    <a class="notes__more-link" href="#">
+                                                        <i class="icon-trash"></i>
+                                                        <span>Supprimer</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="avatar__group">
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava2.png" alt="" />
+                                            <span class="tooltiptext">Damien</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava3.png" alt="" />
+                                            <span class="tooltiptext">Julie</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava4.png" alt="" />
+                                            <span class="tooltiptext">Fabien</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava5.png" alt="" />
+                                            <span class="tooltiptext">Julien</span>
+                                        </div>
+                                    </div>
+                                    <div class="notes__inner-box-container">
+                                        <p>
+                                            Pour faire un safari ou simplement pour prendre du bon temps sur une plage
+                                            de
+                                            sable fin, sous les cocotiers et face à l'immensité azur de l'océan Indien
+                                            un
+                                            voyage au Kenya s'impose de lui-même.
+
+                                            Pour le préparer au mieux et faire en sorte de ne rien oublier qui pourrait
+                                            être
+                                            indispensable sur place, faisons ensemble un point sur ce qui doit être
+                                            rangé
+                                            dans vos bagages.
+
+                                            Sur place, en dehors des deux grandes villes Nairobi et Mombasa, il est
+                                            difficile de faire des achats. Il s'agit donc de faire un point méthodique.
+
+                                        </p>
+                                    </div>
+
+                                    <a href="notesEditior.html" class="grid__box-hover">
+                                        <div class="title">
+                                            Que mettre dans sa valise ...
+                                        </div>
+                                        <div class="subtitle">
+                                            Modifiée par Julie il y a 2h
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="notes__inner-grid-box">
+                                    <div class="notes__more">
+                                        <button class="notes__more-btn">
+                                            <i class="icon-more"></i>
+                                        </button>
+                                        <div class="notes__more-content">
+                                            <div class="notes__more-inner">
+                                                <div class="notes__more-header">
+                                                    <div class="dropDown__title">
+                                                        <i class="icon-doc "></i>
+                                                        Que mettre dans sa valise ...
+                                                    </div>
+                                                    <button class="closeDropDown">
+                                                        <i class="icon-close"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="notes__more-body">
+                                                    <a class="notes__more-link" href="#">
+                                                        <i class="icon-pencil"></i>
+                                                        <span>Modifier</span>
+                                                    </a>
+                                                    <a class="notes__more-link" href="#">
+                                                        <i class="icon-trash"></i>
+                                                        <span>Supprimer</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="avatar__group">
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava2.png" alt="" />
+                                            <span class="tooltiptext">Damien</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava3.png" alt="" />
+                                            <span class="tooltiptext">Julie</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava4.png" alt="" />
+                                            <span class="tooltiptext">Fabien</span>
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava5.png" alt="" />
+                                            <span class="tooltiptext">Julien</span>
+                                        </div>
+                                    </div>
+                                    <div class="notes__inner-box-container">
+                                        <p>
+                                            Quelles formalités pour se rendre au Kenya ?
+                                            Votre passeport doit être valide 6 mois après la date de retour et disposer
+                                            d'au
+                                            moins 3 pages vierges dont 2 face à face.
+
+                                            Pour y entrer, il vous faudra un visa. Vous pouvez vous le procurer avant le
+                                            départ, directement à l’ambassade du pays ou via une agence spécialisée
+                                            (voir
+                                            ci-après) ou sur place, une fois arrivé, à l’aéroport ou aux postes
+                                            frontières
+                                            (selon les destis).
+                                        </p>
+                                    </div>
+
+                                    <a href="notesEditior.html" class="grid__box-hover">
+                                        <div class="title">
+                                            Quelles formalités et quel ...
+                                        </div>
+                                        <div class="subtitle">
+                                            Modifiée par Fabien il y a un mois
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                <!-- notes page end 
+                =================================== -->
+            </div>
+
+        </div>
+    </section>
+    <!-- inner Section end
+    ========================================= -->
+    <!-- modal start 
+    ========================================== -->
+    <div class="notesModal" id="notesModal">
+        <div class="notesModal__inner">
+            <div class="notesModal__inner-header">
+                <div class="title">
+                    Créer une note
+                </div>
+                <div class="notes__close" id="notesModalClose">
+                    <i class="icon-close"></i>
+                </div>
+            </div>
+            <div class="addMobile__header">
+                <a href="#" class="addMobile__headerBtn" id="notesModalClose2">
+                    Anuler
+                </a>
+                <a href="notesEditor.html" class="addMobile__headerBtn">
+                    Ajouter
+                </a>
+            </div>
+            <div class="notesModal__inner-body">
+                <div class="title">
+                    Titre
+                </div>
+                <div class="input__outer">
+                    <input required id="TitleModification" type="text" placeholder="Titre de la note"
+                        onkeydown="checkFilledOut(this)">
+                </div>
+                <div class="documents__ava-box">
+                    <div class="documents__ava-box-text">
+                        Participants concernés
+                    </div>
+                    <div class="documents__radio-row">
+                        <input type="checkbox" name="1" id="1">
+                        <label class="documents__check-label" for="1">
+                            <div class="documents__avatar">
+                                <span class="tooltiptext">Fabien Frossard</span>
+                                <img src="images/avatar/ava1.png" alt="">
+                            </div>
+                        </label>
+                        <input type="checkbox" name="2" id="2">
+                        <label class="documents__check-label" for="2">
+                            <div class="documents__avatar">
+                                <span class="tooltiptext">Fabien Frossard</span>
+                                <img src="images/avatar/ava2.png" alt="">
+                            </div>
+                        </label>
+                        <input type="checkbox" name="3" id="3">
+                        <label class="documents__check-label" for="3">
+                            <div class="documents__avatar">
+                                <span class="tooltiptext">Fabien Frossard</span>
+                                <img src="images/avatar/ava3.png" alt="">
+                            </div>
+                        </label>
+                        <input type="checkbox" name="4" id="4">
+                        <label class="documents__check-label" for="4">
+                            <div class="documents__avatar">
+                                <span class="tooltiptext">Fabien Frossard</span>
+                                <img src="images/avatar/ava4.png" alt="">
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="documentsMobileBlock">
+                    <div class="semiTitle">
+                        Partager le document avec :
+                    </div>
+                    <div class="form__inner-tick-row">
+                        <label class="mobileCheck">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="check__text">
+                            Damien Clochard
+                        </div>
+                    </div>
+                    <div class="form__inner-tick-row">
+                        <label class="mobileCheck">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="check__text">
+                            Julie Dupont
+                        </div>
+                    </div>
+                    <div class="form__inner-tick-row">
+                        <label class="mobileCheck">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="check__text">
+                            Fabien Frossard
+                        </div>
+                    </div>
+                    <div class="form__inner-tick-row">
+                        <label class="mobileCheck">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="check__text">
+                            Mélanie Lemaître
+                        </div>
+                    </div>
+                </div>
+                <div class="row__modal-btn">
+                    <a href="notesEditior.html" class="notes__btn hide" id="greenBtn">
+                        Créer la note
+                    </a>
+                    <a href="#" class="notes__btn-grey" id="greyBtn">
+                        Créer la note
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="num" id="num1">
+        <div class="num__inner">
+            <div class="num__inner-header">
+                <div class="num__title">
+                    Trier par
+                </div>
+                <button class="numClose" id="numClose1">
+                    <i class="icon-close"></i>
+                </button>
+            </div>
+            <div class="num__inner-body">
+                <a class="num__inner-link" href="#">
+                    <i class="icon-download"></i>
+                    <span>Nom</span>
+                </a>
+                <a class="num__inner-link" href="#">
+                    <i class="icon-pencil"></i>
+                    <span>Date d’ajout</span>
+                </a>
+                <a class="num__inner-link" href="#">
+                    <i class="icon-trash"></i>
+                    <span>Dernière ouverture par moi</span>
+                </a>
+                <a class="num__inner-link" href="#">
+                    <i class="icon-trash"></i>
+                    <span>Dernière ouverture par moi</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="num" id="num2">
+        <div class="num__inner">
+            <div class="num__inner-header">
+                <div class="num__title">
+                    Trier par
+                </div>
+                <button class="numClose" id="numClose2">
+                    <i class="icon-close"></i>
+                </button>
+            </div>
+            <div class="num__inner-body">
+                <a class="num__inner-link" href="#">
+                    <i class="icon-download"></i>
+                    <span>Nom</span>
+                </a>
+                <a class="num__inner-link" href="#">
+                    <i class="icon-pencil"></i>
+                    <span>Date d’ajout</span>
+                </a>
+                <a class="num__inner-link" href="#">
+                    <i class="icon-trash"></i>
+                    <span>Dernière ouverture par moi</span>
+                </a>
+                <a class="num__inner-link" href="#">
+                    <i class="icon-trash"></i>
+                    <span>Dernière ouverture par moi</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <button class="notesModalBtn" id="notesModalBtn">
+        <i class="icon-plus"></i>
+    </button>
+    <!-- modal start 
+    ========================================== -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/pageJs/notes.js"></script>
+</body>
+
+</html>

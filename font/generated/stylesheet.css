@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Lumios Typewriter Old';
+    src: url('LumiosTypewriter-Old.eot');
+    src: url('LumiosTypewriter-Old.eot?#iefix') format('embedded-opentype'),
+        url('LumiosTypewriter-Old.woff2') format('woff2'),
+        url('LumiosTypewriter-Old.woff') format('woff'),
+        url('LumiosTypewriter-Old.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lumios Typewriter New';
+    src: url('LumiosTypewriter-New.eot');
+    src: url('LumiosTypewriter-New.eot?#iefix') format('embedded-opentype'),
+        url('LumiosTypewriter-New.woff2') format('woff2'),
+        url('LumiosTypewriter-New.woff') format('woff'),
+        url('LumiosTypewriter-New.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lumios Typewriter Used';
+    src: url('LumiosTypewriter-Used.eot');
+    src: url('LumiosTypewriter-Used.eot?#iefix') format('embedded-opentype'),
+        url('LumiosTypewriter-Used.woff2') format('woff2'),
+        url('LumiosTypewriter-Used.woff') format('woff'),
+        url('LumiosTypewriter-Used.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lumios Typewriter Tape';
+    src: url('LumiosTypewriter-Tape.eot');
+    src: url('LumiosTypewriter-Tape.eot?#iefix') format('embedded-opentype'),
+        url('LumiosTypewriter-Tape.woff2') format('woff2'),
+        url('LumiosTypewriter-Tape.woff') format('woff'),
+        url('LumiosTypewriter-Tape.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

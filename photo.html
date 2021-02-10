@@ -1,0 +1,1965 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/lightpick.css">
+    <link rel="stylesheet" href="css/pageCss/photo.css">
+    <link rel="stylesheet" href="css/pageCss/main.css">
+</head>
+
+<body>
+    <!-- sidebar start
+    ========================================= -->
+    <section class="sidebar">
+        <div class="sidebar__inner">
+            <div class="sidebar__inner-header">
+                <div class="logo__outer">
+                    <img src="images/LOGO.svg" alt="" />
+                </div>
+            </div>
+            <div class="sidebar__inner-body">
+                <div class="sidebar__inner-nav">
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-LinkAp"></i>
+                        <span>
+                            Aperçu
+                        </span>
+
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-LinkEn"></i>
+                        <span>Préférences</span>
+
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkPl"></i>
+                        <span>Planning</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-photo"></i>
+                        <span>Photos</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkDo"></i>
+                        <span>Documents</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkNo"></i>
+                        <span>Notes</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkIn"></i>
+                        <span>Inspiration</span>
+                    </a>
+                </div>
+                <div class="sidebar__inner-footer">
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-arrowLeft"></i>
+                        <span>Mes séjours</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sidebar end
+    ========================================= -->
+    <!-- mobile menu start
+    ========================================= -->
+    <section class="mobileMenu" id="mobileMenu">
+        <div class="mobileMenu__inner">
+            <div class="mobileMenu__inner-nav">
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-LinkAp"></i>
+                    <span>
+                        Aperçu
+                    </span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-linkPl"></i>
+                    <span>Planning</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-photo"></i>
+                    <span>Photos</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-linkIn"></i>
+                    <span>Inspi</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-menu"></i>
+                    <span>Plus</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- mobile menu end
+    ========================================= -->
+    <!-- chat__outer start -->
+    <div class="chat__outer" id="chatMobile">
+        <div class="chatMobileClose" id="chatMobileClose">
+            <i class="icon-close"></i>
+        </div>
+        <!-- chat start
+    ========================================== -->
+        <section class="chat showChat" id="exploMaker">
+            <div class="chat__inner">
+                <div class="chat__header">
+                    <div class="chatMobileArrow" [0]>
+                        <i class="icon-arrowLeft"></i>
+                    </div>
+                    <div class="title">
+                        Messages
+                    </div>
+                    <div class="chat__header-row">
+                        <button class="chat__btn activeChat">
+                            <i class="icon-logoicon"></i>
+                        </button>
+                        <button class="chat__btn" onclick="voyaGeurs()">
+                            <i class="icon-account"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat__box">
+                    <div class="chat__box-header">
+                        <div class="info">
+                            <div class="name">
+                                Julien Loiseau
+                            </div>
+                            <div class="prof">
+                                Explomaker
+                            </div>
+                        </div>
+                        <div class="avatar__outer">
+                            <img src="images/avatar/ava1.png" alt="" />
+                            <span class="tooltiptext">DamiVadssf asdf asd</span>
+
+                        </div>
+                    </div>
+                    <div class="chat__box-body">
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Pour y parvenir, j’aurais besoin de mieux te connaitre 😉 !
+                                        Peux-tu rejoindre la section <a href="#">Préférences</a> afin de renseigner tes
+                                        envies pour ce
+                                        séjour ?
+                                        Merci à toi !
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-LinkEn"></i>
+                                        <span>Préférences</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Merci Damien. J’ai bien cerné le type de séjour que tu souhaites.
+                                        Tu trouveras donc 2 propositions d’explo dans la section <a
+                                            href="#">Planning</a> .
+                                         Dis moi ce que
+                                        tu en penses!
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-linkPl"></i>
+                                        <span>Planning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat__box-footer">
+                        <button class="chat__plus">
+                            <i class="icon-plus"></i>
+                        </button>
+                        <div class="input__outer">
+                            <input type="text" placeholder="Aa">
+                        </div>
+                        <button class="chat__send">
+                            <i class="icon-send"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- chat end
+    ========================================== -->
+        <!-- chat start
+    ========================================== -->
+        <section class="chat" id="voyaGeurs">
+            <div class="chat__inner">
+                <div class="chat__header">
+                    <div class="chatMobileArrow" [1]>
+                        <i class="icon-arrowLeft"></i>
+                    </div>
+                    <div class="title">
+                        Messages
+                    </div>
+                    <div class="chat__header-row">
+                        <button class="chat__btn" onclick="exploMaker()">
+                            <i class="icon-logoicon"></i>
+                        </button>
+                        <button class="chat__btn activeChat">
+                            <i class="icon-account"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat__box">
+                    <div class="chat__box-header">
+                        <div class="info">
+                            <div class="name">
+                                Damien, Julie, Fabien,
+                            </div>
+                            <div class="prof">
+                                Voyageurs
+                            </div>
+                        </div>
+                        <div class="avatar__group">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava2.png" alt="" />
+                                <span class="tooltiptext">Damien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava3.png" alt="" />
+                                <span class="tooltiptext">Julie</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava4.png" alt="" />
+                                <span class="tooltiptext">Fabien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava5.png" alt="" />
+                                <span class="tooltiptext">Julien</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat__box-body">
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Pour y parvenir, j’aurais besoin de mieux te connaitre 😉 !
+                                        Peux-tu rejoindre la section <a href="#">Préférences</a> afin de renseigner tes
+                                        envies pour ce
+                                        séjour ?
+                                        Merci à toi !
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-LinkEn"></i>
+                                        <span>Préférences</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Merci Damien. J’ai bien cerné le type de séjour que tu souhaites.
+                                        Tu trouveras donc 2 propositions d’explo dans la section <a
+                                            href="#">Planning</a> .
+                                         Dis moi ce que
+                                        tu en penses!
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-linkPl"></i>
+                                        <span>Planning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat__box-footer">
+                        <button class="chat__plus">
+                            <i class="icon-plus"></i>
+                        </button>
+                        <div class="input__outer">
+                            <input type="text" placeholder="Aa">
+                        </div>
+                        <button class="chat__send">
+                            <i class="icon-send"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- chat end
+    ========================================== -->
+    </div>
+    <!-- chat__outer end -->
+    <section class="main" id="main">
+        <div class="auto__container">
+            <div class="main__inner">
+                <div class="photoPage">
+                    <div class="photoPage__box">
+                        <div class="title">
+                            Album du séjour
+                        </div>
+                        <div class="text">
+                            Le séjour a débuté ! Tous les voyageurs peuvent ajouter leurs photos ici.
+                        </div>
+                        <div class="photoPage__grid">
+                            <div class="photoPage__grid-row">
+                                <div class="grid__column-md">
+                                    <div class="image__outer">
+                                        <img src="images/photoPage/1.jpg" alt=""/>
+                                        <div class="hover__content">
+                                            <div class="hover__content-row">
+                                                <div class="hover__content-column">
+                                                    <i class="icon-solidHeart"></i> 4
+                                                </div>
+                                                <div class="hover__content-column">
+                                                    <i class="icon-Message"></i> 4
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-sm">
+                                    <div class="image__outer">
+                                        <img src="images/photoPage/sm1.png" alt=""/>
+                                        <div class="hover__content">
+                                            <div class="hover__content-row">
+                                                <div class="hover__content-column">
+                                                    <i class="icon-solidHeart"></i> 4
+                                                </div>
+                                                <div class="hover__content-column">
+                                                    <i class="icon-Message"></i> 4
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="image__outer">
+                                        <img src="images/photoPage/sm2.png" alt=""/>
+                                        <div class="hover__content">
+                                            <div class="hover__content-row">
+                                                <div class="hover__content-column">
+                                                    <i class="icon-solidHeart"></i> 4
+                                                </div>
+                                                <div class="hover__content-column">
+                                                    <i class="icon-Message"></i> 4
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-bg">
+                                    <div class="image__outer">
+                                        <img src="images/photoPage/2.png" alt=""/>
+                                        <div class="hover__content">
+                                            <div class="hover__content-row">
+                                                <div class="hover__content-column">
+                                                    <i class="icon-solidHeart"></i> 4
+                                                </div>
+                                                <div class="hover__content-column">
+                                                    <i class="icon-Message"></i> 4
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="photoPage__btn">
+                            <i class="icon-download"></i>
+                        </button>
+                    </div>
+                    <div class="photoPage__box">
+                        <div class="title">
+                            Photos partagées
+                        </div>
+                        <div class="text">
+                            Cet espace de partage est commun à l’ensemble des voyageurs de ton séjour.  Ajoute des
+                            photos de lieux que tu souhaites visiter, d’activités qui t’intéressent,  ou plus simplement
+                            de belles photos que tu souhaites partager.
+                        </div>
+                        <div class="photoPage__grid">
+                            <div class="photoPage__grid-row">
+                                <div class="grid__column-md">
+                                    <div class="image__outer">
+                                        <img src="images/photoPage/1.jpg" alt=""/>
+                                        <div class="hover__content">
+                                            <div class="hover__content-row">
+                                                <div class="hover__content-column">
+                                                    <i class="icon-solidHeart"></i> 4
+                                                </div>
+                                                <div class="hover__content-column">
+                                                    <i class="icon-Message"></i> 4
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-sm">
+                                    <div class="image__outer">
+                                        <img src="images/photoPage/sm1.png" alt=""/>
+                                        <div class="hover__content">
+                                            <div class="hover__content-row">
+                                                <div class="hover__content-column">
+                                                    <i class="icon-solidHeart"></i> 4
+                                                </div>
+                                                <div class="hover__content-column">
+                                                    <i class="icon-Message"></i> 4
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="image__outer">
+                                        <img src="images/photoPage/sm2.png" alt=""/>
+                                        <div class="hover__content">
+                                            <div class="hover__content-row">
+                                                <div class="hover__content-column">
+                                                    <i class="icon-solidHeart"></i> 4
+                                                </div>
+                                                <div class="hover__content-column">
+                                                    <i class="icon-Message"></i> 4
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-bg">
+                                    <div class="image__outer">
+                                        <img src="images/photoPage/2.png" alt=""/>
+                                        <div class="hover__content">
+                                            <div class="hover__content-row">
+                                                <div class="hover__content-column">
+                                                    <i class="icon-solidHeart"></i> 4
+                                                </div>
+                                                <div class="hover__content-column">
+                                                    <i class="icon-Message"></i> 4
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="photoPage__grid-row">
+                                <div class="grid__column-sm">
+                                    <div class="image__outer">
+                                        <img src="images/photoPage/sm1.png" alt=""//>
+                                        <div class="hover__content">
+                                            <div class="hover__content-row">
+                                                <div class="hover__content-column">
+                                                    <i class="icon-solidHeart"></i> 4
+                                                </div>
+                                                <div class="hover__content-column">
+                                                    <i class="icon-Message"></i> 4
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="image__outer">
+                                        <img src="images/photoPage/sm2.png" alt=""/>
+                                        <div class="hover__content">
+                                            <div class="hover__content-row">
+                                                <div class="hover__content-column">
+                                                    <i class="icon-solidHeart"></i> 4
+                                                </div>
+                                                <div class="hover__content-column">
+                                                    <i class="icon-Message"></i> 4
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-md">
+                                    <div class="image__outer">
+                                        <img src="images/photoPage/2.png" alt=""/>
+                                        <div class="hover__content">
+                                            <div class="hover__content-row">
+                                                <div class="hover__content-column">
+                                                    <i class="icon-solidHeart"></i> 4
+                                                </div>
+                                                <div class="hover__content-column">
+                                                    <i class="icon-Message"></i> 4
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-sm">
+                                    <div class="image__outer">
+                                        <img src="images/photoPage/sm4.png" alt=""/>
+                                        <div class="hover__content">
+                                            <div class="hover__content-row">
+                                                <div class="hover__content-column">
+                                                    <i class="icon-solidHeart"></i> 4
+                                                </div>
+                                                <div class="hover__content-column">
+                                                    <i class="icon-Message"></i> 4
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="image__outer">
+                                        <img src="images/photoPage/sm5.png" alt=""/>
+                                        <div class="hover__content">
+                                            <div class="hover__content-row">
+                                                <div class="hover__content-column">
+                                                    <i class="icon-solidHeart"></i> 4
+                                                </div>
+                                                <div class="hover__content-column">
+                                                    <i class="icon-Message"></i> 4
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-md">
+                                    <div class="image__outer">
+                                        <img src="images/photoPage/1.jpg" alt=""/>
+                                        <div class="hover__content">
+                                            <div class="hover__content-row">
+                                                <div class="hover__content-column">
+                                                    <i class="icon-solidHeart"></i> 4
+                                                </div>
+                                                <div class="hover__content-column">
+                                                    <i class="icon-Message"></i> 4
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="photoPage__btn">
+                            <i class="icon-download"></i>
+                        </button>
+                    </div>
+
+                </div>
+                <!-- mobile version start
+                    ================================= -->
+                <section class="photoMobile" id="photoMobile">
+                    <div class="photoMobile__header">
+                        <div class="title">
+                            Albums
+                        </div>
+                    </div>
+                    <div class="photoMobile__body">
+                        <!-- title modal add photo end -->
+                        <div class="addPhoto__mobile" id="addPhotoMobile">
+                            <i class="icon-plus"></i>
+                        </div>
+                        <div class="addPhoto__mobile-list" id="addPhotoList">
+                            <div class="addPhoto__mobile-list-inner" id="plan">
+                                <button class="list__btn modal__btn" data-tab="#albumDetail">
+                                    <i class="icon-image"></i>
+                                    Photos ou vidéos
+                                </button>
+                                <button class="list__btn modal__btn" data-tab="#mobileModal-1">
+                                    <i class="icon-photo"></i>
+                                    Appareil photo
+                                </button>
+                                <button class="list__btn modal__btn" data-tab="#titleModal">
+                                    <i class="icon-plus plus"></i>
+                                    Créer un nouvel album
+                                </button>
+                            </div>
+                        </div>
+                        <!-- mobile version start
+                    ================================= -->
+                        <div class="photo__box ">
+                            <div class="backgorundBlur" id="backBlur-1"></div>
+                            <div class="photo__box-outer">
+                                <div class="photo__box-inner modal__btn" data-tab="#mobileModal-1">
+                                    <div class="photo__box-header">
+                                        <div class="side">
+                                            <div class="title green">
+                                                Photos du séjour
+                                            </div>
+                                            <div class="number">
+                                                10 photos
+                                            </div>
+                                        </div>
+                                        <div class="side">
+                                            <div class="photo__box-btn">
+                                                <i class="icon-download"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="photo__box-body">
+                                        <div class="photoMobile__slider">
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm1.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm2.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm3.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm4.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm5.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm6.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm6.png" alt=""/>
+                                                <div class="slides__left">
+                                                    +3
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="photo__box-footer">
+                                        <div class="side">
+                                            Partagé | 4 personnes
+                                        </div>
+                                        <div class="avatar__group">
+                                            <div class="avatar__outer">
+                                                <img src="images/avatar/ava2.png" alt="" />
+                                            </div>
+                                            <div class="avatar__outer">
+                                                <img src="images/avatar/ava3.png" alt="" />
+                                            </div>
+                                            <div class="avatar__outer">
+                                                <img src="images/avatar/ava4.png" alt="" />
+                                            </div>
+                                            <div class="avatar__outer">
+                                                <img src="images/avatar/ava5.png" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photo__box-list">
+                                    <a href="#" class="photo__box-list-link">
+                                        Renommer
+                                    </a>
+                                    <a href="#" class="photo__box-list-link">
+                                        Quitter l’album
+                                    </a>
+                                    <a href="#" class="photo__box-list-link">
+                                        Supprimer l’album
+                                        <i class="icon-trash"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="photo__box">
+                            <div class="backgorundBlur" id="backBlur-2"></div>
+                            <div class="photo__box-outer">
+                                <div class="photo__box-inner">
+                                    <div class="photo__box-header">
+                                        <div class="side">
+                                            <div class="title">
+                                                Photos partagées
+                                            </div>
+                                            <div class="number">
+                                                10 photos
+                                            </div>
+                                        </div>
+                                        <div class="side">
+                                            <div class="photo__box-btn">
+                                                <i class="icon-download"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="photo__box-body">
+                                        <div class="photoMobile__slider">
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm1.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm2.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm3.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm4.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm5.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm6.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm6.png" alt=""/>
+                                                <div class="slides__left">
+                                                    +3
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="photo__box-footer">
+                                        <div class="side">
+                                            Partagé | 4 personnes
+                                        </div>
+                                        <div class="avatar__group">
+                                            <div class="avatar__outer">
+                                                <img src="images/avatar/ava2.png" alt="" />
+                                            </div>
+                                            <div class="avatar__outer">
+                                                <img src="images/avatar/ava3.png" alt="" />
+                                            </div>
+                                            <div class="avatar__outer">
+                                                <img src="images/avatar/ava4.png" alt="" />
+                                            </div>
+                                            <div class="avatar__outer">
+                                                <img src="images/avatar/ava5.png" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="photo__box-list">
+                                    <a href="#" class="photo__box-list-link">
+                                        Renommer
+                                    </a>
+                                    <a href="#" class="photo__box-list-link">
+                                        Quitter l’album
+                                    </a>
+                                    <a href="#" class="photo__box-list-link">
+                                        Supprimer l’album
+                                        <i class="icon-trash"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="photo__box">
+                            <div class="backgorundBlur" id="backBlur-3"></div>
+                            <div class="photo__box-outer">
+                                <div class="photo__box-inner">
+                                    <div class="photo__box-header">
+                                        <div class="side">
+                                            <div class="title">
+                                                Mon album
+                                            </div>
+                                            <div class="number">
+                                                10 photos
+                                            </div>
+                                        </div>
+                                        <div class="side">
+                                            <div class="photo__box-btn">
+                                                <i class="icon-download"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="photo__box-body">
+                                        <div class="photoMobile__slider">
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm1.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm2.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm3.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm4.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm5.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm6.png" alt=""/>
+                                            </div>
+                                            <div class="image__outer">
+                                                <img src="images/photoPage/sm6.png" alt=""/>
+                                                <div class="slides__left">
+                                                    +3
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="photo__box-footer">
+                                        <div class="side">
+                                            Partagé | 4 personnes
+                                        </div>
+                                        <div class="avatar__group">
+                                            <div class="avatar__outer">
+                                                <img src="images/avatar/ava2.png" alt="" />
+                                            </div>
+                                            <div class="avatar__outer">
+                                                <img src="images/avatar/ava3.png" alt="" />
+                                            </div>
+                                            <div class="avatar__outer">
+                                                <img src="images/avatar/ava4.png" alt="" />
+                                            </div>
+                                            <div class="avatar__outer">
+                                                <img src="images/avatar/ava5.png" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photo__box-list">
+                                    <a href="#" class="photo__box-list-link">
+                                        Renommer
+                                    </a>
+                                    <a href="#" class="photo__box-list-link">
+                                        Quitter l’album
+                                    </a>
+                                    <a href="#" class="photo__box-list-link">
+                                        Supprimer l’album
+                                        <i class="icon-trash"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- photoMobile modals start -->
+                <section class="photoMobile__modal modal" id="mobileModal-1">
+                    <div class="photoMobile__modal-inner">
+                        <div class="photoMobile__modal-header">
+                            <button class="photoMobile__back ">
+                                <i class="icon-back modalClose" data-modal="mobileModal-1"></i>
+                            </button>
+                            <button class="photoMobile__more">
+                                <i class="icon-more"></i>
+                            </button>
+                        </div>
+                        <div class="photoMobile__modal-body">
+                            <div class="photoMobile__modal-body-header">
+                                <div class="title">
+                                    Photos du séjour
+                                </div>
+                                <div class="row">
+                                    <div class="avatar__group">
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava2.png" alt="" />
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava3.png" alt="" />
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava4.png" alt="" />
+                                        </div>
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava5.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="photoMobile__modal-plus">
+                                        <i class="icon-plus"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="photoMobile__modal-body-row" id="gallerySlider">
+                                <div class="photoMobile__modal-body-column">
+                                    <a data-fancybox="gallery" data-src="#tab-1" class="image__outer">
+                                        <img src="images/photoMobile/1.png" alt=""/>
+                                        <div class="mobilePhoto__like-row">
+                                            <div class="mobilePhoto__like">
+                                                <i class="icon-solidHeart"></i>
+                                                3
+                                            </div>
+                                            <div class="mobilePhoto__like">
+                                                <i class="icon-messageSm"></i>
+                                                4
+                                            </div>
+                                        </div>
+                                        <div class="modalPhoto__slide" style="display: none;" id="tab-1">
+                                            <div class="modalPhoto__slide-more">
+                                                <i class="icon-more"></i>
+                                            </div>
+                                            <div class="bg__blur">
+                                                <img src="images/photoMobile/bg1.png" alt=""/>
+                                            </div>
+
+                                            <div class="bg__content">
+                                                <div class="image__outer">
+                                                    <img src="images/photoMobile/bg1.png" alt=""/>
+                                                </div>
+                                                <div class="bg__content-info">
+                                                    <div class="info__header">
+                                                        <div class="name">
+                                                            Damien Clochard
+                                                        </div>
+                                                        <div class="date">
+                                                            20 septembre 2020
+                                                        </div>
+                                                    </div>
+                                                    <div class="info__body">
+                                                        <p class="para">
+                                                            Regardez ça 😍 ! Photo prise lors d’une cérémonie d’une
+                                                            tribu Masaï au Kenya. Ça vous tente d’aller à leur rencontre
+                                                            ? On ne peut pas louper ça !
+                                                        </p>
+                                                    </div>
+                                                    <div class="info__preFooter">
+                                                        <button class="likes modal__btn" data-tab="#likeModal">
+                                                            <i class="icon-solidHeart"></i>
+                                                            3
+                                                        </button>
+                                                        <button class="info__comment modal__btn" data-tab="#comment">
+                                                            5 commentaires
+                                                        </button>
+                                                    </div>
+                                                    <div class="info__footer">
+                                                        <button class="info__footer-btn like">
+                                                            <i class="icon-solidHeart"></i>
+                                                            J’aime
+                                                        </button>
+                                                        <button class="info__footer-btn modal__btn" data-tab="#comment">
+                                                            <i class="icon-messageSm"></i>
+                                                            Commenter
+                                                        </button>
+                                                        <button class="info__footer-btn">
+                                                            <i class="icon-download"></i>
+                                                            Partager
+                                                        </button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="gallery" data-src="#tab-2" class="image__outer">
+                                        <div class="mobilePhoto__like-row">
+                                            <div class="mobilePhoto__like">
+                                                <i class="icon-solidHeart"></i>
+                                                3
+                                            </div>
+                                            <div class="mobilePhoto__like">
+                                                <i class="icon-messageSm"></i>
+                                                4
+                                            </div>
+                                        </div>
+                                        <img src="images/photoMobile/2.png" alt=""/>
+                                        <div class="modalPhoto__slide" style="display: none;" id="tab-2">
+                                            <div class="modalPhoto__slide-more">
+                                                <i class="icon-more"></i>
+                                            </div>
+                                            <div class="bg__blur">
+                                                <img src="images/photoMobile/bg2.png" alt=""/>
+                                            </div>
+
+                                            <div class="bg__content">
+                                                <div class="image__outer">
+                                                    <img src="images/photoMobile/bg2.png" alt=""/>
+                                                </div>
+                                                <div class="bg__content-info">
+                                                    <div class="info__header">
+                                                        <div class="name">
+                                                            Damien Clochard
+                                                        </div>
+                                                        <div class="date">
+                                                            20 septembre 2020
+                                                        </div>
+                                                    </div>
+                                                    <div class="info__body">
+                                                        <p class="para">
+                                                            Regardez ça 😍 ! Photo prise lors d’une cérémonie d’une
+                                                            tribu Masaï au Kenya. Ça vous tente d’aller à leur rencontre
+                                                            ? On ne peut pas louper ça !
+                                                        </p>
+                                                    </div>
+                                                    <div class="info__preFooter">
+                                                        <div class="likes">
+                                                            <i class="icon-solidHeart"></i>
+                                                            3
+                                                        </div>
+                                                        <button class="info__comment" data-tab="#comment">
+                                                            5 commentaires
+                                                        </button>
+                                                    </div>
+                                                    <div class="info__footer">
+                                                        <button class="info__footer-btn like">
+                                                            <i class="icon-solidHeart"></i>
+                                                            J’aime
+                                                        </button>
+                                                        <button class="info__footer-btn">
+                                                            <i class="icon-messageSm"></i>
+                                                            Commenter
+                                                        </button>
+                                                        <button class="info__footer-btn">
+                                                            <i class="icon-download"></i>
+                                                            Partager
+                                                        </button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="gallery" data-src="#tab-3" class="image__outer">
+                                        <img src="images/photoMobile/3.png" alt=""/>
+                                        <div class="mobilePhoto__like-row">
+                                            <div class="mobilePhoto__like">
+                                                <i class="icon-solidHeart"></i>
+                                                3
+                                            </div>
+                                            <div class="mobilePhoto__like">
+                                                <i class="icon-messageSm"></i>
+                                                4
+                                            </div>
+                                        </div>
+                                        <div class="modalPhoto__slide" style="display: none;" id="tab-3">
+                                            <div class="modalPhoto__slide-more">
+                                                <i class="icon-more"></i>
+                                            </div>
+                                            <div class="bg__blur">
+                                                <img src="images/photoMobile/bg3.png" alt=""/>
+                                            </div>
+
+                                            <div class="bg__content">
+                                                <div class="image__outer">
+                                                    <img src="images/photoMobile/bg3.png" alt=""/>
+                                                </div>
+                                                <div class="bg__content-info">
+                                                    <div class="info__header">
+                                                        <div class="name">
+                                                            Damien Clochard
+                                                        </div>
+                                                        <div class="date">
+                                                            20 septembre 2020
+                                                        </div>
+                                                    </div>
+                                                    <div class="info__body">
+                                                        <p class="para">
+                                                            Regardez ça 😍 ! Photo prise lors d’une cérémonie d’une
+                                                        </p>
+                                                    </div>
+                                                    <div class="info__preFooter">
+                                                        <div class="likes">
+                                                            <i class="icon-solidHeart"></i>
+                                                            3
+                                                        </div>
+                                                        <button class="info__comment" data-tab="#comment">
+                                                            5 commentaires
+                                                        </button>
+                                                    </div>
+                                                    <div class="info__footer">
+                                                        <button class="info__footer-btn like">
+                                                            <i class="icon-solidHeart"></i>
+                                                            J’aime
+                                                        </button>
+                                                        <button class="info__footer-btn">
+                                                            <i class="icon-messageSm"></i>
+                                                            Commenter
+                                                        </button>
+                                                        <button class="info__footer-btn">
+                                                            <i class="icon-download"></i>
+                                                            Partager
+                                                        </button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="photoMobile__modal-body-column">
+                                    <a data-fancybox="gallery" data-src="#tab-5" class="image__outer">
+                                        <img src="images/photoMobile/3.png" alt=""/>
+                                        <div class="mobilePhoto__like-row">
+                                            <div class="mobilePhoto__like">
+                                                <i class="icon-solidHeart"></i>
+                                                3
+                                            </div>
+                                            <div class="mobilePhoto__like">
+                                                <i class="icon-messageSm"></i>
+                                                4
+                                            </div>
+                                        </div>
+                                        <div class="modalPhoto__slide" style="display: none;" id="tab-5">
+                                            <div class="modalPhoto__slide-more">
+                                                <i class="icon-more"></i>
+                                            </div>
+                                            <div class="bg__blur">
+                                                <img src="images/photoMobile/bg3.png" alt=""/>
+                                            </div>
+
+                                            <div class="bg__content">
+                                                <div class="image__outer">
+                                                    <img src="images/photoMobile/bg3.png" alt=""/>
+                                                </div>
+                                                <div class="bg__content-info">
+                                                    <div class="info__header">
+                                                        <div class="name">
+                                                            Damien Clochard
+                                                        </div>
+                                                        <div class="date">
+                                                            20 septembre 2020
+                                                        </div>
+                                                    </div>
+                                                    <div class="info__body">
+                                                        <p class="para">
+                                                            Regardez ça 😍 ! Photo prise lors d’une cérémonie d’une
+                                                            tribu Masaï au Kenya. Ça vous tente d’aller à leur rencontre
+                                                            ? On ne peut pas louper ça !
+                                                        </p>
+                                                    </div>
+                                                    <div class="info__preFooter">
+                                                        <div class="likes">
+                                                            <i class="icon-solidHeart"></i>
+                                                            3
+                                                        </div>
+                                                        <button class="info__comment" data-tab="#comment">
+                                                            5 commentaires
+                                                        </button>
+                                                    </div>
+                                                    <div class="info__footer">
+                                                        <button class="info__footer-btn like">
+                                                            <i class="icon-solidHeart"></i>
+                                                            J’aime
+                                                        </button>
+                                                        <button class="info__footer-btn">
+                                                            <i class="icon-messageSm"></i>
+                                                            Commenter
+                                                        </button>
+                                                        <button class="info__footer-btn">
+                                                            <i class="icon-download"></i>
+                                                            Partager
+                                                        </button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="gallery" data-src="#tab-6" class="image__outer">
+                                        <img src="images/photoMobile/2.png" alt=""/>
+                                        <div class="mobilePhoto__like-row">
+                                            <div class="mobilePhoto__like">
+                                                <i class="icon-solidHeart"></i>
+                                                3
+                                            </div>
+                                            <div class="mobilePhoto__like">
+                                                <i class="icon-messageSm"></i>
+                                                4
+                                            </div>
+                                        </div>
+                                        <div class="modalPhoto__slide" style="display: none;" id="tab-6">
+                                            <div class="modalPhoto__slide-more">
+                                                <i class="icon-more"></i>
+                                            </div>
+                                            <div class="bg__blur">
+                                                <img src="images/photoMobile/bg2.png" alt=""/>
+                                            </div>
+
+                                            <div class="bg__content">
+                                                <div class="image__outer">
+                                                    <img src="images/photoMobile/bg2.png" alt=""/>
+                                                </div>
+                                                <div class="bg__content-info">
+                                                    <div class="info__header">
+                                                        <div class="name">
+                                                            Damien Clochard
+                                                        </div>
+                                                        <div class="date">
+                                                            20 septembre 2020
+                                                        </div>
+                                                    </div>
+                                                    <div class="info__body">
+                                                        <p class="para">
+                                                            Regardez ça 😍 ! Photo prise lors d’une cérémonie d’une
+                                                            tribu Masaï au Kenya. Ça vous tente d’aller à leur rencontre
+                                                            ? On ne peut pas louper ça !
+                                                        </p>
+                                                    </div>
+                                                    <div class="info__preFooter">
+                                                        <div class="likes">
+                                                            <i class="icon-solidHeart"></i>
+                                                            3
+                                                        </div>
+                                                        <button class="info__comment" data-tab="#comment">
+                                                            5 commentaires
+                                                        </button>
+                                                    </div>
+                                                    <div class="info__footer">
+                                                        <button class="info__footer-btn like">
+                                                            <i class="icon-solidHeart"></i>
+                                                            J’aime
+                                                        </button>
+                                                        <button class="info__footer-btn">
+                                                            <i class="icon-messageSm"></i>
+                                                            Commenter
+                                                        </button>
+                                                        <button class="info__footer-btn">
+                                                            <i class="icon-download"></i>
+                                                            Partager
+                                                        </button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="gallery" data-src="#tab-7" class="image__outer">
+                                        <img src="images/photoMobile/1.png" alt=""/>
+                                        <div class="mobilePhoto__like-row">
+                                            <div class="mobilePhoto__like">
+                                                <i class="icon-solidHeart"></i>
+                                                3
+                                            </div>
+                                            <div class="mobilePhoto__like">
+                                                <i class="icon-messageSm"></i>
+                                                4
+                                            </div>
+                                        </div>
+                                        <div class="modalPhoto__slide" style="display: none;" id="tab-7">
+                                            <div class="modalPhoto__slide-more">
+                                                <i class="icon-more"></i>
+                                            </div>
+                                            <div class="bg__blur">
+                                                <img src="images/photoMobile/bg1.png" alt=""/>
+                                            </div>
+
+                                            <div class="bg__content">
+                                                <div class="image__outer">
+                                                    <img src="images/photoMobile/bg1.png" alt=""/>
+                                                </div>
+                                                <div class="bg__content-info">
+                                                    <div class="info__header">
+                                                        <div class="name">
+                                                            Damien Clochard
+                                                        </div>
+                                                        <div class="date">
+                                                            20 septembre 2020
+                                                        </div>
+                                                    </div>
+                                                    <div class="info__body">
+                                                        <p class="para">
+                                                            Regardez ça 😍 ! Photo prise lors d’une cérémonie d’une
+                                                        </p>
+                                                    </div>
+                                                    <div class="info__preFooter">
+                                                        <div class="likes">
+                                                            <i class="icon-solidHeart"></i>
+                                                            3
+                                                        </div>
+                                                        <button class="info__comment" data-tab="#comment">
+                                                            5 commentaires
+                                                        </button>
+                                                    </div>
+                                                    <div class="info__footer">
+                                                        <button class="info__footer-btn like">
+                                                            <i class="icon-solidHeart"></i>
+                                                            J’aime
+                                                        </button>
+                                                        <button class="info__footer-btn">
+                                                            <i class="icon-messageSm"></i>
+                                                            Commenter
+                                                        </button>
+                                                        <button class="info__footer-btn">
+                                                            <i class="icon-download"></i>
+                                                            Partager
+                                                        </button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- comments modal -->
+                <section class="commentModal modal" id="comment">
+                    <div class="commentModal__inner">
+                        <div class="commentModal__header">
+                            <div class="title">
+                                Commentaires
+                            </div>
+                            <button class="termineBtn modalClose" data-modal="comment">
+                                Terminé
+                            </button>
+                        </div>
+                        <div class="commentModal__body">
+                            <div class="commentModal__body-header">
+                                <button class="likes modal__btn" data-tab="#likeModal">
+                                    <i class="icon-solidHeart"></i>
+                                    3
+                                </button>
+                                <div class="subtitle">
+                                    Vous, Julie et Fabien aimez ça
+                                </div>
+                            </div>
+                            <div class="comment__box">
+                                <div class="avatar__side">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava1.png" alt=""/>
+                                    </div>
+                                    <div class="time">
+                                        1 j
+                                    </div>
+                                </div>
+                                <div class="comment__side">
+                                    <div class="name">
+                                        Fabien Frossard
+                                    </div>
+                                    <div class="text">
+                                        Waw ! Où tu as trouvé cette photo ? On ne peux clairement pas aller au Kenya
+                                        sans rencontrer le peuple Masaï !
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment__box">
+                                <div class="avatar__side">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava5.png" alt=""/>
+                                    </div>
+                                    <div class="time">
+                                        1 j
+                                    </div>
+                                </div>
+                                <div class="comment__side">
+                                    <div class="name">
+                                        Fabien Frossard
+                                    </div>
+                                    <div class="text">
+                                        Je l’ai trouvée dans un article du blog Explomaker ! Je vous le partage
+                                        : https://www.explomaker.com/ blog/486982421/
+                                    </div>
+                                    <a href="www.explomaker.com" class="link">
+                                        www.explomaker.com <br>
+                                        <span>explomaker.com</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="comment__box">
+                                <div class="avatar__side">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava2.png" alt=""/>
+                                    </div>
+                                    <div class="time">
+                                        5 min
+                                    </div>
+                                </div>
+                                <div class="comment__side">
+                                    <div class="name">
+                                        Julie Dupont
+                                    </div>
+                                    <div class="text">
+                                        Trop belle cette photo ! Leurs tenues sont vraiment magnifiques 😍
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment__box">
+                                <div class="avatar__side">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava3.png" alt=""/>
+                                    </div>
+                                    <div class="time">
+                                        5 min
+                                    </div>
+                                </div>
+                                <div class="comment__side">
+                                    <div class="name">
+                                        Mélanie Lemaître
+                                    </div>
+                                    <div class="text">
+                                        Oh, si on pouvait assister à une cérémonie ou une fête, je serais la plus
+                                        heureuse du monde ⭐️⭐️⭐️
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment__box">
+                                <div class="avatar__side">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava1.png" alt=""/>
+                                    </div>
+                                    <div class="time">
+                                        1 j
+                                    </div>
+                                </div>
+                                <div class="comment__side">
+                                    <div class="name">
+                                        Fabien Frossard
+                                    </div>
+                                    <div class="text">
+                                        Waw ! Où tu as trouvé cette photo ? On ne peux clairement pas aller au Kenya
+                                        sans rencontrer le peuple Masaï !
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment__box">
+                                <div class="avatar__side">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava5.png" alt=""/>
+                                    </div>
+                                    <div class="time">
+                                        1 j
+                                    </div>
+                                </div>
+                                <div class="comment__side">
+                                    <div class="name">
+                                        Fabien Frossard
+                                    </div>
+                                    <div class="text">
+                                        Je l’ai trouvée dans un article du blog Explomaker ! Je vous le partage
+                                        : https://www.explomaker.com/ blog/486982421/
+                                    </div>
+                                    <a href="www.explomaker.com" class="link">
+                                        www.explomaker.com <br>
+                                        <span>explomaker.com</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="comment__box">
+                                <div class="avatar__side">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava2.png" alt=""/>
+                                    </div>
+                                    <div class="time">
+                                        5 min
+                                    </div>
+                                </div>
+                                <div class="comment__side">
+                                    <div class="name">
+                                        Julie Dupont
+                                    </div>
+                                    <div class="text">
+                                        Trop belle cette photo ! Leurs tenues sont vraiment magnifiques 😍
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment__box">
+                                <div class="avatar__side">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava3.png" alt=""/>
+                                    </div>
+                                    <div class="time">
+                                        5 min
+                                    </div>
+                                </div>
+                                <div class="comment__side">
+                                    <div class="name">
+                                        Mélanie Lemaître
+                                    </div>
+                                    <div class="text">
+                                        Oh, si on pouvait assister à une cérémonie ou une fête, je serais la plus
+                                        heureuse du monde ⭐️⭐️⭐️
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="commentModal__footer">
+                            <div class="plusBtn">
+                                <i class="icon-plus"></i>
+                            </div>
+                            <div class="input__outer">
+                                <input type="text">
+                            </div>
+                            <div class="sendBtn">
+                                <i class="icon-send"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- comments modal -->
+                <!-- like modal -->
+                <section class="commentModal modal" id="likeModal">
+                    <div class="commentModal__inner">
+                        <div class="commentModal__header">
+                            <div class="title">
+                                Réactions
+                            </div>
+                            <button class="termineBtn modalClose" data-modal="likeModal">
+                                Terminé
+                            </button>
+                        </div>
+                        <div class="commentModal__body">
+                            <div class="like__row">
+                                <div class="avatar__outer">
+                                    <img src="images/avatar/ava1.png" alt=""/>
+                                    <i class="icon-solidHeart"></i>
+                                </div>
+                                <div class="name">
+                                    Fabien Frossard
+                                </div>
+                            </div>
+                            <div class="like__row">
+                                <div class="avatar__outer">
+                                    <img src="images/avatar/ava2.png" alt=""/>
+                                    <i class="icon-solidHeart"></i>
+                                </div>
+                                <div class="name">
+                                    Damien Clochard
+                                </div>
+                            </div>
+                            <div class="like__row">
+                                <div class="avatar__outer">
+                                    <img src="images/avatar/ava3.png" alt=""/>
+                                    <i class="icon-solidHeart"></i>
+                                </div>
+                                <div class="name">
+                                    Julie Dupont
+                                </div>
+                            </div>
+                            <div class="like__row">
+                                <div class="avatar__outer">
+                                    <img src="images/avatar/ava4.png" alt=""/>
+                                    <i class="icon-solidHeart"></i>
+                                </div>
+                                <div class="name">
+                                    Mélanie Lemaître
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- like modal -->
+                <!-- photoMobile modals end -->
+                <!-- like modal -->
+                <section class="commentModal modal" id="albumDetail">
+                    <div class="commentModal__inner">
+                        <div class="albumDetail__header">
+                            <button class="annulerBtn modalClose" data-modal="albumDetail">
+                                Annuler
+                            </button>
+                            <button class="annulerBtn" id="ajouterModalBtn">
+                                Ajouter
+                            </button>
+                        </div>
+                        <div class="albumDetail__body">
+                            <div class="title">
+                                Photos sélectionnées
+                            </div>
+                            <div class="number">
+                                6 photos
+                            </div>
+                            <div class="photoMobile__slider">
+                                <div class="image__outer">
+                                    <img src="images/photoPage/sm1.png" alt=""/>
+                                </div>
+                                <div class="image__outer">
+                                    <img src="images/photoPage/sm2.png" alt=""/>
+                                </div>
+                                <div class="image__outer">
+                                    <img src="images/photoPage/sm3.png" alt=""/>
+                                </div>
+                                <div class="image__outer">
+                                    <img src="images/photoPage/sm4.png" alt=""/>
+                                </div>
+                                <div class="image__outer">
+                                    <img src="images/photoPage/sm5.png" alt=""/>
+                                </div>
+                                <div class="image__outer">
+                                    <img src="images/photoPage/sm6.png" alt=""/>
+                                </div>
+                                <div class="image__outer">
+                                    <img src="images/photoPage/sm6.png" alt=""/>
+                                </div>
+                            </div>
+                            <div class="textare__outer">
+                                <textarea name="" id="" cols="30" rows="10"
+                                    placeholder="Ajoute une description (optionnel)">Ajoute une description (optionnel)</textarea>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- like modal -->
+                <!-- title modal add photo start -->
+                <div class="addPhoto__modal" id="ajouterModal">
+                    <div class="addPhoto__modal-inner">
+                        <div class="addPhoto__modal-header">
+                            <div class="title">
+                                Ajouter à...
+                            </div>
+                            <button class="termineBtn " id="ajouterModalClose">
+                                <i class="icon-close"></i>
+                            </button>
+                        </div>
+                        <div class="addPhoto__modal-body">
+                            <div class="photo__row">
+                                <div class="image__outer">
+                                    <img src="images/photoPage/sm1.png" alt=""/>
+                                </div>
+                                <div class="content">
+                                    <div class="content__title">
+                                        Photos du séjour
+                                    </div>
+                                    <div class="number">
+                                        Partagé avec 4 personnes
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="photo__row">
+                                <div class="image__outer">
+                                    <img src="images/photoPage/sm2.png" alt=""/>
+                                </div>
+                                <div class="content">
+                                    <div class="content__title">
+                                        Photos du séjour
+                                    </div>
+                                    <div class="number">
+                                        Partagé avec 4 personnes
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="photo__row">
+                                <div class="image__outer">
+                                    <img src="images/photoPage/sm3.png" alt=""/>
+                                </div>
+                                <div class="content">
+                                    <div class="content__title">
+                                        Photos du séjour
+                                    </div>
+                                    <div class="number">
+                                        Partagé avec 4 personnes
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="photo__row">
+                                <div class="image__outer">
+                                    <img src="images/photoPage/sm4.png" alt=""/>
+                                </div>
+                                <div class="content">
+                                    <div class="content__title">
+                                        Photos du séjour
+                                    </div>
+                                    <div class="number">
+                                        Partagé avec 4 personnes
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="photo__row">
+                                <div class="image__outer">
+                                    <img src="images/photoPage/sm5.png" alt=""/>
+                                </div>
+                                <div class="content">
+                                    <div class="content__title">
+                                        Photos du séjour
+                                    </div>
+                                    <div class="number">
+                                        Partagé avec 4 personnes
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- title modal add photo end -->
+                <!-- title modal start -->
+                <section class="photoMobile__modal modal" id="titleModal">
+                    <div class="photoMobile__modal-inner">
+                        <div class="photoMobile__modal-header">
+                            <button class="photoMobile__back ">
+                                <i class="icon-back modalClose" data-modal="titleModal"></i>
+                            </button>
+                            <button class="submitTitle">
+                                Créer
+                            </button>
+                        </div>
+                        <div class="photoMobile__modal-body">
+                            <div class="addTitle__content">
+                                <div class="input__outer">
+                                    <input type="text" placeholder="Titre de l’album">
+                                </div>
+                                <div class="avatar__row">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava4.png" alt=""/>
+                                    </div>
+                                    <div class="plusBtn" id="addAvatar">
+                                        <i class="icon-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="addTitle__title">
+                                <strong>Cet album est vide !</strong>
+                                <br> Tape sur le + pour ajouter des photos
+                            </div>
+                            <div class="addPhoto__mobile" id="addPhotoMobile2">
+                                <i class="icon-plus"></i>
+                            </div>
+                            <div class="addPhoto__mobile-list" id="addPhotoList2">
+                                <div class="addPhoto__mobile-list-inner" id="plan">
+                                    <button class="list__btn modal__btn" data-tab="#albumDetail">
+                                        <i class="icon-image"></i>
+                                        Photos ou vidéos
+                                    </button>
+                                    <button class="list__btn modal__btn" data-tab="#mobileModal-1">
+                                        <i class="icon-photo"></i>
+                                        Appareil photo
+                                    </button>
+                                    <button class="list__btn modal__btn" data-tab="#titleModal">
+                                        <i class="icon-plus plus"></i>
+                                        Créer un nouvel album
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- title modal end -->
+                <!-- title modal add photo start -->
+                <div class="addPhoto__modal" id="avatarModal">
+                    <div class="addPhoto__modal-inner">
+                        <div class="addPhoto__modal-header">
+                            <div class="title">
+                                Partage
+                            </div>
+                            <button class="termineBtn " id="avatarModalClose">
+                                Terminé
+                            </button>
+                        </div>
+                        <div class="addPhoto__modal-body">
+                            <p class="para">
+                                Choisissez qui peut voir cet album, l’éditer et y ajouter du contenu.
+                            </p>
+                            <div class="check__row">
+                                <label class="custom__check">
+                                    <input checked class="myCheckbox" type="checkbox" name="check" value="3"
+                                        id="signCheck3">
+                                    <span class="custom__mark"></span>
+                                </label>
+                                <div class="name">
+                                    Damien Clochard
+                                </div>
+                            </div>
+                            <div class="check__row">
+                                <label class="custom__check">
+                                    <input class="myCheckbox" type="checkbox" name="check" value="3" id="signCheck3">
+                                    <span class="custom__mark"></span>
+                                </label>
+                                <div class="name">
+                                    Julie Dupont
+                                </div>
+                            </div>
+                            <div class="check__row">
+                                <label class="custom__check">
+                                    <input class="myCheckbox" type="checkbox" name="check" value="3" id="signCheck3">
+                                    <span class="custom__mark"></span>
+                                </label>
+                                <div class="name">
+                                    Fabien Frossard
+                                </div>
+                            </div>
+                            <div class="check__row">
+                                <label class="custom__check">
+                                    <input class="myCheckbox" type="checkbox" name="check" value="3" id="signCheck3">
+                                    <span class="custom__mark"></span>
+                                </label>
+                                <div class="name">
+                                    Mélanie Lemaître
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- inner Section end
+    ========================================= -->
+    <!-- photo modal start -->
+    <div class="modal" id="upload">
+        <div class="modal__inner">
+            <div class="modal__inner-header">
+                <div class="title">
+                    Ajouter une photo
+                </div>
+                <div class="modalClose">
+                    <i class="icon-close" data-modal="upload"></i>
+                </div>
+            </div>
+            <div class="modal__inner-body">
+                <div class="image-upload-wrap">
+                    <input required id="file-upload-input" class="file-upload-input" multiple type='file'
+                        onchange="readURL(this);" accept="image/*" />
+                    <div class="drag-text">
+                        <div class="photo__icon" type="button" onclick="$('.file-upload-input').trigger( 'click' )">
+                            <i class="icon-photo"></i>
+                        </div>
+                        <div class="text">
+                            <span>Importe</span> ou glisse ton image ici
+                        </div>
+                        <div class="subtext">
+                            Formats supportés : jpg, png
+                        </div>
+                    </div>
+                </div>
+                <div class="file-upload-content">
+                    <!-- <img class="file-upload-image" src="#" alt="your image" /> -->
+                    <div class="image-title-wrap">
+                        <div class="remove-image">
+                            <div class="left" id="uploadedFileContent">
+                                <div class="message">
+                                    Photo téléchargée !
+                                </div>
+                                <!-- <div class="subtitile">
+                                  <span><img src="images/photoInherit/tick.svg" alt=""></span>
+                                  <span class="image-title-two"[1]></span>
+                              </div> -->
+                            </div>
+                            <div class="right">
+                                <div class="three__dots" onclick="removeUpload()">
+                                    <i class="icon-trash"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description__pop">
+                            <div class="description-title">
+                                Description
+                            </div>
+                            <div class="input__outer">
+                                <input type="text" placeholder="Description de la photo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__inner-footer">
+                <a href="photoUploaded.html" style="color: #fff;">
+                    <button class="valider__btn">
+                        Velider
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="add__photo-btn modal__btn" data-tab="#upload">
+        <div class="add__photo-btn-inner">
+            <i class="icon-plus"></i>
+            <div class="add__photo-btn-list" id="addPhotoList">
+                <div class="list__row" id="fileUploadBtn">
+                    <div class="left">
+                        <i class="icon-plus"></i>
+                    </div>
+                    <div class="right">
+                        Album du séjour
+                    </div>
+                </div>
+                <div class="list__row">
+                    <div class="left">
+                        <i class="icon-plus"></i>
+
+                    </div>
+                    <div class="right">
+                        Photos partagées
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- photo modal start -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/pageJs/modal.js"></script>
+    <script src="js/pageJs/photo.js"></script>
+
+
+</body>
+
+</html>

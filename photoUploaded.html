@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uploaded</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/lightpick.css">
+    <link rel="stylesheet" href="css/pageCss/photo.css">
+    <link rel="stylesheet" href="css/pageCss/main.css">
+</head>
+
+<body>
+    <!-- sidebar start
+    ========================================= -->
+    <section class="sidebar">
+        <div class="sidebar__inner">
+            <div class="sidebar__inner-header">
+                <div class="logo__outer">
+                    <img src="images/LOGO.svg" alt="" />
+                </div>
+            </div>
+            <div class="sidebar__inner-body">
+                <div class="sidebar__inner-nav">
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-LinkAp"></i>
+                        <span>
+                            Aperçu
+                        </span>
+
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-LinkEn"></i>
+                        <span>Préférences</span>
+
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkPl"></i>
+                        <span>Planning</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-photo"></i>
+                        <span>Photos</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkDo"></i>
+                        <span>Documents</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkNo"></i>
+                        <span>Notes</span>
+                    </a>
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-linkIn"></i>
+                        <span>Inspiration</span>
+                    </a>
+                </div>
+                <div class="sidebar__inner-footer">
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-arrowLeft"></i>
+                        <span>Mes séjours</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sidebar end
+    ========================================= -->
+    <!-- mobile menu start
+    ========================================= -->
+    <section class="mobileMenu" id="mobileMenu">
+        <div class="mobileMenu__inner">
+            <div class="mobileMenu__inner-nav">
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-LinkAp"></i>
+                    <span>
+                        Aperçu
+                    </span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-linkPl"></i>
+                    <span>Planning</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-photo"></i>
+                    <span>Photos</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-linkIn"></i>
+                    <span>Inspi</span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-menu"></i>
+                    <span>Plus</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- mobile menu end
+    ========================================= -->
+    <!-- chat__outer start -->
+    <div class="chat__outer" id="chatMobile">
+        <div class="chatMobileClose" id="chatMobileClose">
+            <i class="icon-close"></i>
+        </div>
+        <!-- chat start
+    ========================================== -->
+        <section class="chat showChat" id="exploMaker">
+            <div class="chat__inner">
+                <div class="chat__header">
+                    <div class="chatMobileArrow" [0]>
+                        <i class="icon-arrowLeft"></i>
+                    </div>
+                    <div class="title">
+                        Messages
+                    </div>
+                    <div class="chat__header-row">
+                        <button class="chat__btn activeChat">
+                            <i class="icon-logoicon"></i>
+                        </button>
+                        <button class="chat__btn" onclick="voyaGeurs()">
+                            <i class="icon-account"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat__box">
+                    <div class="chat__box-header">
+                        <div class="info">
+                            <div class="name">
+                                Julien Loiseau
+                            </div>
+                            <div class="prof">
+                                Explomaker
+                            </div>
+                        </div>
+                        <div class="avatar__outer">
+                            <img src="images/avatar/ava1.png" alt="" />
+                            <span class="tooltiptext">DamiVadssf asdf asd</span>
+
+                        </div>
+                    </div>
+                    <div class="chat__box-body">
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Pour y parvenir, j’aurais besoin de mieux te connaitre 😉 !
+                                        Peux-tu rejoindre la section <a href="#">Préférences</a> afin de renseigner tes
+                                        envies pour ce
+                                        séjour ?
+                                        Merci à toi !
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-LinkEn"></i>
+                                        <span>Préférences</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Merci Damien. J’ai bien cerné le type de séjour que tu souhaites.
+                                        Tu trouveras donc 2 propositions d’explo dans la section <a
+                                            href="#">Planning</a> .
+                                         Dis moi ce que
+                                        tu en penses!
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-linkPl"></i>
+                                        <span>Planning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat__box-footer">
+                        <button class="chat__plus">
+                            <i class="icon-plus"></i>
+                        </button>
+                        <div class="input__outer">
+                            <input type="text" placeholder="Aa">
+                        </div>
+                        <button class="chat__send">
+                            <i class="icon-send"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- chat end
+    ========================================== -->
+        <!-- chat start
+    ========================================== -->
+        <section class="chat" id="voyaGeurs">
+            <div class="chat__inner">
+                <div class="chat__header">
+                    <div class="chatMobileArrow" [1]>
+                        <i class="icon-arrowLeft"></i>
+                    </div>
+                    <div class="title">
+                        Messages
+                    </div>
+                    <div class="chat__header-row">
+                        <button class="chat__btn" onclick="exploMaker()">
+                            <i class="icon-logoicon"></i>
+                        </button>
+                        <button class="chat__btn activeChat">
+                            <i class="icon-account"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat__box">
+                    <div class="chat__box-header">
+                        <div class="info">
+                            <div class="name">
+                                Damien, Julie, Fabien,
+                            </div>
+                            <div class="prof">
+                                Voyageurs
+                            </div>
+                        </div>
+                        <div class="avatar__group">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava2.png" alt="" />
+                                <span class="tooltiptext">Damien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava3.png" alt="" />
+                                <span class="tooltiptext">Julie</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava4.png" alt="" />
+                                <span class="tooltiptext">Fabien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava5.png" alt="" />
+                                <span class="tooltiptext">Julien</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat__box-body">
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Pour y parvenir, j’aurais besoin de mieux te connaitre 😉 !
+                                        Peux-tu rejoindre la section <a href="#">Préférences</a> afin de renseigner tes
+                                        envies pour ce
+                                        séjour ?
+                                        Merci à toi !
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-LinkEn"></i>
+                                        <span>Préférences</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Merci Damien. J’ai bien cerné le type de séjour que tu souhaites.
+                                        Tu trouveras donc 2 propositions d’explo dans la section <a
+                                            href="#">Planning</a> .
+                                         Dis moi ce que
+                                        tu en penses!
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-linkPl"></i>
+                                        <span>Planning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat__box-footer">
+                        <button class="chat__plus">
+                            <i class="icon-plus"></i>
+                        </button>
+                        <div class="input__outer">
+                            <input type="text" placeholder="Aa">
+                        </div>
+                        <button class="chat__send">
+                            <i class="icon-send"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- chat end
+    ========================================== -->
+    </div>
+    <!-- chat__outer end -->
+    <section class="main" id="main">
+        <div class="auto__container">
+            <div class="main__inner">
+                <div class="readyphoto">
+                    <div class="readyphoto__inner">
+                        <div class="readyPhoto__slider-outer">
+                            <button class="rPrev">
+                                <i class="icon-arrowLeft"></i>
+                            </button>
+                            <button class="rNext">
+                                <i class="icon-arrowLeft"></i>
+                            </button>
+                            <div class="readyPhoto__slider">
+                                <a href="images/elephant.png" data-fancybox="gallery1" class="image__outer">
+                                    <img src="images/elephant.png" alt=""/>
+                                </a>
+                                <a href="images/elephant.png" data-fancybox="gallery1" class="image__outer">
+                                    <img src="images/elephant.png" alt=""/>
+                                </a>
+                                <a href="images/elephant.png" data-fancybox="gallery1" class="image__outer">
+                                    <img src="images/elephant.png" alt=""/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="readyphoto__inner-content">
+                            <div class="readyphoto__inner-content-info">
+                                <div class="left">
+                                    <div class="avatar__outer">
+                                        <img src="images/avatar/ava4.png" alt="" />
+                                    </div>
+                                    <div class="text">
+                                        <div class="name">
+                                            Julien Loiseau
+                                        </div>
+                                        <div class="date">
+                                            20 septembre 2020
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="three__dots">
+                                        <i class="icon-more"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="black__text">
+                                Regardez ça 😍 ! Photo prise dans la réserve du Masaï Mara. Ça vous tente ?! On ne peut
+                                pas louper ça...
+                            </div>
+                            <div class="comment__row">
+                                <div class="left">
+                                    <div class="text">
+                                        <i class="icon-solidHeart"></i>
+                                        Toi, Julie et 2 autres aiment ça
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="button__outer">
+                                        <button class="comment__row-green">
+                                            <i class="icon-solidHeart"></i>
+                                            J’aime
+                                        </button>
+                                        <button class="comment__row-grey">
+                                            <i class="icon-messageSm"></i>
+                                            Commenter
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__box">
+                                <div class="review__box-inner">
+                                    <div class="left">
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava2.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="text__box">
+                                            <div class="name">
+                                                Fabien Frossard
+                                            </div>
+                                            <div class="text">
+                                                Waw ! T’as trouvé ça où ? On ne peux clairement pas aller au Kenya sans
+                                                visiter le Masaï Mara. Belle trouvaille !
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="message__time">
+                                <span>J’aime</span> • il y a 2h
+                            </div>
+                            <div class="review__box">
+                                <div class="review__box-inner">
+                                    <div class="left">
+                                        <div class="avatar__outer">
+                                            <img src="images/avatar/ava3.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="text__box">
+                                            <div class="name">
+                                                Julien Loiseau
+                                            </div>
+                                            <div class="text">
+                                                @Fabien, dans la section blog du site Explomaker ! Je te mets le lien
+                                                ici :
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="message__time">
+                                J’aime • il y a 2h
+                            </div>
+                            <div class="readyphoto__input-row">
+                                <div class="avatar__outer">
+                                    <img src="images/avatar/ava5.png" alt=""/>
+                                </div>
+                                <div class="comment__input-outer">
+                                    <input type="text"
+                                        placeholder="Il y a trop d’articles intéressants sur le Kenya 😍">
+                                    <div class="plus__icon">
+                                        <i class="icon-plus"></i>
+                                    </div>
+                                </div>
+                                <div class="send__icon">
+                                    <i class="icon-send"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- inner Section end
+    ========================================= -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/pageJs/modal.js"></script>
+    <script>
+        // main__slider end
+        // =====================================
+        $(".readyPhoto__slider").slick({
+            dots: false,
+            arrows: true,
+            infinite: true,
+            prevArrow: $(".rPrev"),
+            nextArrow: $(".rNext"),
+            speed: 1000,
+            inline: true,
+            centerMode: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade: true,
+            cssEase: "linear",
+        });
+        // main__slider end
+        // =====================================
+        function exploMaker() {
+            document.getElementById("exploMaker").classList.toggle("showChat");
+            document.getElementById("voyaGeurs").classList.remove("showChat");
+        }
+        function voyaGeurs() {
+            document.getElementById("voyaGeurs").classList.toggle("showChat");
+            document.getElementById("exploMaker").classList.remove("showChat");
+        }
+        window.addEventListener('resize', function() {
+	if (window.innerWidth <= 650) {
+		window.location.href = "photo.html"; 
+	}
+});
+    </script>
+</body>
+
+</html>
