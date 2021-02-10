@@ -73,6 +73,8 @@ function onTabClick(tabBtns, tabItems, item) {
     } else {
       document.querySelectorAll(".dropDown__content").forEach((e) => {
         e.classList.remove("showList");
+        document.getElementById("addPhotoBtn").classList.remove("hide");
+        document.getElementById("mobileMenu").classList.remove("hide");
       });
     }
   };
@@ -85,6 +87,8 @@ document.querySelectorAll(".closeDropDown").forEach((e) => {
   e.addEventListener("click", () => {
     document.querySelectorAll(".dropDown__content").forEach((e) => {
       e.classList.remove("showList");
+      document.getElementById("addPhotoBtn").classList.add("hide");
+      document.getElementById("mobileMenu").classList.add("hide");
     });
   });
 });
@@ -104,7 +108,8 @@ async function showList(e) {
       .querySelector(".dropDown__content")
       .classList.toggle("showList");
   }
-
+  document.getElementById("addPhotoBtn").classList.toggle("hide");
+  document.getElementById("mobileMenu").classList.toggle("hide");
   //   e.target.classList.toggle("showList");
   //   e.target.parentElement.childElements[1].classList.toggle('showList');
   //   console.log("clicked");
