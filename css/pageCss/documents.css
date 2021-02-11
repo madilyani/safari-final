@@ -1038,6 +1038,9 @@ input[type="checkbox"]:checked + .documents__check-label {
     height: 100%;
     background: #f7f7f7;
   }
+  .addPhotoBtn.hideAddPhoto {
+    display: none;
+  }
   .image-title-wrap {
     position: absolute;
     top: 80px;

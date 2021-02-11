@@ -134,7 +134,7 @@ function readURL(input) {
       $(".file-upload-image").attr("src", e.target.result);
       $(".file-upload-content").show();
       $(".file-upload-outer").addClass("mobileAdd");
-      $(".addPhotoBtn").hide();
+      $(".addPhotoBtn").addClass("hideAddPhoto");
       $(".photo__valider-btn").hide();
       $(".photo__valider-btn-green").show();
       $(".image-upload-wrap").addClass("image-dropping");
@@ -148,7 +148,7 @@ function readURL(input) {
 function removeUpload() {
   $(".file-upload-input").replaceWith($(".file-upload-input").clone());
   $(".file-upload-content").hide();
-  $(".addPhotoBtn").show();
+  $(".addPhotoBtn").removeClass("hideAddPhoto");
 
   $(".image-upload-wrap").show();
   $(".file-upload-outer").removeClass("mobileAdd");
