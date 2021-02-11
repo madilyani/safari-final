@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/lightpick.css">
+    <link rel="stylesheet" href="css/pageCss/menu.css">
+    <link rel="stylesheet" href="css/pageCss/main.css">
+    <title>Menu</title>
+</head>
+
+<body>
+    <!-- sidebar start
+    ========================================= -->
+    <section class="sidebar">
+        <div class="sidebar__inner">
+            <div class="sidebar__inner-header">
+                <div class="logo__outer">
+                    <img src="images/LOGO.svg" alt="" />
+                </div>
+            </div>
+            <div class="sidebar__inner-body">
+                <div class="sidebar__inner-nav">
+                    <a href="index.html" class="sidebar__inner-link ">
+                        <i class="icon-home"></i>
+                        <span>
+                            Aperçu
+                        </span>
+                    </a>
+                    <a href="envies.html" class="sidebar__inner-link">
+                        <i class="icon-star activeLink"></i>
+                        <span>Envies</span>
+
+                    </a>
+                    <a href="" class="sidebar__inner-link">
+                        <i class="icon-date"></i>
+                        <span>Planning</span>
+                        <div class="number">
+                            2
+                        </div>
+                    </a>
+                    <a href="photo.html" class="sidebar__inner-link">
+                        <i class="icon-photo"></i>
+                        <span>Photos</span>
+                    </a>
+                    <a href="documents.html" class="sidebar__inner-link ">
+                        <i class="icon-doc"></i>
+                        <span>Documents</span>
+                    </a>
+                    <a href="notes.html" class="sidebar__inner-link">
+                        <i class="icon-notes"></i>
+                        <span>Notes</span>
+                    </a>
+                    <a href="inspiration.html" class="sidebar__inner-link">
+                        <i class="icon-inspi"></i>
+                        <span>Inspiration</span>
+                    </a>
+                </div>
+                <div class="sidebar__inner-footer">
+                    <a href="#" class="sidebar__inner-link">
+                        <i class="icon-arrow-left"></i>
+                        <span>Mes séjours</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sidebar end
+    ========================================= -->
+    <!-- mobile menu start
+    ========================================= -->
+    <section class="mobileMenu" id="mobileMenu">
+        <div class="mobileMenu__inner">
+            <div class="mobileMenu__inner-nav">
+                <a href="index.html" class="mobileMenu__inner-link ">
+                    <i class="icon-home"></i>
+                    <span>
+                        Aperçu
+                    </span>
+                </a>
+                <a href="#" class="mobileMenu__inner-link">
+                    <i class="icon-date"></i>
+                    <span>Planning</span>
+                </a>
+                <a href="photo.html" class="mobileMenu__inner-link">
+                    <i class="icon-photo"></i>
+                    <span>Photos</span>
+                </a>
+                <a href="inspiration.html" class="mobileMenu__inner-link">
+                    <i class="icon-inspi"></i>
+                    <span>Inspi</span>
+                </a>
+                <a href="menu.html" class="mobileMenu__inner-link activeLink">
+                    <i class="icon-align-right"></i>
+                    <span>Plus</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- mobile menu end
+    ========================================= -->
+    <!-- chat__outer start -->
+    <div class="chat__outer" id="chatMobile">
+        <div class="chatMobileClose" id="chatMobileClose">
+            <i class="icon-close"></i>
+        </div>
+        <!-- chat start
+    ========================================== -->
+        <section class="chat showChat" id="exploMaker">
+            <div class="chat__inner">
+                <div class="chat__header">
+                    <div class="chatMobileArrow" [0]>
+                        <i class="icon-arrow-left"></i>
+                    </div>
+                    <div class="title">
+                        Messages
+                    </div>
+                    <div class="chat__header-row">
+                        <button class="chat__btn activeChat">
+                            <i class="icon-logoicon"></i>
+                        </button>
+                        <button class="chat__btn" onclick="voyaGeurs()">
+                            <i class="icon-account"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat__box">
+                    <div class="chat__box-header">
+                        <div class="info">
+                            <div class="name">
+                                Julien Loiseau
+                            </div>
+                            <div class="prof">
+                                Explomaker
+                            </div>
+                        </div>
+                        <div class="avatar__outer">
+                            <img src="images/avatar/ava1.png" alt="" />
+                            <span class="tooltiptext">DamiVadssf asdf asd</span>
+                        </div>
+                    </div>
+                    <div class="chat__box-body">
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Pour y parvenir, j’aurais besoin de mieux te connaitre 😉 !
+                                        Peux-tu rejoindre la section <a href="#">Préférences</a> afin de renseigner tes
+                                        envies pour ce
+                                        séjour ?
+                                        Merci à toi !
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-starSolid"></i>
+                                        <span>Préférences</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Merci Damien. J’ai bien cerné le type de séjour que tu souhaites.
+                                        Tu trouveras donc 2 propositions d’explo dans la section <a
+                                            href="#">Planning</a> .
+                                         Dis moi ce que
+                                        tu en penses!
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-date"></i>
+                                        <span>Planning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat__box-footer">
+                        <button class="chat__plus">
+                            <i class="icon-plus"></i>
+                        </button>
+                        <div class="input__outer">
+                            <input type="text" placeholder="Aa">
+                        </div>
+                        <button class="chat__send">
+                            <i class="icon-send"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- chat end
+    ========================================== -->
+        <!-- chat start
+    ========================================== -->
+        <section class="chat" id="voyaGeurs">
+            <div class="chat__inner">
+                <div class="chat__header">
+                    <div class="chatMobileArrow" [1]>
+                        <i class="icon-arrowLeft"></i>
+                    </div>
+                    <div class="title">
+                        Messages
+                    </div>
+                    <div class="chat__header-row">
+                        <button class="chat__btn" onclick="exploMaker()">
+                            <i class="icon-logoicon"></i>
+                        </button>
+                        <button class="chat__btn activeChat">
+                            <i class="icon-account"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="chat__box">
+                    <div class="chat__box-header">
+                        <div class="info">
+                            <div class="name">
+                                Damien, Julie, Fabien,
+                            </div>
+                            <div class="prof">
+                                Voyageurs
+                            </div>
+                        </div>
+                        <div class="avatar__group">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava2.png" alt="" />
+                                <span class="tooltiptext">Damien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava3.png" alt="" />
+                                <span class="tooltiptext">Julie</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava4.png" alt="" />
+                                <span class="tooltiptext">Fabien</span>
+                            </div>
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava5.png" alt="" />
+                                <span class="tooltiptext">Julien</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat__box-body">
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Pour y parvenir, j’aurais besoin de mieux te connaitre 😉 !
+                                        Peux-tu rejoindre la section <a href="#">Préférences</a> afin de renseigner tes
+                                        envies pour ce
+                                        séjour ?
+                                        Merci à toi !
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-starSolid"></i>
+                                        <span>Préférences</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="your__message">
+                            <div class="avatar__outer">
+                                <img src="images/avatar/ava1.png" alt="" />
+                            </div>
+                            <div class="conversation">
+                                <div class="box">
+                                    <div class="box__text">
+                                        Salut Damien 👋 Bienvenue sur ton espace séjour. Je suis Julien, et je suis là
+                                        pour
+                                        t’aider à créer le séjour de tes rêves !
+                                    </div>
+
+                                </div>
+                                <div class="box">
+                                    <div class="box__text">
+                                        Merci Damien. J’ai bien cerné le type de séjour que tu souhaites.
+                                        Tu trouveras donc 2 propositions d’explo dans la section <a
+                                            href="#">Planning</a> .
+                                         Dis moi ce que
+                                        tu en penses!
+                                    </div>
+                                    <div class="box__title">
+                                        <i class="icon-date"></i>
+                                        <span>Planning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            12:23
+                        </div>
+                        <div class="my__message">
+                            <div class="box">
+                                Enchanté Julien ✌️ C’est fait ! Merci à toi, hâte de voir le séjour que tu vas nous
+                                confectionner.
+                                Bonne journée !
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat__box-footer">
+                        <button class="chat__plus">
+                            <i class="icon-plus"></i>
+                        </button>
+                        <div class="input__outer">
+                            <input type="text" placeholder="Aa">
+                        </div>
+                        <button class="chat__send">
+                            <i class="icon-send"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- chat end
+    ========================================== -->
+    </div>
+    <!-- chat__outer end -->
+    <!-- inner Section start
+    ========================================= -->
+    <section class="main">
+        <div class="auto__container">
+            <div class="main__inner">
+                <!-- Menu page start 
+                =================================== -->
+                <div class="menu">
+                    <div class="menu__inner">
+                        <div class="menu__header">
+                            <button class="menu__header-btn" id="profileBtn">
+                                <i class="icon-account"></i>
+                            </button>
+                            <div class="title">
+                                Plus
+                            </div>
+                            <button class="menu__header-btn" id="settingsBtn">
+                                <i class="icon-settings"></i>
+                            </button>
+                        </div>
+                        <div class="menu__body">
+                            <a href="#" class="menu__body-header">
+                                <div class="semiTitle">
+                                    <i class="icon-starSolid"></i>
+                                    Gérer mon forfait
+                                </div>
+                                <div class="icon__outer">
+                                    <i class="icon-chevron-right"></i>
+                                </div>
+                            </a>
+                            <div class="menu__body-body">
+                                <a href="#" class="menu__body-row">
+                                    <div class="semiTitle">
+                                        <i class="icon-solidHeart"></i>
+                                        Envies du séjour
+                                    </div>
+                                    <div class="icon__outer">
+                                        <i class="icon-chevron-right"></i>
+                                    </div>
+                                </a>
+                                <a href="#" class="menu__body-row">
+                                    <div class="semiTitle">
+                                        <i class="icon-doc"></i>
+                                        Documents
+                                    </div>
+                                    <div class="icon__outer">
+                                        <i class="icon-chevron-right"></i>
+                                    </div>
+                                </a>
+                                <a href="#" class="menu__body-row">
+                                    <div class="semiTitle">
+                                        <i class="icon-notes"></i>
+                                        Notes
+                                    </div>
+                                    <div class="icon__outer">
+                                        <i class="icon-chevron-right"></i>
+                                    </div>
+                                </a>
+                                <a href="#" class="menu__body-row">
+                                    <div class="semiTitle">
+                                        <i class="icon-bag"></i>
+                                        Changer de séjour
+                                    </div>
+                                    <div class="icon__outer">
+                                        <i class="icon-chevron-right"></i>
+                                    </div>
+                                </a>
+                                <a href="#" class="menu__body-row">
+                                    <div class="semiTitle">
+                                        <i class="icon-solidHeart"></i>
+                                        Envies du séjour
+                                    </div>
+                                    <div class="icon__outer">
+                                        <i class="icon-chevron-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="menu__body-body">
+                                <a href="#" class="menu__body-row">
+                                    <div class="semiTitle dark">
+                                        <i class="icon-account"></i>
+                                        Donnez nous votre avis
+                                    </div>
+                                    <div class="icon__outer">
+                                        <i class="icon-chevron-right"></i>
+                                    </div>
+                                </a>
+                                <a href="#" class="menu__body-row">
+                                    <div class="semiTitle dark">
+                                        <i class="icon-message"></i>
+                                        Aide
+                                    </div>
+                                    <div class="icon__outer">
+                                        <i class="icon-chevron-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menu page end 
+                =================================== -->
+                <div class="menu hidden" id="profile">
+                    <div class="menu__inner">
+                        <div class="menu__header centered">
+                            <button class="menuBack" id="profleClose">
+                                <i class="icon-chevron-left"></i>
+                            </button>
+                            <div class="title">
+                                Mon profil
+                            </div>
+                        </div>
+                        <div class="menu__body different">
+                            <div class="info">
+                                <div class="avatar__outer">
+                                    <img src="images/avatar/Phhoto.png" alt="">
+                                    <div class="file__outer">
+                                        <label class="icon__outer">
+                                            <input type="file">
+                                            <i class="icon-photo"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="info__header">
+                                    <div class="title">
+                                        Mes informations
+                                    </div>
+                                    <a href="#" class="info__link">
+                                        Modifier
+                                    </a>
+                                </div>
+                                <div class="info__body">
+                                    <div class="info__body-row">
+                                        <div class="info__body-det">
+                                            Genre
+                                        </div>
+                                        <div class="info__body-str">
+                                            M.
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row">
+                                        <div class="info__body-det">
+                                            Prénom
+                                        </div>
+                                        <div class="info__body-str">
+                                            Damien
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row">
+                                        <div class="info__body-det">
+                                            Nom
+                                        </div>
+                                        <div class="info__body-str">
+                                            Clochard
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row">
+                                        <div class="info__body-det">
+                                            Date de naissance
+                                        </div>
+                                        <div class="info__body-str">
+                                            06/05/1994
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="info__header">
+                                    <div class="title">
+                                        Mes identifiants
+                                    </div>
+                                    <a href="#" class="info__link">
+                                        Modifier
+                                    </a>
+                                </div>
+                                <div class="info__body">
+                                    <div class="info__body-row">
+                                        <div class="info__body-det">
+                                            Email
+                                        </div>
+                                        <div class="info__body-str">
+                                            damien@explomaker.com
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row">
+                                        <div class="info__body-det">
+                                            Mot de passe
+                                        </div>
+                                        <div class="info__body-str">
+                                            •••••••••••••••••
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="info__header">
+                                    <div class="title">
+                                        Profil voyageur
+                                    </div>
+                                    <a href="#" class="info__link">
+                                        Modifier
+                                    </a>
+                                </div>
+                                <div class="info__body">
+                                    <div class="info__body-row">
+                                        <div class="info__body-det">
+                                            Type de voyageur
+                                        </div>
+                                        <div class="info__body-str">
+                                            Régulier
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row">
+                                        <div class="info__body-det">
+                                            Durée préférée
+                                        </div>
+                                        <div class="info__body-str">
+                                            + de 7 jours
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row">
+                                        <div class="info__body-det">
+                                            Tu aimes
+                                        </div>
+                                        <div class="info__body-str">
+                                            La mer, la culture, la ...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu__body-footer">
+                                <button class="submitBtn">
+                                    Me déconnecter
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu hidden" id="settings">
+                    <div class="menu__inner">
+                        <div class="menu__header centered">
+                            <button class="menuBack" id="settingsClose">
+                                <i class="icon-chevron-left"></i>
+                            </button>
+                            <div class="title">
+                                Paramètres
+                            </div>
+                        </div>
+                        <div class="menu__body different">
+                            <div class="info">
+                                <div class="info__header">
+                                    <div class="title">
+                                        Séjour
+                                    </div>
+                                    <a href="#" class="info__link">
+                                        Modifier
+                                    </a>
+                                </div>
+                                <div class="info__body">
+                                    <div class="info__body-row">
+                                        <div class="info__body-det">
+                                            Quel voyageur es-tu ?
+                                        </div>
+                                        <div class="info__body-str">
+                                            Damien
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="info">
+                                <div class="info__body">
+                                    <div class="checkTitle">
+                                        Sécurité
+                                    </div>
+                                    <div class="info__body-row-dif">
+                                        <div class="info__body-det-dif">
+                                            <div class="dif__title">
+                                                Face ID
+                                            </div>
+                                            <div class="dif__text">
+                                                Connecte-toi à Explomaker avec Face ID
+                                            </div>
+                                        </div>
+                                        <div class="dif__check">
+                                            <input checked type="checkbox" id="check-1">
+                                            <label class="info__body-str-dif" for="check-1"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="info__body">
+                                    <div class="checkTitle">
+                                        Notifications
+                                    </div>
+                                    <div class="info__body-row-dif">
+                                        <div class="info__body-det-dif">
+                                            <div class="dif__title">
+                                                FNouveau message
+                                            </div>
+                                            <div class="dif__text">
+                                                Sois notifié lorsque tu reçois un message via le chat
+                                            </div>
+                                        </div>
+                                        <div class="dif__check">
+                                            <input checked type="checkbox" id="check-2">
+                                            <label class="info__body-str-dif" for="check-2"></label>
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row-dif">
+                                        <div class="info__body-det-dif">
+                                            <div class="dif__title">
+                                                Mention via le chat
+                                            </div>
+                                            <div class="dif__text">
+                                                Sois notifié lorsque tu es mentionné via le chat
+                                            </div>
+                                        </div>
+                                        <div class="dif__check">
+                                            <input checked type="checkbox" id="check-3">
+                                            <label class="info__body-str-dif" for="check-3"></label>
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row-dif">
+                                        <div class="info__body-det-dif">
+                                            <div class="dif__title">
+                                                Édition du séjour
+                                            </div>
+                                            <div class="dif__text">
+                                                Sois notifié lorsque quelqu’un modifie les informations du séjour
+                                            </div>
+                                        </div>
+                                        <div class="dif__check">
+                                            <input checked type="checkbox" id="check-4">
+                                            <label class="info__body-str-dif" for="check-4"></label>
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row-dif">
+                                        <div class="info__body-det-dif">
+                                            <div class="dif__title">
+                                                Édition du planning
+                                            </div>
+                                            <div class="dif__text">
+                                                Sois notifié lorsque quelqu’un modifie le planning du séjour
+                                            </div>
+                                        </div>
+                                        <div class="dif__check">
+                                            <input checked type="checkbox" id="check-5">
+                                            <label class="info__body-str-dif" for="check-5"></label>
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row-dif">
+                                        <div class="info__body-det-dif">
+                                            <div class="dif__title">
+                                                Propositions
+                                            </div>
+                                            <div class="dif__text">
+                                                Sois notifié lorsque quelqu’un créer un sondage
+                                            </div>
+                                        </div>
+                                        <div class="dif__check">
+                                            <input checked type="checkbox" id="check-6">
+                                            <label class="info__body-str-dif" for="check-6"></label>
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row-dif">
+                                        <div class="info__body-det-dif">
+                                            <div class="dif__title">
+                                                Photo : Ajout
+                                            </div>
+                                            <div class="dif__text">
+                                                Sois notifié lorsque quelqu’un ajoute une photo
+                                            </div>
+                                        </div>
+                                        <div class="dif__check">
+                                            <input checked type="checkbox" id="check-7">
+                                            <label class="info__body-str-dif" for="check-7"></label>
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row-dif">
+                                        <div class="info__body-det-dif">
+                                            <div class="dif__title">
+                                                Photo : Commentaire
+                                            </div>
+                                            <div class="dif__text">
+                                                Sois notifié lorsque quelqu’un commente l’une de tes photos
+                                            </div>
+                                        </div>
+                                        <div class="dif__check">
+                                            <input checked type="checkbox" id="check-8">
+                                            <label class="info__body-str-dif" for="check-8"></label>
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row-dif">
+                                        <div class="info__body-det-dif">
+                                            <div class="dif__title">
+                                                Photo : Like
+                                            </div>
+                                            <div class="dif__text">
+                                                Sois notifié lorsque quelqu’un “Like” l’une de tes photos
+                                            </div>
+                                        </div>
+                                        <div class="dif__check">
+                                            <input checked type="checkbox" id="check-9">
+                                            <label class="info__body-str-dif" for="check-9"></label>
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row-dif">
+                                        <div class="info__body-det-dif">
+                                            <div class="dif__title">
+                                                Document : Ajout
+                                            </div>
+                                            <div class="dif__text">
+                                                Sois notifié lorsque quelqu’un ajoute un document
+                                            </div>
+                                        </div>
+                                        <div class="dif__check">
+                                            <input checked type="checkbox" id="check-10">
+                                            <label class="info__body-str-dif" for="check-10"></label>
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row-dif">
+                                        <div class="info__body-det-dif">
+                                            <div class="dif__title">
+                                                Note : Ajout
+                                            </div>
+                                            <div class="dif__text">
+                                                Sois notifié lorsque quelqu’un ajoute une note
+                                            </div>
+                                        </div>
+                                        <div class="dif__check">
+                                            <input checked type="checkbox" id="check-11">
+                                            <label class="info__body-str-dif" for="check-11"></label>
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row-dif">
+                                        <div class="info__body-det-dif">
+                                            <div class="dif__title">
+                                                Note : Édition
+                                            </div>
+                                            <div class="dif__text">
+                                                Sois notifié lorsque quelqu’un modifie une note
+                                            </div>
+                                        </div>
+                                        <div class="dif__check">
+                                            <input checked type="checkbox" id="check-12">
+                                            <label class="info__body-str-dif" for="check-12"></label>
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row-dif">
+                                        <div class="info__body-det-dif">
+                                            <div class="dif__title">
+                                                Blog : Commentaires
+                                            </div>
+                                            <div class="dif__text">
+                                                Sois notifié lorsque quelqu’un répond à l’un de tes commentaires sur un
+                                                article ou une destination
+                                            </div>
+                                        </div>
+                                        <div class="dif__check">
+                                            <input checked type="checkbox" id="check-13">
+                                            <label class="info__body-str-dif" for="check-13"></label>
+                                        </div>
+                                    </div>
+                                    <div class="info__body-row-dif">
+                                        <div class="info__body-det-dif">
+                                            <div class="dif__title">
+                                                Inspiration
+                                            </div>
+                                            <div class="dif__text">
+                                                Reçois régulièrement des recommandations d’articles qui pourraient
+                                                t’intéresser
+                                            </div>
+                                        </div>
+                                        <div class="dif__check">
+                                            <input checked type="checkbox" id="check-14">
+                                            <label class="info__body-str-dif" for="check-14"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="info__body">
+                                    <div class="checkTitle">
+                                        Emails
+                                    </div>
+                                    <div class="info__body-row-dif">
+                                        <div class="info__body-det-dif">
+                                            <div class="dif__title">
+                                                Inspiration
+                                            </div>
+                                            <div class="dif__text">
+                                                Reçois régulièrement des recommandations d’articles qui pourraient t’intéresser
+                                            </div>
+                                        </div>
+                                        <div class="dif__check">
+                                            <input type="checkbox" id="check-15">
+                                            <label class="info__body-str-dif" for="check-15"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- inner Section end
+    ========================================= -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/pageJs/menu.js"></script>
+</body>
+
+</html>

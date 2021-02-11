@@ -100,9 +100,9 @@ function readURLNoteEdit(input) {
     console.log(input.files);
     var reader = new FileReader();
     var beginning = `<div class="uploadedFileContent">
-        <span class="image-tick"><img src="images/notes/image.svg" alt=""></span>
+        <span class="image-tick"><i class='icon-picture'></i></span>
         <span class="image-title">`;
-    var ending = `</span><i class="upDelete fa fa-times" onclick="deleteNoteUpload(this)">
+    var ending = `</span><i class="upDelete icon-close" onclick="deleteNoteUpload(this)">
         </div>`;
 
     reader.onload = function (e) {

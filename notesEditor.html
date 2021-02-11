@@ -7,7 +7,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
@@ -29,42 +28,44 @@
             </div>
             <div class="sidebar__inner-body">
                 <div class="sidebar__inner-nav">
-                    <a href="#" class="sidebar__inner-link">
-                        <i class="icon-LinkAp"></i>
+                    <a href="index.html" class="sidebar__inner-link ">
+                        <i class="icon-home"></i>
                         <span>
                             Aperçu
                         </span>
+                    </a>
+                    <a href="envies.html" class="sidebar__inner-link">
+                        <i class="icon-star activeLink"></i>
+                        <span>Envies</span>
 
                     </a>
-                    <a href="#" class="sidebar__inner-link">
-                        <i class="icon-LinkEn"></i>
-                        <span>Préférences</span>
-
-                    </a>
-                    <a href="#" class="sidebar__inner-link">
-                        <i class="icon-linkPl"></i>
+                    <a href="" class="sidebar__inner-link">
+                        <i class="icon-date"></i>
                         <span>Planning</span>
+                        <div class="number">
+                            2
+                        </div>
                     </a>
-                    <a href="#" class="sidebar__inner-link">
+                    <a href="photo.html" class="sidebar__inner-link">
                         <i class="icon-photo"></i>
                         <span>Photos</span>
                     </a>
-                    <a href="#" class="sidebar__inner-link">
-                        <i class="icon-linkDo"></i>
+                    <a href="documents.html" class="sidebar__inner-link ">
+                        <i class="icon-doc"></i>
                         <span>Documents</span>
                     </a>
-                    <a href="#" class="sidebar__inner-link">
-                        <i class="icon-linkNo"></i>
+                    <a href="notes.html" class="sidebar__inner-link">
+                        <i class="icon-notes"></i>
                         <span>Notes</span>
                     </a>
-                    <a href="#" class="sidebar__inner-link">
-                        <i class="icon-linkIn"></i>
+                    <a href="inspiration.html" class="sidebar__inner-link">
+                        <i class="icon-inspi"></i>
                         <span>Inspiration</span>
                     </a>
                 </div>
                 <div class="sidebar__inner-footer">
                     <a href="#" class="sidebar__inner-link">
-                        <i class="icon-arrowLeft"></i>
+                        <i class="icon-arrow-left"></i>
                         <span>Mes séjours</span>
                     </a>
                 </div>
@@ -73,50 +74,18 @@
     </section>
     <!-- sidebar end
     ========================================= -->
-    <!-- mobile menu start
-    ========================================= -->
-    <!-- <section class="mobileMenu" id="mobileMenu">
-        <div class="mobileMenu__inner">
-            <div class="mobileMenu__inner-nav">
-                <a href="#" class="mobileMenu__inner-link">
-                    <i class="icon-LinkAp"></i>
-                    <span>
-                        Aperçu
-                    </span>
-                </a>
-                <a href="#" class="mobileMenu__inner-link">
-                    <i class="icon-linkPl"></i>
-                    <span>Planning</span>
-                </a>
-                <a href="#" class="mobileMenu__inner-link">
-                    <i class="icon-photo"></i>
-                    <span>Photos</span>
-                </a>
-                <a href="#" class="mobileMenu__inner-link">
-                    <i class="icon-linkIn"></i>
-                    <span>Inspi</span>
-                </a>
-                <a href="#" class="mobileMenu__inner-link">
-                    <i class="icon-menu"></i>
-                    <span>Plus</span>
-                </a>
-            </div>
-        </div>
-    </section> -->
-    <!-- mobile menu end
-    ========================================= -->
     <!-- chat__outer start -->
     <div class="chat__outer" id="chatMobile">
         <div class="chatMobileClose" id="chatMobileClose">
             <i class="icon-close"></i>
         </div>
         <!-- chat start
-    ========================================== -->
+        ========================================== -->
         <section class="chat showChat" id="exploMaker">
             <div class="chat__inner">
                 <div class="chat__header">
                     <div class="chatMobileArrow" [0]>
-                        <i class="icon-arrowLeft"></i>
+                        <i class="icon-arrow-left"></i>
                     </div>
                     <div class="title">
                         Messages
@@ -143,7 +112,6 @@
                         <div class="avatar__outer">
                             <img src="images/avatar/ava1.png" alt="" />
                             <span class="tooltiptext">DamiVadssf asdf asd</span>
-
                         </div>
                     </div>
                     <div class="chat__box-body">
@@ -153,7 +121,6 @@
                         <div class="your__message">
                             <div class="avatar__outer">
                                 <img src="images/avatar/ava1.png" alt="" />
-
                             </div>
                             <div class="conversation">
                                 <div class="box">
@@ -173,7 +140,7 @@
                                         Merci à toi !
                                     </div>
                                     <div class="box__title">
-                                        <i class="icon-LinkEn"></i>
+                                        <i class="icon-starSolid"></i>
                                         <span>Préférences</span>
                                     </div>
                                 </div>
@@ -214,7 +181,7 @@
                                         tu en penses!
                                     </div>
                                     <div class="box__title">
-                                        <i class="icon-linkPl"></i>
+                                        <i class="icon-date"></i>
                                         <span>Planning</span>
                                     </div>
                                 </div>
@@ -231,24 +198,24 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="chat__box-footer">
-                    <button class="chat__plus">
-                        <i class="icon-plus"></i>
-                    </button>
-                    <div class="input__outer">
-                        <input type="text" placeholder="Aa">
+                    <div class="chat__box-footer">
+                        <button class="chat__plus">
+                            <i class="icon-plus"></i>
+                        </button>
+                        <div class="input__outer">
+                            <input type="text" placeholder="Aa">
+                        </div>
+                        <button class="chat__send">
+                            <i class="icon-send"></i>
+                        </button>
                     </div>
-                    <button class="chat__send">
-                        <i class="icon-send"></i>
-                    </button>
                 </div>
             </div>
         </section>
         <!-- chat end
-    ========================================== -->
+        ========================================== -->
         <!-- chat start
-    ========================================== -->
+        ========================================== -->
         <section class="chat" id="voyaGeurs">
             <div class="chat__inner">
                 <div class="chat__header">
@@ -322,7 +289,7 @@
                                         Merci à toi !
                                     </div>
                                     <div class="box__title">
-                                        <i class="icon-LinkEn"></i>
+                                        <i class="icon-starSolid"></i>
                                         <span>Préférences</span>
                                     </div>
                                 </div>
@@ -363,7 +330,7 @@
                                         tu en penses!
                                     </div>
                                     <div class="box__title">
-                                        <i class="icon-linkPl"></i>
+                                        <i class="icon-date"></i>
                                         <span>Planning</span>
                                     </div>
                                 </div>
@@ -380,22 +347,22 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="chat__box-footer">
-                    <button class="chat__plus">
-                        <i class="icon-plus"></i>
-                    </button>
-                    <div class="input__outer">
-                        <input type="text" placeholder="Aa">
+                    <div class="chat__box-footer">
+                        <button class="chat__plus">
+                            <i class="icon-plus"></i>
+                        </button>
+                        <div class="input__outer">
+                            <input type="text" placeholder="Aa">
+                        </div>
+                        <button class="chat__send">
+                            <i class="icon-send"></i>
+                        </button>
                     </div>
-                    <button class="chat__send">
-                        <i class="icon-send"></i>
-                    </button>
                 </div>
             </div>
         </section>
         <!-- chat end
-    ========================================== -->
+        ========================================== -->
     </div>
     <!-- chat__outer end -->
     <!-- inner Section start
@@ -409,7 +376,7 @@
                     <div class="notes__inner">
                         <div class="noteEditor__header">
                             <a href="notes.html" class="back__outer">
-                                <i class="fas fa-arrow-left"></i>
+                                <i class="icon-arrow-left"></i>
                             </a>
                             <div class="avatar__group">
                                 <div class="avatar__outer">
@@ -433,7 +400,7 @@
                         <div class="form__outer">
                             <div class="mobileHeader">
                                 <a href="notes.html" class="backNotes">
-                                    <i class="icon-back"></i>
+                                    <i class="icon-arrow-left"></i>
                                 </a>
                                 <div class="semiTitle">
                                     Préparer nos valises
@@ -478,50 +445,45 @@
                                     <ul class="tool-list">
                                         <li class="tool">
                                             <button type="button" data-command="increaseFontSize" class="tool--btn">
-                                                <i class=' fas fa-caret-up'></i>
+                                                <i class='icon-polTop'></i>
                                             </button>
                                         </li>
                                         <li class="tool">
                                             <button type="button" data-command="decreaseFontSize" class="tool--btn">
-                                                <i class=' fas fa-caret-down'></i>
+                                                <i class='icon-polTop rotate'></i>
                                             </button>
                                         </li>
                                         <div class="line"></div>
                                         <li class="tool">
                                             <button type="button" data-command="bold" class="tool--btn">
-                                                <i class=' fas fa-bold'></i>
-                                            </button>
-                                        </li>
-                                        <li class="tool">
-                                            <button type="button" data-command="italic" class="tool--btn">
-                                                <i class=' fas fa-italic'></i>
+                                                <i class='icon-bold'></i>
                                             </button>
                                         </li>
                                         <li class="tool">
                                             <button type="button" data-command="underline" class="tool--btn">
-                                                <i class=' fas fa-underline'></i>
+                                                <i class='icon-underline'></i>
                                             </button>
                                         </li>
                                         <div class="line"></div>
                                         <li class="tool">
                                             <button type="button" data-command='justifyLeft' class="tool--btn">
-                                                <i class=' fas fa-align-left'></i>
+                                                <i class='icon-align-left'></i>
                                             </button>
                                         </li>
                                         <li class="tool">
                                             <button type="button" data-command='justifyCenter' class="tool--btn">
-                                                <i class=' fas fa-align-center'></i>
+                                                <i class='icon-align-center'></i>
                                             </button>
                                         </li>
                                         <li class="tool">
                                             <button type="button" data-command='justifyRight' class="tool--btn">
-                                                <i class=' fas fa-align-right'></i>
+                                                <i class='icon-align-right'></i>
                                             </button>
                                         </li>
                                         <div class="line"></div>
                                         <li class="tool">
                                             <button type="button" data-command="createlink" class="tool--btn">
-                                                <i class=' fas fa-link'></i>
+                                                <i class='icon-link'></i>
                                             </button>
                                         </li>
                                         <li class="tool">
@@ -529,7 +491,7 @@
                                                 <input id="image" class="upload__file" type="file" accept="image/*"
                                                     onchange="readURLNoteEdit(this);" multiple="multiple" />
                                                 <label for="image">
-                                                    <i class="fa fa-image"></i>
+                                                    <i class="icon-picture"></i>
                                                 </label>
                                             </div>
                                         </li>
@@ -546,7 +508,7 @@
                                         <div class="line"></div>
                                         <li class="tool">
                                             <button type="button" data-command="insertUnorderedList" class="tool--btn">
-                                                <i class=' fas fa-check-circle'></i>
+                                                <i class='icon-tick'></i>
                                             </button>
                                         </li>
                                     </ul>
@@ -560,7 +522,7 @@
                                     Quand partir ?
                                     Préférez la saison sèche de décembre à mars et de juillet à octobre pour votre
                                     voyage au
-                                    Kenya. 
+                                    Kenya.
                                     Formalités d'entrée
                                     Pour les Français, les Belges, les Suisses et les Canadiens le visa est obligatoire.
                                     Il
@@ -569,7 +531,7 @@
                                     demande avant le départ. Votre passeport doit être valide 6 mois et comporter une
                                     page
                                     vierge. Prévoir une photo d'identité, un billet retour et 40 € en espèces.
-                                     Santé
+                                    Santé
                                     Si le vaccin contre la fièvre jaune est le seul obligatoire, ceux contre la
                                     Typhoïde,
                                     l'Hépatite A et la Rage sont conseillés. Prévoir aussi nécessairement un traitement
@@ -582,7 +544,7 @@
                                     Quand partir ?
                                     Préférez la saison sèche de décembre à mars et de juillet à octobre pour votre
                                     voyage au
-                                    Kenya. 
+                                    Kenya.
                                     Formalités d'entrée
                                     Pour les Français, les Belges, les Suisses et les Canadiens le visa est obligatoire.
                                     Il
@@ -591,7 +553,7 @@
                                     demande avant le départ. Votre passeport doit être valide 6 mois et comporter une
                                     page
                                     vierge. Prévoir une photo d'identité, un billet retour et 40 € en espèces.
-                                     Santé
+                                    Santé
                                     Si le vaccin contre la fièvre jaune est le seul obligatoire, ceux contre la
                                     Typhoïde,
                                     l'Hépatite A et la Rage sont conseillés. Prévoir aussi nécessairement un traitement

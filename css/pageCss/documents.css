@@ -1,5 +1,8 @@
 /* documents page
  ================================================================= */
+.numBtn {
+  display: none;
+}
 .documents__inner {
   padding: 0 20px;
 }
@@ -949,7 +952,7 @@ input[type="checkbox"]:checked + .documents__check-label {
     -o-transform: translateX(-50%);
     width: 60px;
     height: 60px;
-    animation: slideTop .2s linear;
+    animation: slideTop 0.2s linear;
   }
   .file-upload {
     padding: 0;
@@ -1283,6 +1286,7 @@ input[type="checkbox"]:checked + .documents__check-label {
     line-height: 17px;
     color: #4f4f4f;
     padding-left: 5px;
+    display: block;
   }
   .num.showNum {
     max-height: 3000px;
@@ -1306,18 +1310,17 @@ input[type="checkbox"]:checked + .documents__check-label {
     padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
     border-bottom: 1px solid #bdbdbd;
   }
   .num__inner-header .num__title {
     font-family: "Rubik";
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 20px;
+    line-height: 24px;
     color: #333333;
-    display: flex;
-    align-items: center;
   }
   .num__inner-header .num__title i {
     width: 30px;
@@ -1329,6 +1332,19 @@ input[type="checkbox"]:checked + .documents__check-label {
     color: #a9474a;
     background: #f9f1f1;
     margin-right: 5px;
+  }
+  .num__inner-header .numClose {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-size: 18px;
+    background: none;
+    color: #dfdfdf;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
   }
   .num__inner-body {
     position: absolute;
@@ -1355,11 +1371,14 @@ input[type="checkbox"]:checked + .documents__check-label {
     display: flex;
     align-items: center;
   }
+  .num__inner-link:first-child {
+    background: #e6f5f4;
+  }
   .num__inner-link i {
     width: 30px;
     height: 30px;
     border-radius: 5px;
-    background: #f7f7f7;
+    color: #009d8c;
     font-size: 10px;
     display: flex;
     align-items: center;

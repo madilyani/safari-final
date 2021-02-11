@@ -43,6 +43,12 @@ window.onclick = function (event) {
       });
     }
   });
+  if (event.target == num1) {
+    num1.classList.remove("showNum");
+  }
+  if (event.target == num2) {
+    num2.classList.remove("showNum");
+  }
   if (event.target == notesModal) {
     notesModal.classList.remove("showNum");
     notesModalBtn.classList.remove("showNum");
@@ -70,7 +76,6 @@ window.onclick = function (event) {
       e.classList.remove("showList");
       document.getElementById("notesModalBtn").classList.remove("hide");
       document.getElementById("mobileMenu").classList.remove("hide");
-
     });
   }
 };
@@ -94,7 +99,6 @@ document.querySelectorAll(".closeDropDown").forEach((e) => {
       e.classList.remove("showList");
       document.getElementById("notesModalBtn").classList.add("hide");
       document.getElementById("mobileMenu").classList.add("hide");
-
     });
   });
 });
@@ -187,4 +191,3 @@ function checkFilledOut(e) {
     }
   }
 }
-
